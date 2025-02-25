@@ -1,6 +1,4 @@
-<p align="center">
-  <h1 align="center">🔥 Awesome-LLM-Ensemble 
-
+<h1 align="center">🔥 Awesome-LLM-Ensemble
 "Harnessing Multiple Large Language Models: A Survey on LLM Ensemble"</h2>
   <p align="center">
     <a href="https://scholar.google.com/citations?user=3slpkWAAAAAJ&hl=zh-CN">Zhijun Chen</a>,
@@ -171,33 +169,78 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 
 ### 2.1.1 (a,1) Pre-Trained Router
 
-| Year |                                                           Title                                                            |    Name    |                             Code                              | 
-|:----:|:--------------------------------------------------------------------------------------------------------------------------:|:----------:|:-------------------------------------------------------------:|
-| 2023 |                     [LLM Routing with Benchmark Datasets](https://openreview.net/forum?id=k9EfAJhFZc)                      |     -      |                               -                               |
-| 2024 |                 [RouteLLM: Learning to Route LLMs with Preference Data](https://arxiv.org/abs/2406.18665)                  |  RouteLLM  |        [Official](https://github.com/lm-sys/RouteLLM)         |
-| 2024 |              [Hybrid LLM: Cost-Efficient and Quality-Aware Query Routinga](https://arxiv.org/abs/2404.14618)               | Hybrid-LLM |  [Official](https://github.com/m365-core/hybrid_llm_routing)  |
-| 2025 |  [LLM Bandit: Cost-Efficient LLM Generation via Preference-Conditioned Dynamic Routing](https://arxiv.org/abs/2502.02743)  |     -      |  [Official](https://github.com/m365-core/hybrid_llm_routing)  |
-| 2024 |        [Harnessing the Power of Multiple Minds: Lessons Learned from LLM Routing](https://arxiv.org/abs/2405.00467)        |    -       |  [Official](https://github.com/kvadityasrivatsa/llm-routing)  |
-| 2024 |   [MetaLLM: A High-performant and Cost-efficient Dynamic Framework for Wrapping LLMs](https://arxiv.org/abs/2407.10834)    |  MetaLLM   | [Official](https://github.com/mail-research/MetaLLM-wrapper/) |
-| 2024 |     [SelectLLM: Query-Aware Efficient Selection Algorithm for Large Language Models](https://arxiv.org/abs/2408.08545)     | SelectLLM  |                               -                               |
-| 2024 |           [Bench-CoE: a Framework for Collaboration of Experts from Benchmark](https://arxiv.org/abs/2412.04167)           | Bench-CoE  |      [Official](https://github.com/ZhangXJ199/Bench-CoE)      |
-| 2024 |    [Routing to the Expert: Efficient Reward-guided Ensemble of Large Language Models](https://arxiv.org/abs/2311.08692)    |   ZOOTER   |                               -                               |
-| 2024 |          [TensorOpera Router: A Multi-Model Router for Efficient LLM Inference](https://arxiv.org/abs/2408.12320)          | TO-Router  |                               -                               |
-| 2024 |       [Query Routing for Homogeneous Tools: An Instantiation in the RAG Scenario](https://arxiv.org/abs/2406.12429)        | HomoRouter |                               -                               |
-| 2023 |       [Fly-Swat or Cannon? Cost-Effective Language Model Choice via Meta-Modeling](https://arxiv.org/abs/2308.06077)        |    FORC    |         [Official](https://github.com/epfl-dlab/forc)         |
-| 2024 |       [Routoo: Learning to Route to Large Language Models Effectively](https://arxiv.org/abs/2401.13979)        |   Routoo   |                               -                               |
+
+
+
+
+- **LLM Routing with Benchmark Datasets.** [[Paper]](https://openreview.net/forum?id=k9EfAJhFZc) (2023)
+  - Name: -
+  - Code: -
+
+- **RouteLLM: Learning to Route LLMs with Preference Data.** [[Paper]](https://arxiv.org/abs/2406.18665) (2024)
+  - Name: RouteLLM
+  - Code: [[Official]](https://github.com/lm-sys/RouteLLM)  
+
+- **Hybrid LLM: Cost-Efficient and Quality-Aware Query Routinga.** [[Paper]](https://arxiv.org/abs/2404.14618) (2024)
+  - Name: Hybrid-LLM
+  - Code: [[Official]](https://github.com/m365-core/hybrid_llm_routing)
+
+- **LLM Bandit: Cost-Efficient LLM Generation via Preference-Conditioned Dynamic Routing.** [[Paper]](https://arxiv.org/abs/2502.02743) (2025)
+  - Name: -
+  - Code: [[Official]](https://github.com/m365-core/hybrid_llm_routing) 
+
+- **Harnessing the Power of Multiple Minds: Lessons Learned from LLM Routing.** [[Paper]](https://arxiv.org/abs/2405.00467) (2024)
+  - Name: -
+  - Code: [[Official]](https://github.com/kvadityasrivatsa/llm-routing) 
+
+- **MetaLLM: A High-performant and Cost-efficient Dynamic Framework for Wrapping LLMs.** [[Paper]](https://arxiv.org/abs/2407.10834) (2024)
+  - Name: MetaLLM
+  - Code: [[Official]](https://github.com/mail-research/MetaLLM-wrapper/)
+
+- **SelectLLM: Query-Aware Efficient Selection Algorithm for Large Language Models.** [[Paper]](https://arxiv.org/abs/2408.08545) (2024)
+  - Name: SelectLLM
+  - Code: -
+
+- **Bench-CoE: a Framework for Collaboration of Experts from Benchmark.** [[Paper]](https://arxiv.org/abs/2412.04167) (2024)
+  - Name: Bench-CoE
+  - Code: [[Official]](https://github.com/ZhangXJ199/Bench-CoE) 
+
+- **Routing to the Expert: Efficient Reward-guided Ensemble of Large Language Models.** [[Paper]](https://arxiv.org/abs/2311.08692) (2024)
+  - Name: ZOOTER
+  - Code: -
+
+- **TensorOpera Router: A Multi-Model Router for Efficient LLM Inference.** [[Paper]](https://arxiv.org/abs/2408.12320) (2024)
+  - Name: TO-Router
+  - Code: -
+
+- **Query Routing for Homogeneous Tools: An Instantiation in the RAG Scenario.** [[Paper]](https://arxiv.org/abs/2406.12429) (2024)
+  - Name: HomoRouter
+  - Code: -
+
+- **Fly-Swat or Cannon? Cost-Effective Language Model Choice via Meta-Modeling.** [[Paper]](https://arxiv.org/abs/2308.06077) (2023)
+  - Name: FORC
+  - Code: [[Official]](https://github.com/epfl-dlab/forc) 
+
+- **Routoo: Learning to Route to Large Language Models Effectively.** [[Paper]](https://arxiv.org/abs/2401.13979) (2024)
+  - Name: Routoo
+  - Code: -
+
 
 
 
 ### 2.1.2 (a,2) Non pre-trained router
 
-| Year |                                                                      Title                                                                       |   Name    | Code | 
-|:----:|:------------------------------------------------------------------------------------------------------------------------------------------------:|:---------:|:----:|
-| 2024 |  [PickLLM: Context-Aware RL-Assisted Large Language Model Routing](https://arxiv.org/abs/2412.12170)   |     PickLLM      |  -   |
-| 2024 |  [Eagle: Efficient Training-Free Router for Multi-LLM Inference](https://arxiv.org/abs/2409.15518)   | Eagle |  -   |
-| 2024 |  [Blending Is All You Need: Cheaper, Better Alternative to Trillion-Parameters LLM](https://arxiv.org/abs/2401.02994)   | Blending  |  -   |
+- **PickLLM: Context-Aware RL-Assisted Large Language Model Routing.** [[Paper]](https://arxiv.org/abs/2412.12170) (2024)
+  - Name: PickLLM
+  - Code: -
 
+- **Eagle: Efficient Training-Free Router for Multi-LLM Inference.** [[Paper]](https://arxiv.org/abs/2409.15518) (2024)
+  - Name: Eagle
+  - Code: -
 
+- **Blending Is All You Need: Cheaper, Better Alternative to Trillion-Parameters LLM.** [[Paper]](https://arxiv.org/abs/2401.02994) (2024)
+  - Name: Blending
+  - Code: -
 
 
 &nbsp; 
@@ -215,31 +258,62 @@ Figure 4:  Summary analysis of the key attributes of ensemble-during-inference m
 ### 2.2.1 (b,1) Token-Level Ensemble
 
 
-| Year |                                                                      Title                                                                       |     Name     |                     Code                     | 
-|:----:|:------------------------------------------------------------------------------------------------------------------------------------------------:|:------------:|:--------------------------------------------:|
-| 2024 |  [Breaking the Ceiling of the LLM Community by Treating Token Generation as a Classification for Ensembling](https://arxiv.org/abs/2406.12585)   |     GaC      |  [Official](https://github.com/yaoching0/GaC)   |
-| 2024 |     [Ensemble Learning for Heterogeneous Large Language Models with Deep Parallel Collaboration](https://openreview.net/forum?id=7arAADUK6D)     |    DeePEn    |  [Official](https://github.com/JieyuZ2/wrench)  |
-| 2024 |                       [Bridging the Gap between Different Vocabularies for LLM Ensemble](https://arxiv.org/abs/2404.09492)                       |     EVA      |   [Official](https://github.com/xydaytoy/EVA)   |
-| 2024 |            [Determine-Then-Ensemble: Necessity of Top-k Union for Large Language Model Ensembling](https://arxiv.org/abs/2410.03777)             |    UniTe     |                        -                        |
-| 2024 |                     [Pack of LLMs: Model Fusion at Test-Time via Perplexity Optimization](https://arxiv.org/abs/2404.11531)                      |   PackLLM    |  [Official](https://github.com/cmavro/PackLLM)  |
-| 2025 |   [CITER: Collaborative Inference for Efficient Large Language Model Decoding with Token-Level Routing](https://arxiv.org/abs/2502.01976)        |  CITER       | [Official](https://github.com/aiming-lab/CITER) |
+- **Breaking the Ceiling of the LLM Community by Treating Token Generation as a Classification for Ensembling.** [[Paper]](https://arxiv.org/abs/2406.12585) (2024)
+  - Name: GaC
+  - Code: [[Official]](https://github.com/yaoching0/GaC) 
+
+- **Ensemble Learning for Heterogeneous Large Language Models with Deep Parallel Collaboration.** [[Paper]](https://openreview.net/forum?id=7arAADUK6D) (2024)
+  - Name: DeePEn
+  - Code: [[Official]](https://github.com/JieyuZ2/wrench)
+
+- **Bridging the Gap between Different Vocabularies for LLM Ensemble.** [[Paper]](https://arxiv.org/abs/2404.09492) (2024)
+  - Name: EVA
+  - Code: [[Official]](https://github.com/xydaytoy/EVA)
+
+- **Determine-Then-Ensemble: Necessity of Top-k Union for Large Language Model Ensembling.** [[Paper]](https://arxiv.org/abs/2410.03777) (2024)
+  - Name: UniTe
+  - Code: -
+
+- **Pack of LLMs: Model Fusion at Test-Time via Perplexity Optimization.** [[Paper]](https://arxiv.org/abs/2404.11531) (2024)
+  - Name: PackLLM
+  - Code: [[Official]](https://github.com/cmavro/PackLLM)
+
+- **CITER: Collaborative Inference for Efficient Large Language Model Decoding with Token-Level Routing.** [[Paper]](https://arxiv.org/abs/2502.01976) (2025)
+  - Name: CITER
+  - Code: [[Official]](https://github.com/aiming-lab/CITER)
+
+
+
 
 
 
 ### 2.2.2 (b,2) Span-Level Ensemble
 
-| Year |                                                                      Title                                                                       | Name | Code | 
-|:----:|:------------------------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|
-| 2024 |  [Cool-Fusion: Fuse Large Language Models without Training](https://arxiv.org/abs/2407.19807)   |   Cool-Fusion   |  -   |
-| 2024 |  [Hit the Sweet Spot! Span-Level Ensemble for Large Language Models](https://arxiv.org/abs/2409.18583)   |   SweetSpan   |  -   |
-| 2024 |  [SpecFuse: Ensembling Large Language Models via Next-Segment Prediction](https://arxiv.org/abs/2412.07380)   |   SpecFuse   |  -   |
+- **Cool-Fusion: Fuse Large Language Models without Training.** [[Paper]](https://arxiv.org/abs/2407.19807) (2024)
+  - Name: Cool-Fusion
+  - Code: -
+
+- **Hit the Sweet Spot! Span-Level Ensemble for Large Language Models.** [[Paper]](https://arxiv.org/abs/2409.18583) (2024)
+  - Name: SweetSpan
+  - Code: -
+
+- **SpecFuse: Ensembling Large Language Models via Next-Segment Prediction.** [[Paper]](https://arxiv.org/abs/2412.07380) (2024)
+  - Name: SpecFuse
+  - Code: -
+
+
+
 
 
 ### 2.2.3 (b,3) Process-Level Ensemble
 
-| Year |                                                                      Title                                                                       | Name | Code | 
-|:----:|:------------------------------------------------------------------------------------------------------------------------------------------------:|:----:|:----:|
-| 2024 |  [Ensembling Large Language Models with Process Reward-Guided Tree Search for Better Complex Reasoning](https://arxiv.org/abs/2412.15797)   |   LE-MCTS  |  -   |
+
+- **Ensembling Large Language Models with Process Reward-Guided Tree Search for Better Complex Reasoning.** [[Paper]](https://arxiv.org/abs/2412.15797) (2024)
+  - Name: LE-MCTS
+  - Code: -
+
+
+
 
 
 &nbsp; 
@@ -257,50 +331,99 @@ Figure 5:  Summary analysis of the key attributes of ensemble-during-inference m
 
 ### 2.3.1 (c,1) Non Cascade
 
-| Year |                                                                   Title                                                                   |     Name     |                               Code                                | 
-|:----:|:-----------------------------------------------------------------------------------------------------------------------------------------:|:------------:|:-----------------------------------------------------------------:|
-| 2024 |                                      [More Agents Is All You Need](https://arxiv.org/abs/2402.05120)                                      | Agent-Forest | [Official](https://github.com/MoreAgentsIsAllYouNeed/AgentForest) |
-| 2024 |                              [Smoothie: Label Free Language Model Routing](https://arxiv.org/abs/2412.04692)                              |   SMOOTHIE   |       [Official](https://github.com/HazyResearch/smoothie)        |
-| 2023 |                    [Getting MoRE out of Mixture of Language Model Reasoning Experts](https://arxiv.org/abs/2305.14628)                    |     MoRE     |            [Official](https://github.com/NoviScl/MoRE)            |
-| 2023 |       [LLM-Blender: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion](https://arxiv.org/abs/2306.02561)       | LLM-Blender  |       [Official](https://github.com/yuchenlin/LLM-Blender)        |
-| 2024 |                       [LLM-TOPLA: Efficient LLM Ensemble by Maximising Diversity](https://arxiv.org/abs/2410.03953)                       |  LLM-TOPLA   |         [Official](https://github.com/git-disl/llm-topla)         |
-| 2024 |    [URG: A Unified Ranking and Generation Method for Ensembling Language Models](https://aclanthology.org/2024.findings-acl.261/)         |    URG       |                                          -                        |
 
+- **More Agents Is All You Need.** [[Paper]](https://arxiv.org/abs/2402.05120) (2024)
+  - Name: Agent-Forest
+  - Code: [[Official]](https://github.com/MoreAgentsIsAllYouNeed/AgentForest)
 
+- **Smoothie: Label Free Language Model Routing.** [[Paper]](https://arxiv.org/abs/2412.04692) (2024)
+  - Name: Smoothie
+  - Code: [[Official]](https://github.com/HazyResearch/smoothie)
 
+- **Getting MoRE out of Mixture of Language Model Reasoning Experts.** [[Paper]](https://arxiv.org/abs/2305.14628) (2023)
+  - Name: MoRE
+  - Code: [[Official]](https://github.com/NoviScl/MoRE)
 
+- **LLM-Blender: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion.** [[Paper]](https://arxiv.org/abs/2306.02561) (2024)
+  - Name: LLM-Blender
+  - Code: [Official](https://github.com/yuchenlin/LLM-Blender) 
+
+- **LLM-TOPLA: Efficient LLM Ensemble by Maximising Diversity.** [[Paper]](https://arxiv.org/abs/2410.03953) (2024)
+  - Name: LLM-TOPLA
+  - Code: [Official](https://github.com/git-disl/llm-topla)
+
+- **URG: A Unified Ranking and Generation Method for Ensembling Language Models.** [[Paper]](https://aclanthology.org/2024.findings-acl.261/) (2024)
+  - Name: URG
+  - Code: -
 
 
 ### 2.3.2 (c,2) Cascade
 
-| Year |                                                                                    Title                                                                                     |                   Name                    |                           Code                          | 
-|:----:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------:|:-------------------------------------------------------:|
-| 2023 |                                     [EcoAssistant: Using LLM Assistant More Affordably and Accurately](https://arxiv.org/abs/2310.03046)                                     |               EcoAssistant                |    [Official](https://github.com/JieyuZ2/EcoAssistant)  |
-| 2024 |                   [Large Language Model Cascades with Mixture of Thoughts Representations for Cost-efficient Reasoning](https://arxiv.org/abs/2310.03094)                    |                     -                     | [Official](https://github.com/MurongYue/LLM_MoT_cascade) |
-| 2022 |                            [Model Cascading: Towards Jointly Improving Efficiency and Accuracy of NLP Systems](https://arxiv.org/abs/2210.05528)                             |              Model Cascading              |                             -                           |
-| 2023 |                                      [Cache & Distil: Optimising API Calls to Large Language Models](https://arxiv.org/abs/2310.13561)                                       |              neural caching               | [Official](https://github.com/guillemram97/neural-caching) |
-| 2023 |                                           [A Unified Approach to Routing and Cascading for LLMs](https://arxiv.org/abs/2410.10347)                                           |              Cascade Routing              |   [Official](https://github.com/eth-sri/cascade-routing)  |
-| 2023 | [When Does Confidence-Based Cascade Deferral Suffice?](https://proceedings.neurips.cc/paper_files/paper/2023/hash/1f09e1ee5035a4c3fe38a5681cae5815-Abstract-Conference.html) |                     -                     |                             -                             |
-| 2023 |                        [FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance](https://arxiv.org/abs/2305.05176)                         |                 FrugalGPT                 |     -          |
-| 2024 |                                       [Language Model Cascades: Token-level uncertainty and beyond](https://arxiv.org/abs/2404.10136)                                        |                     -                     |     -          |
-| 2023 |                                              [AutoMix: Automatically Mixing Language Models](https://arxiv.org/abs/2310.12963)                                               |                  AutoMix                  |     -           |
-| 2024 |                      [Dynamic Ensemble Reasoning for LLM Experts](https://arxiv.org/abs/2412.07448)                                               |          DER                              |     -           |
+- **EcoAssistant: Using LLM Assistant More Affordably and Accurately.** [[Paper]](https://arxiv.org/abs/2310.03046) (2023)
+  - Name: EcoAssistant
+  - Code: [[Official]](https://github.com/JieyuZ2/EcoAssistant)
+
+- **Large Language Model Cascades with Mixture of Thoughts Representations for Cost-efficient Reasoning.** [[Paper]](https://arxiv.org/abs/2310.03094) (2024)
+  - Name: EcoAssistant
+  - Code: [[Official]](https://github.com/MurongYue/LLM_MoT_cascade)
+
+- **Model Cascading: Towards Jointly Improving Efficiency and Accuracy of NLP Systems.** [[Paper]](https://arxiv.org/abs/2210.05528) (2024)
+  - Name: Model Cascading
+  - Code: -
+
+- **Cache & Distil: Optimising API Calls to Large Language Models.** [[Paper]](https://arxiv.org/abs/2310.13561) (2023)
+  - Name: neural caching
+  - Code: [[Official]](https://github.com/guillemram97/neural-caching)
+
+- **A Unified Approach to Routing and Cascading for LLMs.** [[Paper]](https://arxiv.org/abs/2410.10347) (2023)
+  - Name: Cascade Routing 
+  - Code: [[Official]](https://github.com/guillemram97/neural-caching)
+
+- **When Does Confidence-Based Cascade Deferral Suffice?** [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/hash/1f09e1ee5035a4c3fe38a5681cae5815-Abstract-Conference.html) (2023)
+  - Name: -
+  - Code: -
+
+- **FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance.** [[Paper]](https://arxiv.org/abs/2305.05176) (2023)
+  - Name: FrugalGPT
+  - Code: -
+  
+- **Language Model Cascades: Token-level uncertainty and beyond.** [[Paper]](https://arxiv.org/abs/2404.10136) (2024)
+  - Name: FrugalGPT
+  - Code: -
+  
+- **AutoMix: Automatically Mixing Language Models.** [[Paper]](https://arxiv.org/abs/2310.12963) (2023)
+  - Name: AutoMix
+  - Code: -
+
+- **Dynamic Ensemble Reasoning for LLM Experts.** [[Paper]](https://arxiv.org/abs/2412.07448) (2023)
+  - Name: DER
+  - Code: -
+
+
 
 
 
 &nbsp; 
 
 
+
+
+
 ## 2.4 Others: Benchmarks and Applications
 
 ### 2.4.1 Benchmarks
 
-| Year |                                                             Title                                                             | Benchmark Name |   Evaluation Goal    |                                  Code                                  | 
-|:----:|:-----------------------------------------------------------------------------------------------------------------------------:|:--------------:|:--------------------:|:----------------------------------------------------------------------:|
-| 2023 | [LLM-BLENDER: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion](https://arxiv.org/abs/2306.02561) |  MixInstruct   |     Performance      |             [Official](https://yuchenlin.xyz/LLM-Blender/)             |
-| 2024 |        [RouterBench: A Benchmark for Multi-LLM Routing System](https://arxiv.org/abs/2403.12031)                              |  RouterBench   | Performance and cost |         [Official](https://github.com/withmartian/routerbench)         |
 
 
+- **LLM-BLENDER: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion.** [[Paper]](https://arxiv.org/abs/2306.02561) (2023)
+  - Name: MixInstruct
+  - Evaluation Goal: Performance
+  - Code: [[Official]](https://yuchenlin.xyz/LLM-Blender/)  
+
+- **RouterBench: A Benchmark for Multi-LLM Routing System.** [[Paper]](https://arxiv.org/abs/2411.04424) (2024)
+  - Name: RouterBench
+  - Evaluation Goal: Performance and cost
+  - Code: [[Official]](https://github.com/withmartian/routerbench) 
 
 
 
@@ -310,12 +433,26 @@ Figure 5:  Summary analysis of the key attributes of ensemble-during-inference m
 Beyond the methods presented before, the concept of LLM Ensemble has found applications in a variety of more specialized tasks and domains.
 Here we give some examples:
 
-| Year |                                                                                 Title                                                                                 |            Name            |                Task                |                                  Code                                  | 
-|:----:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------:|:----------------------------------:|:----------------------------------------------------------------------:|
-| 2023 |                     [Ensemble-Instruct: Generating Instruction-Tuning Data with a Heterogeneous Mixture of LMs](https://arxiv.org/pdf/2310.13961)                     |     Ensemble-Instruct      | Instruction-Tuning Data Generation |          [Official](https://github.com/IBM/ensemble-instruct)          |
-| 2024 |                                  [Bayesian Calibration of Win Rate Estimation with LLM Evaluators](https://arxiv.org/abs/2411.04424)                                  | BWRS, Bayesian Dawid-Skene |        Win Rate Estimation         | [Official](https://github.com/yale-nlp/bay-calibration-llm-evaluators) |
-| 2024 |     [PromptMind Team at MEDIQA-CORR 2024: Improving Clinical Text Correction with Error Categorization and LLM Ensembles](https://arxiv.org/abs/2405.08373)           |             -              |       SQL generation               |                                   -                                    |
 
+- **Ensemble-Instruct: Generating Instruction-Tuning Data with a Heterogeneous Mixture of LMs.** [[Paper]](https://arxiv.org/pdf/2310.13961) (2023)
+  - Name: Ensemble-Instruct
+  - Task: Instruction-Tuning Data Generation 
+  - Code: [[Official]](https://github.com/IBM/ensemble-instruct)
+
+- **Bayesian Calibration of Win Rate Estimation with LLM Evaluators.** [[Paper]](https://arxiv.org/abs/2411.04424) (2024)
+  - Name: BWRS, Bayesian Dawid-Skene
+  - Task: Win Rate Estimation
+  - Code: [[Official]](https://github.com/yale-nlp/bay-calibration-llm-evaluators) 
+
+- **PromptMind Team at MEDIQA-CORR 2024: Improving Clinical Text Correction with Error Categorization and LLM Ensembles.** [[Paper]](https://arxiv.org/abs/2405.08373) (2024)
+  - Name: -
+  - Task: SQL generation
+  - Code: -
+
+- **LLM-Ensemble: Optimal Large Language Model Ensemble Method for E-commerce Product Attribute Value Extraction.** [[Paper]](https://arxiv.org/abs/2403.00863) (2024)
+  - Name: -
+  - Task: Product Attribute Value Extraction
+  - Code: -
 
 ---
 
