@@ -181,7 +181,7 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
   - Name: RouteLLM
   - Code: [[Official]](https://github.com/lm-sys/RouteLLM)  
 
-- **Hybrid LLM: Cost-Efficient and Quality-Aware Query Routinga.** [[Paper]](https://arxiv.org/abs/2404.14618) (2024)
+- **Hybrid LLM: Cost-Efficient and Quality-Aware Query Routing.** [[Paper]](https://arxiv.org/abs/2404.14618) (2024)
   - Name: Hybrid-LLM
   - Code: [[Official]](https://github.com/m365-core/hybrid_llm_routing)
 
