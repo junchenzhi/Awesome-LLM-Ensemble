@@ -1,4 +1,5 @@
-<h1 align="center">🔥 Awesome-LLM-Ensemble
+<h1 align="center">🔥🔥🔥 Awesome-LLM-Ensemble 
+
 "Harnessing Multiple Large Language Models: A Survey on LLM Ensemble"</h2>
   <p align="center">
     <a href="https://scholar.google.com/citations?user=3slpkWAAAAAJ&hl=zh-CN">Zhijun Chen</a>,
@@ -13,13 +14,19 @@
     <a href="https://scholar.google.com/citations?user=D0lL1r0AAAAJ&hl=zh-CN/">Philip S. Yu</a>
   </p>
   <p align="center">
-    <img src="fig/logo.png" alt="Logo" width="50%">
+    <img src="fig/logo.png" alt="Logo" width="60%">
   </p>
 </p>
 
-<!-- Make the "Maintained?" and License info centered -->
-<div align="center">
-   <p>
+
+
+<p align="center">
+  <a href='https://arxiv.org/abs/2502.18036'><img src='https://img.shields.io/badge/Arxiv-2502.18036-b31b1b.svg?logo=arXiv'></a>
+
+</p>
+
+
+<p align="center">
       <a href="https://github.com/junchenzhi/Awesome-LLM-Ensemble/commits/main">
         <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" alt="Maintenance">
       </a>
@@ -29,18 +36,26 @@
       <a href="https://awesome.re">
         <img src="https://awesome.re/badge.svg" alt="Awesome">
       </a>
+  <a href="https://img.shields.io/badge/PRs-Welcome-red">
+    <img src="https://img.shields.io/badge/PRs-Welcome-red" alt="PRs Welcome">
+  </a>
+  <a href=""><img src="https://img.shields.io/github/last-commit/junchenzhi/Awesome-LLM-Ensemble?color=blue"></a>
+</p>
+
+
+<p align="center">
+  <a href=""><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fjunchenzhi%2FAwesome-LLM-Ensemble&count_bg=%23FFA500&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=false"></a>
       <a href="https://github.com/junchenzhi/Awesome-LLM-Ensemble/stargazers">
         <img src="https://img.shields.io/github/stars/junchenzhi/Awesome-LLM-Ensemble?color=green" alt="GitHub stars">
       </a>
       <a href="https://github.com/junchenzhi/Awesome-LLM-Ensemble/network">
         <img src="https://img.shields.io/github/forks/junchenzhi/Awesome-LLM-Ensemble?color=blue&label=Forks" alt="GitHub forks">
       </a>
-  </p>
-</div>
+</p>
 
 
 
-<h5 align="center">If you like our project, please give it a star ⭐ to show your support. 
+<h5 align="center">If you like our project, please give it a star ⭐ to show your support！Thank you:)
 
 
 For this emerging topic, we hope this project can provide some reference for researchers and look forward to more interesting studies!
@@ -48,13 +63,16 @@ For this emerging topic, we hope this project can provide some reference for res
 
 
 
-# 📣 News and Notices
+# 📣 Notices
 > 🔥🔥🔥 This is a collection of papers on  ***LLM Ensemble***.   
-It's based on our survey paper: Harnessing Multiple Large Language Models: A Survey on LLM Ensemble. 
+It's based on our survey paper: Harnessing Multiple Large Language Models: A Survey on LLM Ensemble.   <a href='https://arxiv.org/abs/2502.18036'><img src='https://img.shields.io/badge/Arxiv-2502.18036-b31b1b.svg?logo=arXiv'></a>
 
-> **[Always]** We will try to make this list updated frequently. If you found any error or any missed/new paper, please don't hesitate to contact [us](zhijunchen@buaa.edu.cn).
 
-> **[2025/02/19]** We will release our paper on arXiv in the next few days. Stay tuned.
+> **[Always] [Maintain]** ***We will make this list updated frequently (at least until 12/31/2025). All newly discovered relevant papers will be updated in this repository within one week and in the arXiv paper within two months!***     
+> If you found any error or any missed/new paper, please don't hesitate to contact [us](zhijunchen@buaa.edu.cn) or Pull requests. 
+
+> **[Always] [Collaboration]** If you have any new and interesting ideas, feel free to discuss with us and explore potential collaborations.
+
 
 
 
@@ -80,6 +98,7 @@ It's based on our survey paper: Harnessing Multiple Large Language Models: A Sur
     - 2.3 [Ensemble After Inference](#23-ensemble-after-inference)
     - 2.4 [Others: Benchmarks and Applications](#24-others-benchmarks-and-applications)
   - 3 [Summarization](#3-summarization)
+  -  [Citation](#citation)
 
 
 
@@ -120,25 +139,25 @@ A curated list of papers  on LLM Ensemble is available at https://github.com/jun
 - ***(a) Ensemble before inference.***  
 In essence, this approach employs a routing algorithm prior to LLM inference to allocate a specific query to the most suitable model, allowing the selected model that is specialized for the query and typically more cost-efficient inference to perform the task.
  Existing methods can be classified into two categories, depending on whether the router necessitates the use of pre-customized data for pre-training:   
-  - ***(a,1) Pre-training router;***
-  - ***(a,2) Non pre-training router.***
+  - ***(a1) Pre-training router;***
+  - ***(a2) Non pre-training router.***
 
 
 
 
 - ***(b) Ensemble during inference.***  
 As the most granular form of ensemble among the three broad categories, this type of approach encompasses: 
-  - ***(b,1) Token-level ensemble*** methods, which integrate the token-level outputs of multiple models at the finest granularity of decoding;
-  - ***(b,2) Span-level ensemble*** methods, which conduct ensemble at the level of a sequence fragment (e.g., a span of four words); 
-  - ***(b,3) Process-level ensemble*** methods, which select the optimal reasoning process step-by-step within the reasoning chain for a given complex reasoning task. 
+  - ***(b1) Token-level ensemble*** methods, which integrate the token-level outputs of multiple models at the finest granularity of decoding;
+  - ***(b2) Span-level ensemble*** methods, which conduct ensemble at the level of a sequence fragment (e.g., a span of four words); 
+  - ***(b3) Process-level ensemble*** methods, which select the optimal reasoning process step-by-step within the reasoning chain for a given complex reasoning task. 
 Note that for these ensemble-during-inference methods, the aggregated text segments will be concatenated with the previous text and fed again to models.
 
 
 
 - ***(c) Ensemble after inference.***  
 These methods can be classified into two categories:
-  - ***(c,1) Non cascade*** methods, which perform ensemble using multiple complete responses contributed from all LLM candidates;
-  - ***(c,2) Cascade*** methods, which consider both performance and inference costs, progressively reasoning through a chain of LLM candidates largely sorted by model size to find the most suitable inference response.
+  - ***(c1) Non cascade*** methods, which perform ensemble using multiple complete responses contributed from all LLM candidates;
+  - ***(c2) Cascade*** methods, which consider both performance and inference costs, progressively reasoning through a chain of LLM candidates largely sorted by model size to find the most suitable inference response.
 
 
 
@@ -187,7 +206,7 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 
 - **LLM Bandit: Cost-Efficient LLM Generation via Preference-Conditioned Dynamic Routing.** [[Paper]](https://arxiv.org/abs/2502.02743) (2025)
   - Name: -
-  - Code: [[Official]](https://github.com/m365-core/hybrid_llm_routing) 
+  - Code: -
 
 - **Harnessing the Power of Multiple Minds: Lessons Learned from LLM Routing.** [[Paper]](https://arxiv.org/abs/2405.00467) (2024)
   - Name: -
@@ -205,7 +224,7 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
   - Name: Bench-CoE
   - Code: [[Official]](https://github.com/ZhangXJ199/Bench-CoE) 
 
-- **Routing to the Expert: Efficient Reward-guided Ensemble of Large Language Models.** [[Paper]](https://arxiv.org/abs/2311.08692) (2024)
+- **Routing to the Expert: Efficient Reward-guided Ensemble of Large Language Models.** [[Paper]](https://arxiv.org/abs/2311.08692) (2023)
   - Name: ZOOTER
   - Code: -
 
@@ -262,9 +281,9 @@ Figure 4:  Summary analysis of the key attributes of ensemble-during-inference m
   - Name: GaC
   - Code: [[Official]](https://github.com/yaoching0/GaC) 
 
-- **Ensemble Learning for Heterogeneous Large Language Models with Deep Parallel Collaboration.** [[Paper]](https://openreview.net/forum?id=7arAADUK6D) (2024)
+- **Ensemble Learning for Heterogeneous Large Language Models with Deep Parallel Collaboration.** [[Paper]](https://arxiv.org/abs/2404.12715) (2024)
   - Name: DeePEn
-  - Code: [[Official]](https://github.com/JieyuZ2/wrench)
+  - Code: [[Official]](https://github.com/OrangeInSouth/DeePEn)
 
 - **Bridging the Gap between Different Vocabularies for LLM Ensemble.** [[Paper]](https://arxiv.org/abs/2404.09492) (2024)
   - Name: EVA
@@ -277,6 +296,10 @@ Figure 4:  Summary analysis of the key attributes of ensemble-during-inference m
 - **Pack of LLMs: Model Fusion at Test-Time via Perplexity Optimization.** [[Paper]](https://arxiv.org/abs/2404.11531) (2024)
   - Name: PackLLM
   - Code: [[Official]](https://github.com/cmavro/PackLLM)
+
+- **Purifying large language models by ensembling a small language model.** [[Paper]](https://arxiv.org/abs/2402.14845) (2024)
+  - Name: -
+  - Code: -
 
 - **CITER: Collaborative Inference for Efficient Large Language Model Decoding with Token-Level Routing.** [[Paper]](https://arxiv.org/abs/2502.01976) (2025)
   - Name: CITER
@@ -344,7 +367,7 @@ Figure 5:  Summary analysis of the key attributes of ensemble-during-inference m
   - Name: MoRE
   - Code: [[Official]](https://github.com/NoviScl/MoRE)
 
-- **LLM-Blender: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion.** [[Paper]](https://arxiv.org/abs/2306.02561) (2024)
+- **LLM-Blender: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion.** [[Paper]](https://arxiv.org/abs/2306.02561) (2023)
   - Name: LLM-Blender
   - Code: [Official](https://github.com/yuchenlin/LLM-Blender) 
 
@@ -363,11 +386,11 @@ Figure 5:  Summary analysis of the key attributes of ensemble-during-inference m
   - Name: EcoAssistant
   - Code: [[Official]](https://github.com/JieyuZ2/EcoAssistant)
 
-- **Large Language Model Cascades with Mixture of Thoughts Representations for Cost-efficient Reasoning.** [[Paper]](https://arxiv.org/abs/2310.03094) (2024)
-  - Name: EcoAssistant
+- **Large Language Model Cascades with Mixture of Thoughts Representations for Cost-efficient Reasoning.** [[Paper]](https://arxiv.org/abs/2310.03094) (2023)
+  - Name: -
   - Code: [[Official]](https://github.com/MurongYue/LLM_MoT_cascade)
 
-- **Model Cascading: Towards Jointly Improving Efficiency and Accuracy of NLP Systems.** [[Paper]](https://arxiv.org/abs/2210.05528) (2024)
+- **Model Cascading: Towards Jointly Improving Efficiency and Accuracy of NLP Systems.** [[Paper]](https://arxiv.org/abs/2210.05528) (2022)
   - Name: Model Cascading
   - Code: -
 
@@ -375,9 +398,9 @@ Figure 5:  Summary analysis of the key attributes of ensemble-during-inference m
   - Name: neural caching
   - Code: [[Official]](https://github.com/guillemram97/neural-caching)
 
-- **A Unified Approach to Routing and Cascading for LLMs.** [[Paper]](https://arxiv.org/abs/2410.10347) (2023)
+- **A Unified Approach to Routing and Cascading for LLMs.** [[Paper]](https://arxiv.org/abs/2410.10347) (2024)
   - Name: Cascade Routing 
-  - Code: [[Official]](https://github.com/guillemram97/neural-caching)
+  - Code: [[Official]](https://github.com/eth-sri/cascade-routing)
 
 - **When Does Confidence-Based Cascade Deferral Suffice?** [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/hash/1f09e1ee5035a4c3fe38a5681cae5815-Abstract-Conference.html) (2023)
   - Name: -
@@ -393,9 +416,9 @@ Figure 5:  Summary analysis of the key attributes of ensemble-during-inference m
   
 - **AutoMix: Automatically Mixing Language Models.** [[Paper]](https://arxiv.org/abs/2310.12963) (2023)
   - Name: AutoMix
-  - Code: -
+  - Code: [[Official]](https://github.com/automix-llm/automix)
 
-- **Dynamic Ensemble Reasoning for LLM Experts.** [[Paper]](https://arxiv.org/abs/2412.07448) (2023)
+- **Dynamic Ensemble Reasoning for LLM Experts.** [[Paper]](https://arxiv.org/abs/2412.07448) (2024)
   - Name: DER
   - Code: -
 
@@ -434,7 +457,7 @@ Beyond the methods presented before, the concept of LLM Ensemble has found appli
 Here we give some examples:
 
 
-- **Ensemble-Instruct: Generating Instruction-Tuning Data with a Heterogeneous Mixture of LMs.** [[Paper]](https://arxiv.org/pdf/2310.13961) (2023)
+- **Ensemble-Instruct: Generating Instruction-Tuning Data with a Heterogeneous Mixture of LMs.** [[Paper]](https://arxiv.org/abs/2310.13961) (2023)
   - Name: Ensemble-Instruct
   - Task: Instruction-Tuning Data Generation 
   - Code: [[Official]](https://github.com/IBM/ensemble-instruct)
@@ -467,3 +490,19 @@ Here we give some examples:
 
 Figure 6:  Summary analysis of the key attributes of LLM Ensemble approaches.
 </div>
+
+
+
+
+
+## Citation
+
+
+```
+@article{chen2025harnessing,
+  title={Harnessing Multiple Large Language Models: A Survey on LLM Ensemble},
+  author={Chen, Zhijun and Li, Jingzheng and Chen, Pengpeng and Li, Zhuoran and Sun, Kai and Luo, Yuankai and Mao, Qianren and Yang, Dingqi and Sun, Hailong and Yu, Philip S},
+  journal={arXiv preprint arXiv:2502.18036},
+  year={2025}
+}
+```
