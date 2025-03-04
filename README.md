@@ -14,7 +14,7 @@
     <a href="https://scholar.google.com/citations?user=D0lL1r0AAAAJ&hl=zh-CN/">Philip S. Yu</a>
   </p>
   <p align="center">
-    <img src="fig/logo.png" alt="Logo" width="60%">
+    <img src="fig/logo.png" alt="Logo" width="62%">
   </p>
 </p>
 
@@ -44,7 +44,6 @@
 
 
 <p align="center">
-  <a href=""><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fjunchenzhi%2FAwesome-LLM-Ensemble&count_bg=%23FFA500&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=false"></a>
       <a href="https://github.com/junchenzhi/Awesome-LLM-Ensemble/stargazers">
         <img src="https://img.shields.io/github/stars/junchenzhi/Awesome-LLM-Ensemble?color=green" alt="GitHub stars">
       </a>
