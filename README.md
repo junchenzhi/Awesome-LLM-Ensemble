@@ -245,7 +245,7 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
   - Name: Routoo
   - Code: -
 
-- **(Newly added paper, March 2025:) RouterDC: Query-Based Router by Dual Contrastive Learning for Assembling Large Language Models.** [[Paper]](https://arxiv.org/abs/2401.13979) (2024)
+- **(Newly added paper, March 2025:) RouterDC: Query-Based Router by Dual Contrastive Learning for Assembling Large Language Models.** [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2024/hash/7a641b8ec86162fc875fb9f6456a542f-Abstract-Conference.html) (2024)
   - Name: RouterDC
   - Code: [[Official]](https://github.com/shuhao02/RouterDC) 
 
