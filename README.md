@@ -67,14 +67,16 @@ For this emerging topic, we hope this project can provide some reference for res
 It's based on our survey paper: Harnessing Multiple Large Language Models: A Survey on LLM Ensemble.   <a href='https://arxiv.org/abs/2502.18036'><img src='https://img.shields.io/badge/Arxiv-2502.18036-b31b1b.svg?logo=arXiv'></a>
 
 
-> **[Always] [Maintain]** ***We will make this list updated frequently (at least until 12/31/2025). All newly discovered relevant papers will be updated in this repository within one week and in the arXiv paper within two months!***     
+> **[Always] [Maintain]** ***Note that: We will make this list updated frequently (at least until 12/31/2025)!  
+All newly discovered relevant papers will be updated in this repository within one week and in the arXiv paper within two months!***     
 > If you found any error or any missed/new paper, please don't hesitate to contact [us](zhijunchen@buaa.edu.cn) or Pull requests. 
 
 > **[Always] [Collaboration]** If you have any new and interesting ideas, feel free to discuss with us and explore potential collaborations.
 
 
-
-
+# 📣 News
+> **[3/18/2025]** We would like to extend our gratitude to the authors of the following two papers for reaching out to us.  
+> We have now added these papers to this repository: 1) "Purifying large language models by ensembling a small language model"; 2) "RouterDC: Query-Based Router by Dual Contrastive Learning for Assembling Large Language Models". 
 
 ---
 
@@ -242,6 +244,10 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 - **Routoo: Learning to Route to Large Language Models Effectively.** [[Paper]](https://arxiv.org/abs/2401.13979) (2024)
   - Name: Routoo
   - Code: -
+
+- **(Newly added paper, March 2025:) RouterDC: Query-Based Router by Dual Contrastive Learning for Assembling Large Language Models.** [[Paper]](https://arxiv.org/abs/2401.13979) (2024)
+  - Name: RouterDC
+  - Code: [[Official]](https://github.com/shuhao02/RouterDC) 
 
 
 
