@@ -22,7 +22,9 @@
 
 <p align="center">
   <a href='https://arxiv.org/abs/2502.18036'><img src='https://img.shields.io/badge/Arxiv-2502.18036-b31b1b.svg?logo=arXiv'></a>
-
+  <a href="https://junchenzhi.github.io/LLM-Ensemble/">
+    <img src="https://img.shields.io/badge/Website-Visit%20Now-blue" alt="Website">
+  </a>
 </p>
 
 
@@ -75,6 +77,11 @@ All newly discovered relevant papers will be updated in this repository within o
 
 
 # 📣 News
+
+> **[4/15/2025]** We would like to extend our gratitude to the authors of the following two papers for reaching out to us.  
+> We have now added these papers to this repository: 1) "Purifying large language models by ensembling a small language model"; 2) "RouterDC: Query-Based Router by Dual Contrastive Learning for Assembling Large Language Models". 
+
+
 > **[3/18/2025]** We would like to extend our gratitude to the authors of the following two papers for reaching out to us.  
 > We have now added these papers to this repository: 1) "Purifying large language models by ensembling a small language model"; 2) "RouterDC: Query-Based Router by Dual Contrastive Learning for Assembling Large Language Models". 
 
@@ -353,7 +360,7 @@ Figure 4:  Summary analysis of the key attributes of ensemble-during-inference m
 <div align=center>
 <img src="./fig/after.png" width="90%">
 
-Figure 5:  Summary analysis of the key attributes of ensemble-during-inference methods.
+Figure 5:  Summary analysis of the key attributes of ensemble-after-inference methods.
 </div>
 
 
@@ -494,7 +501,7 @@ Here we give some examples:
 <img src="./fig/summary.png" width="90%">
 
 Figure 6:  Summary analysis of the key attributes of LLM Ensemble approaches.
-</div>
+</div> 
 
 
 
