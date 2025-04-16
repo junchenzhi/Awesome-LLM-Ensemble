@@ -504,10 +504,6 @@ Here we give some examples:
   - Task: Data-generation
   - Code: [[Official]](https://github.com/LindaLydia/FuseGen) 
 
-- **(Newly added paper, April 2025:) DFPE: A Diverse Fingerprint Ensemble for Enhancing LLM Performance.** [[Paper]](https://arxiv.org/abs/2406.12527) (2024)
-  - Name: DFPE
-  - Task: Data-generation
-  - Code: [[Official]](https://github.com/LindaLydia/FuseGen) 
 
 
 ---
