@@ -66,7 +66,9 @@ For this emerging topic, we hope this project can provide some reference for res
 
 # 📣 Notices
 > 🔥🔥🔥 This is a collection of papers on  ***LLM Ensemble***.   
-It's based on our survey paper: Harnessing Multiple Large Language Models: A Survey on LLM Ensemble.   <a href='https://arxiv.org/abs/2502.18036'><img src='https://img.shields.io/badge/Arxiv-2502.18036-b31b1b.svg?logo=arXiv'></a>
+It's based on our survey paper: Harnessing Multiple Large Language Models: A Survey on LLM Ensemble.   <a href='https://arxiv.org/abs/2502.18036'><img src='https://img.shields.io/badge/Arxiv-2502.18036-b31b1b.svg?logo=arXiv'></a>    <a href="https://junchenzhi.github.io/LLM-Ensemble/">
+    <img src="https://img.shields.io/badge/Website-Visit%20Now-blue" alt="Website">
+  </a>
 
 
 > **[Always] [Maintain]** ***Note that: We will make this list updated frequently (at least until 12/31/2025)!  
@@ -78,9 +80,7 @@ All newly discovered relevant papers will be updated in this repository within o
 
 # 📣 News
 
-> **[4/15/2025]** We would like to extend our gratitude to the authors of the following two papers for reaching out to us.  
-> We have now added these papers to this repository: 1) "Purifying large language models by ensembling a small language model"; 2) "RouterDC: Query-Based Router by Dual Contrastive Learning for Assembling Large Language Models". 
-
+> **[4/17/2025]** We have added several new papers to this repository. Please search for the keyword "April 2025".  
 
 > **[3/18/2025]** We would like to extend our gratitude to the authors of the following two papers for reaching out to us.  
 > We have now added these papers to this repository: 1) "Purifying large language models by ensembling a small language model"; 2) "RouterDC: Query-Based Router by Dual Contrastive Learning for Assembling Large Language Models". 
@@ -317,8 +317,13 @@ Figure 4:  Summary analysis of the key attributes of ensemble-during-inference m
   - Name: CITER
   - Code: [[Official]](https://github.com/aiming-lab/CITER)
 
+- **(Newly added paper, April 2025:) An Expert is Worth One Token: Synergizing Multiple Expert LLMs as Generalist via Expert Token Routing.** [[Paper]](https://arxiv.org/abs/2403.16854) (2024)
+  - Name: ETR
+  - Code: [[Official]](https://github.com/zjunet/ETR)
 
-
+- **(Newly added paper, April 2025:) Speculative Ensemble: Fast Large Language Model Ensemble via Speculation.** [[Paper]](https://arxiv.org/abs/2502.01662) (2025)
+  - Name: Speculative Ensemble
+  - Code: [[Official]](https://github.com/Kamichanw/Speculative-Ensemble/)
 
 
 
@@ -390,6 +395,11 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 - **URG: A Unified Ranking and Generation Method for Ensembling Language Models.** [[Paper]](https://aclanthology.org/2024.findings-acl.261/) (2024)
   - Name: URG
   - Code: -
+
+- **(Newly added paper, April 2025:) DFPE: A Diverse Fingerprint Ensemble for Enhancing LLM Performance.** [[Paper]](https://arxiv.org/abs/2501.17479) (2025)
+  - Name: DFPE
+  - Code: [Official](https://github.com/nivgold/DFPE)
+
 
 
 ### 2.3.2 (c,2) Cascade
@@ -488,6 +498,17 @@ Here we give some examples:
   - Name: -
   - Task: Product Attribute Value Extraction
   - Code: -
+
+- **(Newly added paper, April 2025:) FuseGen: PLM Fusion for Data-generation based Zero-shot Learning.** [[Paper]](https://arxiv.org/abs/2406.12527) (2024)
+  - Name: FuseGen
+  - Task: Data-generation
+  - Code: [[Official]](https://github.com/LindaLydia/FuseGen) 
+
+- **(Newly added paper, April 2025:) DFPE: A Diverse Fingerprint Ensemble for Enhancing LLM Performance.** [[Paper]](https://arxiv.org/abs/2406.12527) (2024)
+  - Name: DFPE
+  - Task: Data-generation
+  - Code: [[Official]](https://github.com/LindaLydia/FuseGen) 
+
 
 ---
 
