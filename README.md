@@ -254,9 +254,20 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 
 - **(Newly added paper, March 2025:) RouterDC: Query-Based Router by Dual Contrastive Learning for Assembling Large Language Models.** [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2024/hash/7a641b8ec86162fc875fb9f6456a542f-Abstract-Conference.html) (2024)
   - Name: RouterDC
-  - Code: [[Official]](https://github.com/shuhao02/RouterDC) 
-
-
+  - Code: [[Official]](https://github.com/shuhao02/RouterDC)
+ 
+- **Abstract Meaning Representation-Based Logic-Driven Data Augmentation for Logical Reasoning.** [[Paper]](https://aclanthology.org/2024.findings-acl.353/) (2024)
+  - Name: AMR-LDA
+  - Code: [[Official]](https://github.com/Strong-AI-Lab/Logical-Equivalence-driven-AMR-Data-Augmentation-for-Representation-Learning)
+ 
+- **Exploring Iterative Enhancement for Improving Learnersourced Multiple-Choice Question Explanations with Large Language Models.** [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/35164) (2025)
+  - Name: ILearner-LLM
+  - Code: [[Official]](https://github.com/Strong-AI-Lab/Explanation-Generation)
+ 
+- **ChatLogic: Integrating Logic Programming with Large Language Models for Multi-step Reasoning.** [[Paper]](https://ieeexplore.ieee.org/document/10650138) (2024)
+  - Name: ChatLogic
+  - Code: [[Official]](https://github.com/Strong-AI-Lab/ChatLogic)
+ 
 
 
 ### 2.1.2 (a,2) Non pre-trained router
@@ -468,9 +479,21 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 - **RouterBench: A Benchmark for Multi-LLM Routing System.** [[Paper]](https://arxiv.org/abs/2411.04424) (2024)
   - Name: RouterBench
   - Evaluation Goal: Performance and cost
-  - Code: [[Official]](https://github.com/withmartian/routerbench) 
+  - Code: [[Official]](https://github.com/withmartian/routerbench)
 
+- **Assessing and Enhancing the Robustness of Large Language Models with Task Structure Variations for Logical Reasoning.** [[Paper]](https://arxiv.org/abs/2310.09430) (2024)
+  - Name:  ReClor-plus, LogiQA-plus and LogiQAv2-plus
+  - Evaluation Goal: Performance
+  - Code: [[Official]](https://github.com/Strong-AI-Lab/Logical-and-abstract-reasoning) 
 
+- **Large Language Models Are Not Strong Abstract Reasoners.** [[Paper]](https://arxiv.org/abs/2305.19555) (2024)
+  - Name:  Logical-and-abstract-reasoning
+  - Evaluation Goal: Performance
+  - Code: [[Official]](https://github.com/Strong-AI-Lab/Logical-and-abstract-reasoning) 
+
+- **Multi-Step Deductive Reasoning Over Natural Language: An Empirical Study on Out-of-Distribution Generalisation.** [[Paper]](https://arxiv.org/abs/2207.14000) (2022)
+  - Name: Pararule-Plus
+  - Code: [[Official]](https://github.com/Strong-AI-Lab/Multi-Step-Deductive-Reasoning-Over-Natural-Language) 
 
 ### 2.4.2 Applications
 
