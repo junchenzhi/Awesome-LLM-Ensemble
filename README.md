@@ -194,10 +194,18 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 
 
 
+
 ### 2.1.1 (a,1) Pre-Trained Router
 
 
+- **LLM Routing with Benchmark Datasets.** [Paper] (2023)  
+  <span style="color: gray;">Name: -, Code: -</span>
 
+- **RouteLLM: Learning to Route LLMs with Preference Data.** [Paper] (2024)  
+  <span style="color: gray;">Name: RouteLLM, Code: [Official]</span>
+
+- **Hybrid LLM: Cost-Efficient and Quality-Aware Query Routing.** [Paper] (2024)  
+  <span style="color: gray;">Name: Hybrid-LLM, Code: [Official]</span>
 
 
 - **LLM Routing with Benchmark Datasets.** [[Paper]](https://openreview.net/forum?id=k9EfAJhFZc) (2023)<br> Name: -, Code: -
