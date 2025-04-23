@@ -194,12 +194,22 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 
 
 
+- **Pack of LLMs: Model Fusion at Test-Time via Perplexity Optimization.** [Paper] (2024)  
+  - Name: PackLLM, Code: [Official]  
+- **Purifying large language models by ensembling a small language model.** [Paper] (2024)  
+  - Name: -, Code: -
+
+
 
 
 ### 2.1.1 (a,1) Pre-Trained Router
 
 
 
+- **Pack of LLMs: Model Fusion at Test-Time via Perplexity Optimization.** [Paper] (2024)  
+  - Name: PackLLM, Code: [Official]  
+- **Purifying large language models by ensembling a small language model.** [Paper] (2024)  
+  - Name: -, Code: -
 
 
 - **LLM Routing with Benchmark Datasets.** [[Paper]](https://openreview.net/forum?id=k9EfAJhFZc) (2023)  
