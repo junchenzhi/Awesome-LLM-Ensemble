@@ -448,6 +448,9 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
   - Name: DER
   - Code: -
 
+- **(Newly added paper, April 2025:) EMAFusionTM: A SELF-OPTIMIZING SYSTEM FOR SEAMLESS LLM SELECTION AND INTEGRATION.** [[Paper]](https://arxiv.org/abs/2504.10681) (2025)
+  - Name: EMAFusionTM
+  - Code: -
 
 
 
@@ -510,7 +513,7 @@ Here we give some examples:
 
 - **(Newly added paper, April 2025:) On Preserving the Knowledge of Long Clinical Texts.** [[Paper]](https://arxiv.org/abs/2311.01571) (2023)
   - Name: -
-  - Task: Prediction tasks on long clinical notes.
+  - Task: Prediction tasks on long clinical notes
   - Code: -
 
 ---
