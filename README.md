@@ -194,10 +194,6 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 
 
 
-- **Pack of LLMs: Model Fusion at Test-Time via Perplexity Optimization.** [Paper] (2024)  
-  - Name: PackLLM, Code: [Official]  
-- **Purifying large language models by ensembling a small language model.** [Paper] (2024)  
-  - Name: -, Code: -
 
 
 
@@ -206,27 +202,25 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 
 
 
-- **Pack of LLMs: Model Fusion at Test-Time via Perplexity Optimization.** [Paper] (2024)  
-  - Name: PackLLM, Code: [Official]  
-- **Purifying large language models by ensembling a small language model.** [Paper] (2024)  
-  - Name: -, Code: -
-
 
 - **LLM Routing with Benchmark Datasets.** [[Paper]](https://openreview.net/forum?id=k9EfAJhFZc) (2023)  
   - Name: -, Code: -
 
+
 - **RouteLLM: Learning to Route LLMs with Preference Data.** [[Paper]](https://arxiv.org/abs/2406.18665) (2024)  
   - Name: RouteLLM, Code: [[Official]](https://github.com/lm-sys/RouteLLM)  
+
 
 - **Hybrid LLM: Cost-Efficient and Quality-Aware Query Routing.** [[Paper]](https://arxiv.org/abs/2404.14618) (2024)  
   - Name: Hybrid-LLM, Code: [[Official]](https://github.com/m365-core/hybrid_llm_routing)
 
 
+- **LLM Bandit: Cost-Efficient LLM Generation via Preference-Conditioned Dynamic Routing.** [[Paper]](https://arxiv.org/abs/2502.02743) (2025)
+  - Name: -, Code: -
 
-- **LLM Bandit: Cost-Efficient LLM Generation via Preference-Conditioned Dynamic Routing.** [[Paper]](https://arxiv.org/abs/2502.02743) (2025)<br> Name: -, Code: -
 
-
-- **Harnessing the Power of Multiple Minds: Lessons Learned from LLM Routing.** [[Paper]](https://arxiv.org/abs/2405.00467) (2024)<br> Name: -, Code: [[Official]](https://github.com/kvadityasrivatsa/llm-routing) 
+- **Harnessing the Power of Multiple Minds: Lessons Learned from LLM Routing.** [[Paper]](https://arxiv.org/abs/2405.00467) (2024)
+  - Name: -, Code: [[Official]](https://github.com/kvadityasrivatsa/llm-routing) 
 
 
 - **MetaLLM: A High-performant and Cost-efficient Dynamic Framework for Wrapping LLMs.** [[Paper]](https://arxiv.org/abs/2407.10834) (2024)<br> Name: MetaLLM, Code: [[Official]](https://github.com/mail-research/MetaLLM-wrapper/)
@@ -258,6 +252,7 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 
 - **Routoo: Learning to Route to Large Language Models Effectively.** [[Paper]](https://arxiv.org/abs/2401.13979) (2024)
   - Name: Routoo, Code: -
+ 
 
 - **(Newly added paper, March 2025:) RouterDC: Query-Based Router by Dual Contrastive Learning for Assembling Large Language Models.** [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2024/hash/7a641b8ec86162fc875fb9f6456a542f-Abstract-Conference.html) (2024)
   - Name: RouterDC, Code: [[Official]](https://github.com/shuhao02/RouterDC) 
