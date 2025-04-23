@@ -192,31 +192,24 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 </div>
 
 
-- **Pack of LLMs: Model Fusion at Test-Time via Perplexity Optimization.** [Paper] (2024)  
-  - Name: PackLLM, Code: [Official]  
-- **Purifying large language models by ensembling a small language model.** [Paper] (2024)  
-  - Name: -, Code: -
+
 
 
 
 ### 2.1.1 (a,1) Pre-Trained Router
 
 
-- **LLM Routing with Benchmark Datasets.** [Paper] (2023)  
-  <span style="color: gray;">Name: -, Code: -</span>
-
-- **RouteLLM: Learning to Route LLMs with Preference Data.** [Paper] (2024)  
-  <span style="color: gray;">Name: RouteLLM, Code: [Official]</span>
-
-- **Hybrid LLM: Cost-Efficient and Quality-Aware Query Routing.** [Paper] (2024)  
-  <span style="color: gray;">Name: Hybrid-LLM, Code: [Official]</span>
 
 
-- **LLM Routing with Benchmark Datasets.** [[Paper]](https://openreview.net/forum?id=k9EfAJhFZc) (2023)<br> Name: -, Code: -
 
-- **RouteLLM: Learning to Route LLMs with Preference Data.** [[Paper]](https://arxiv.org/abs/2406.18665) (2024)<br> Name: RouteLLM, Code: [[Official]](https://github.com/lm-sys/RouteLLM)  
+- **LLM Routing with Benchmark Datasets.** [[Paper]](https://openreview.net/forum?id=k9EfAJhFZc) (2023)  
+  - Name: -, Code: -
 
-- **Hybrid LLM: Cost-Efficient and Quality-Aware Query Routing.** [[Paper]](https://arxiv.org/abs/2404.14618) (2024)<br> Name: Hybrid-LLM, Code: [[Official]](https://github.com/m365-core/hybrid_llm_routing)
+- **RouteLLM: Learning to Route LLMs with Preference Data.** [[Paper]](https://arxiv.org/abs/2406.18665) (2024)  
+  - Name: RouteLLM, Code: [[Official]](https://github.com/lm-sys/RouteLLM)  
+
+- **Hybrid LLM: Cost-Efficient and Quality-Aware Query Routing.** [[Paper]](https://arxiv.org/abs/2404.14618) (2024)  
+  - Name: Hybrid-LLM, Code: [[Official]](https://github.com/m365-core/hybrid_llm_routing)
 
 
 
