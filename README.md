@@ -382,11 +382,11 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 
 
 - **LLM-Blender: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion.** [[Paper]](https://arxiv.org/abs/2306.02561) (2023)
-  - Name: LLM-Blender, Code: [Official](https://github.com/yuchenlin/LLM-Blender) 
+  - Name: LLM-Blender, Code: [[Official]](https://github.com/yuchenlin/LLM-Blender) 
 
 
 - **LLM-TOPLA: Efficient LLM Ensemble by Maximising Diversity.** [[Paper]](https://arxiv.org/abs/2410.03953) (2024)
-  - Name: LLM-TOPLA, Code: [Official](https://github.com/git-disl/llm-topla)
+  - Name: LLM-TOPLA, Code: [[Official]](https://github.com/git-disl/llm-topla)
 
 
 - **URG: A Unified Ranking and Generation Method for Ensembling Language Models.** [[Paper]](https://aclanthology.org/2024.findings-acl.261/) (2024)
@@ -394,11 +394,11 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 
 
 - **(Newly added paper, April 2025:) DFPE: A Diverse Fingerprint Ensemble for Enhancing LLM Performance.** [[Paper]](https://arxiv.org/abs/2501.17479) (2025)
-  - Name: DFPE, Code: [Official](https://github.com/nivgold/DFPE)
+  - Name: DFPE, Code: [[Official]](https://github.com/nivgold/DFPE)
 
 
 - **(Newly added paper, April 2025:) Two Heads are Better than One: Zero-shot Cognitive Reasoning via Multi-LLM Knowledge Fusion.** [[Paper]](https://dl.acm.org/doi/abs/10.1145/3627673.3679744) (2024)
-  - Name: MLKF, Code: [Official](https://github.com/trueBatty/MLKF)
+  - Name: MLKF, Code: [[Official]](https://github.com/trueBatty/MLKF)
 
 
 
