@@ -223,10 +223,11 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
   - Name: -, Code: [[Official]](https://github.com/kvadityasrivatsa/llm-routing) 
 
 
-- **MetaLLM: A High-performant and Cost-efficient Dynamic Framework for Wrapping LLMs.** [[Paper]](https://arxiv.org/abs/2407.10834) (2024)<br> Name: MetaLLM, Code: [[Official]](https://github.com/mail-research/MetaLLM-wrapper/)
+- **MetaLLM: A High-performant and Cost-efficient Dynamic Framework for Wrapping LLMs.** [[Paper]](https://arxiv.org/abs/2407.10834) (2024)
+  - Name: MetaLLM, Code: [[Official]](https://github.com/mail-research/MetaLLM-wrapper/)
 
 
-- **SelectLLM: Query-Aware Efficient Selection Algorithm for Large Language Models.** [[Paper]](https://arxiv.org/abs/2408.08545) (2024)
+- **SelectLLM: Query-Aware Efficient Selection Algorithm for Large Language Models.** [[Paper]](https://arxiv.org/abs/2408.08545) (2024)     
   - Name: SelectLLM, Code: -
 
 
