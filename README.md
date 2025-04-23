@@ -400,6 +400,10 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
   - Name: DFPE
   - Code: [Official](https://github.com/nivgold/DFPE)
 
+- **(Newly added paper, April 2025:) Two Heads are Better than One: Zero-shot Cognitive Reasoning via Multi-LLM Knowledge Fusion.** [[Paper]](https://dl.acm.org/doi/abs/10.1145/3627673.3679744) (2024)
+  - Name: MLKF
+  - Code: [Official](https://github.com/trueBatty/MLKF)
+
 
 
 ### 2.3.2 (c,2) Cascade
