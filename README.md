@@ -200,28 +200,21 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 
 
 
-- **LLM Routing with Benchmark Datasets.** [[Paper]](https://openreview.net/forum?id=k9EfAJhFZc) (2023)
-  - Name: -, Code: -
+- **LLM Routing with Benchmark Datasets.** [[Paper]](https://openreview.net/forum?id=k9EfAJhFZc) (2023)<br> Name: -, Code: -
 
-  
-- **RouteLLM: Learning to Route LLMs with Preference Data.** [[Paper]](https://arxiv.org/abs/2406.18665) (2024)
-  - Name: RouteLLM, Code: [[Official]](https://github.com/lm-sys/RouteLLM)  
+- **RouteLLM: Learning to Route LLMs with Preference Data.** [[Paper]](https://arxiv.org/abs/2406.18665) (2024)<br> Name: RouteLLM, Code: [[Official]](https://github.com/lm-sys/RouteLLM)  
 
-
-- **Hybrid LLM: Cost-Efficient and Quality-Aware Query Routing.** [[Paper]](https://arxiv.org/abs/2404.14618) (2024)
-  - Name: Hybrid-LLM, Code: [[Official]](https://github.com/m365-core/hybrid_llm_routing)
+- **Hybrid LLM: Cost-Efficient and Quality-Aware Query Routing.** [[Paper]](https://arxiv.org/abs/2404.14618) (2024)<br> Name: Hybrid-LLM, Code: [[Official]](https://github.com/m365-core/hybrid_llm_routing)
 
 
-- **LLM Bandit: Cost-Efficient LLM Generation via Preference-Conditioned Dynamic Routing.** [[Paper]](https://arxiv.org/abs/2502.02743) (2025)
-  - Name: -, Code: -
+
+- **LLM Bandit: Cost-Efficient LLM Generation via Preference-Conditioned Dynamic Routing.** [[Paper]](https://arxiv.org/abs/2502.02743) (2025)<br> Name: -, Code: -
 
 
-- **Harnessing the Power of Multiple Minds: Lessons Learned from LLM Routing.** [[Paper]](https://arxiv.org/abs/2405.00467) (2024)
-  - Name: -, Code: [[Official]](https://github.com/kvadityasrivatsa/llm-routing) 
+- **Harnessing the Power of Multiple Minds: Lessons Learned from LLM Routing.** [[Paper]](https://arxiv.org/abs/2405.00467) (2024)<br> Name: -, Code: [[Official]](https://github.com/kvadityasrivatsa/llm-routing) 
 
 
-- **MetaLLM: A High-performant and Cost-efficient Dynamic Framework for Wrapping LLMs.** [[Paper]](https://arxiv.org/abs/2407.10834) (2024)
-  - Name: MetaLLM, Code: [[Official]](https://github.com/mail-research/MetaLLM-wrapper/)
+- **MetaLLM: A High-performant and Cost-efficient Dynamic Framework for Wrapping LLMs.** [[Paper]](https://arxiv.org/abs/2407.10834) (2024)<br> Name: MetaLLM, Code: [[Official]](https://github.com/mail-research/MetaLLM-wrapper/)
 
 
 - **SelectLLM: Query-Aware Efficient Selection Algorithm for Large Language Models.** [[Paper]](https://arxiv.org/abs/2408.08545) (2024)
@@ -262,8 +255,10 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 - **PickLLM: Context-Aware RL-Assisted Large Language Model Routing.** [[Paper]](https://arxiv.org/abs/2412.12170) (2024)
   - Name: PickLLM, Code: -
 
+
 - **Eagle: Efficient Training-Free Router for Multi-LLM Inference.** [[Paper]](https://arxiv.org/abs/2409.15518) (2024)
   - Name: Eagle, Code: -
+
 
 - **Blending Is All You Need: Cheaper, Better Alternative to Trillion-Parameters LLM.** [[Paper]](https://arxiv.org/abs/2401.02994) (2024)
   - Name: Blending, Code: -
@@ -331,9 +326,8 @@ Figure 4:  Summary analysis of the key attributes of ensemble-during-inference m
   - Name: SweetSpan, Code: -
 
 
-- **SpecFuse: Ensembling Large Language Models via Next-Segment Prediction.** [[Paper]](https://arxiv.org/abs/2412.07380) (2024)
+- **SpecFuse: Ensembling Large Language Models via Next-Segment Prediction.** [[Paper]](https://arxiv.org/abs/2412.07380) (2024)<br> 
   - Name: SpecFuse, Code: -
-
 
 
 
