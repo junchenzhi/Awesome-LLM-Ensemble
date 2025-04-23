@@ -508,7 +508,10 @@ Here we give some examples:
   - Task: Data-generation
   - Code: [[Official]](https://github.com/LindaLydia/FuseGen) 
 
-
+- **(Newly added paper, April 2025:) On Preserving the Knowledge of Long Clinical Texts.** [[Paper]](https://arxiv.org/abs/2311.01571) (2023)
+  - Name: -
+  - Task: Prediction tasks on long clinical notes.
+  - Code: -
 
 ---
 
