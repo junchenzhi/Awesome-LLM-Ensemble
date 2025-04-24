@@ -502,6 +502,11 @@ Here we give some examples:
   - Name: -, Task: Prediction tasks on long clinical notes, Code: -
 
 
+- **(Newly added paper, April 2025:) Consensus Entropy: Harnessing Multi-VLM Agreement for Self-Verifying and Self-Improving OCR.** [[Paper]](https://arxiv.org/abs/2504.11101) (2023)
+  - Name: -, Task: Optical Character Recognition, Code: -
+
+
+
 ---
 
 &nbsp; 
