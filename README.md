@@ -400,6 +400,8 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 - **(Newly added paper, April 2025:) Two Heads are Better than One: Zero-shot Cognitive Reasoning via Multi-LLM Knowledge Fusion.** [[Paper]](https://dl.acm.org/doi/abs/10.1145/3627673.3679744) (2024)
   - Name: MLKF, Code: [[Official]](https://github.com/trueBatty/MLKF)
 
+- **(Newly added paper, April 2025:) Symbolic Mixture-of-Experts: Adaptive Skill-based Routing for Heterogeneous Reasoning.** [[Paper]](https://arxiv.org/abs/2503.05641) (2025)
+  - Name: Symbolic-MoE, Code: [[Official]](https://github.com/dinobby/Symbolic-MoE/)
 
 
 ### 2.3.2 (c,2) Cascade
