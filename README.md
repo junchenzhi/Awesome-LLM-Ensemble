@@ -472,6 +472,9 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
   - Name: RouterBench, Evaluation Goal: Performance and cost, Code: [[Official]](https://github.com/withmartian/routerbench) 
 
 
+- **(Newly added paper, April 2025:) RouterEval: A Comprehensive Benchmark for Routing LLMs to Explore Model-level Scaling Up in LLMs.** [[Paper]](https://arxiv.org/abs/2503.10657) (2025)
+  - Name: Speculative Ensemble, Code: [[Official]](https://github.com/MilkThink-Lab/RouterEval)
+
 
 ### 2.4.2 Applications
 
