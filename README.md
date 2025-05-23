@@ -71,8 +71,7 @@ It's based on our survey paper: Harnessing Multiple Large Language Models: A Sur
   </a>
 
 
-> **[Always] [Maintain]** ***Note that: We will make this list updated frequently (at least until 12/31/2025)!  
-All newly discovered relevant papers will be updated in this repository within one week and in the arXiv paper within two months!***     
+> **[Always] [Maintain]** ***We will make this list updated frequently (at least until 12/31/2025)!***     
 > If you found any error or any missed/new paper, please don't hesitate to contact [us](zhijunchen@buaa.edu.cn) or Pull requests. 
 
 > **[Always] [Collaboration]** If you have any new and interesting ideas, feel free to discuss with us and explore potential collaborations.
@@ -80,7 +79,6 @@ All newly discovered relevant papers will be updated in this repository within o
 
 # 📣 News
 
-> **[4/17/2025]** We have added several new papers to this repository. Please search for the keyword "April 2025".  
 
 > **[3/18/2025]** We would like to extend our gratitude to the authors of the following two papers for reaching out to us.  
 > We have now added these papers to this repository: 1) "Purifying large language models by ensembling a small language model"; 2) "RouterDC: Query-Based Router by Dual Contrastive Learning for Assembling Large Language Models". 
@@ -104,7 +102,7 @@ All newly discovered relevant papers will be updated in this repository within o
     - 2.1 [Ensemble Before Inference](#21-ensemble-before-inference)
     - 2.2 [Ensemble During Inference](#22-ensemble-during-inference)
     - 2.3 [Ensemble After Inference](#23-ensemble-after-inference)
-    - 2.4 [Others: Benchmarks and Applications](#24-others-benchmarks-and-applications)
+    - 2.4 [Others: Benchmarks, Applications and Related Surveys](#24-others-benchmarks-applications-and-related-surveys)
   - 3 [Summarization](#3-summarization)
   -  [Citation](#citation)
 
@@ -257,9 +255,18 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 
 - **(Newly added paper, March 2025:) RouterDC: Query-Based Router by Dual Contrastive Learning for Assembling Large Language Models.** [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2024/hash/7a641b8ec86162fc875fb9f6456a542f-Abstract-Conference.html) (2024)
   - Name: RouterDC, Code: [[Official]](https://github.com/shuhao02/RouterDC) 
-  
+
+
+- **(Newly added paper, May 2025:) Rethinking Predictive Modeling for LLM Routing: When Simple kNN Beats Complex Learned Routers.** [[Paper]](https://arxiv.org/abs/2505.12601) (2025)
+  - Name: -, Code: -
+
+
 - **(Newly added paper, May 2025:) InferenceDynamics: Efficient Routing Across LLMs through Structured Capability and Knowledge Profiling.** [[Paper]](https://arxiv.org/abs/2505.16303) (2025)
   - Name: InferenceDynamics, Code: -
+  
+
+- **(Newly added paper, May 2025:) CO-OPTIMIZING RECOMMENDATION AND EVALUATION FOR LLM SELECTION.** [[Paper]](https://openreview.net/pdf?id=gWi4ZcPQRl) (2025)
+  - Name: RELM, Code: -
 
 
 
@@ -402,9 +409,16 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 
 - **(Newly added paper, April 2025:) Two Heads are Better than One: Zero-shot Cognitive Reasoning via Multi-LLM Knowledge Fusion.** [[Paper]](https://dl.acm.org/doi/abs/10.1145/3627673.3679744) (2024)
   - Name: MLKF, Code: [[Official]](https://github.com/trueBatty/MLKF)
+  
 
 - **(Newly added paper, April 2025:) Symbolic Mixture-of-Experts: Adaptive Skill-based Routing for Heterogeneous Reasoning.** [[Paper]](https://arxiv.org/abs/2503.05641) (2025)
   - Name: Symbolic-MoE, Code: [[Official]](https://github.com/dinobby/Symbolic-MoE/)
+
+
+
+- **(Newly added paper, April 2025:) BALANCING ACT: DIVERSITY AND CONSISTENCY IN LARGE LANGUAGE MODEL ENSEMBLES.** [[Paper]](https://openreview.net/pdf?id=Dl6nkKKvlX) (2025)
+  - Name: DMoA, Code: -
+
 
 
 ### 2.3.2 (c,2) Cascade
@@ -461,7 +475,7 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 
 
 
-## 2.4 Others: Benchmarks and Applications
+## 2.4 Others: Benchmarks, Applications and Related Surveys
 
 ### 2.4.1 Benchmarks
 
@@ -477,6 +491,8 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 
 - **(Newly added paper, April 2025:) RouterEval: A Comprehensive Benchmark for Routing LLMs to Explore Model-level Scaling Up in LLMs.** [[Paper]](https://arxiv.org/abs/2503.10657) (2025)
   - Name: Speculative Ensemble, Code: [[Official]](https://github.com/MilkThink-Lab/RouterEval)
+
+
 
 
 ### 2.4.2 Applications
@@ -512,6 +528,38 @@ Here we give some examples:
 
 - **(Newly added paper, April 2025:) Consensus Entropy: Harnessing Multi-VLM Agreement for Self-Verifying and Self-Improving OCR.** [[Paper]](https://arxiv.org/abs/2504.11101) (2025)
   - Name: Consensus Entropy (CE), Task: Optical Character Recognition, Code: -
+
+
+
+### 2.4.3 Related Surveys
+
+- **(Newly added paper, May 2025:) Model Merging in LLMs, MLLMs, and Beyond: Methods, Theories, Applications and Opportunities.** [[Paper]](https://arxiv.org/abs/2408.07666) (2024)
+  - Github: -[[Official]](https://github.com/EnnengYang/Awesome-Model-Merging-Methods-Theories-Applications) 
+
+
+- **(Newly added paper, May 2025:) Merge, Ensemble, and Cooperate! A Survey on Collaborative Strategies in the Era of Large Language Models.** [[Paper]](https://arxiv.org/abs/2407.06089) (2024)
+  - Github: -
+
+
+- **(Newly added paper, May 2025:) A Survey on Collaborative Mechanisms Between Large and Small Language Models.** [[Paper]](https://arxiv.org/abs/2505.07460) (2025)
+  - Github: -
+
+
+- **(Newly added paper, May 2025:) A comprehensive review on ensemble deep learning: Opportunities and challenges.** [[Paper]](https://www.sciencedirect.com/science/article/pii/S1319157823000228) (2023)
+  - Github: -
+
+
+- **(Newly added paper, May 2025:) Doing More with Less – Implementing Routing Strategies in Large Language Model-Based Systems: An Extended Survey.** [[Paper]](https://arxiv.org/abs/2502.00409) (2025)
+  - Github: -
+
+
+- **(Newly added paper, May 2025:) A Survey on Model MoErging: Recycling and Routing Among Specialized Experts for Collaborative Learning.** [[Paper]](https://arxiv.org/abs/2408.07057) (2024)
+  - Github: -
+
+
+- **(Newly added paper, May 2025:) Deep Model Fusion: A Survey.** [[Paper]](https://arxiv.org/abs/2309.15698) (2023)
+  - Github: -
+
 
 
 
