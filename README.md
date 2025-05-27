@@ -1,6 +1,7 @@
 <h1 align="center">🔥🔥🔥 Awesome-LLM-Ensemble 
 
-"Harnessing Multiple Large Language Models: A Survey on LLM Ensemble"</h2>
+"Harnessing Multiple Large Language Models: A Survey on LLM Ensemble"  (ArXiv 2025) </h2>
+
   <p align="center">
     <a href="https://scholar.google.com/citations?user=3slpkWAAAAAJ&hl=zh-CN">Zhijun Chen</a>,
     <a href="https://scholar.google.com/citations?user=6v6JfdsAAAAJ&hl=zh-CN">Jingzheng Li</a>,
@@ -58,17 +59,18 @@
 
 <h5 align="center">If you like our project, please give it a star ⭐ to show your support！Thank you:)
 
-
-For this emerging topic, we hope this project can provide some reference for researchers and look forward to more interesting studies!
 </h5>
 
 
 
 # 📣 Notices
-> 🔥🔥🔥 This is a collection of papers on  ***LLM Ensemble***.   
-It's based on our survey paper: Harnessing Multiple Large Language Models: A Survey on LLM Ensemble.   <a href='https://arxiv.org/abs/2502.18036'><img src='https://img.shields.io/badge/Arxiv-2502.18036-b31b1b.svg?logo=arXiv'></a>    <a href="https://junchenzhi.github.io/LLM-Ensemble/">
+> 🔥🔥🔥 This is a collection of papers on  ***LLM Ensemble***.   <a href='https://arxiv.org/abs/2502.18036'><img src='https://img.shields.io/badge/Arxiv-2502.18036-b31b1b.svg?logo=arXiv'></a>    <a href="https://junchenzhi.github.io/LLM-Ensemble/">
     <img src="https://img.shields.io/badge/Website-Visit%20Now-blue" alt="Website">
   </a>
+
+> **[Always] [Add your paper in this repo]** ***Thank you to all the papers that have cited our survey! 
+We will add all related citing papers to this GitHub repo, in a timely manner, to help increase the visibility of your contributions.***     
+>
 
 
 > **[Always] [Maintain]** ***We will make this list updated frequently (at least until 12/31/2025)!***     
@@ -268,6 +270,9 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 - **(Newly added paper, May 2025:) CO-OPTIMIZING RECOMMENDATION AND EVALUATION FOR LLM SELECTION.** [[Paper]](https://openreview.net/pdf?id=gWi4ZcPQRl) (2025)
   - Name: RELM, Code: -
 
+
+- **(Newly added paper, May 2025:) Route to Reason: Adaptive Routing for LLM and Reasoning Strategy Selection.** [[Paper]](https://arxiv.org/abs/2505.19435) (2025)
+  - Name: RTR, Code: [[Official]](https://github.com/goodmanpzh/Route-To-Reason) 
 
 
 
