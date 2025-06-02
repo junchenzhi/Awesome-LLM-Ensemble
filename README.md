@@ -24,7 +24,10 @@
 <p align="center">
   <a href='https://arxiv.org/abs/2502.18036'><img src='https://img.shields.io/badge/Arxiv-2502.18036-b31b1b.svg?logo=arXiv'></a>
   <a href="https://junchenzhi.github.io/LLM-Ensemble/">
-    <img src="https://img.shields.io/badge/Website-Visit%20Now-blue" alt="Website">
+    <img src="https://img.shields.io/badge/Website-Visit%20Now-purple" alt="Website">
+  </a>
+  <a href="https://mp.weixin.qq.com/s/yVWzHQmr_KyyOfY5k3ivOw">
+    <img src="https://img.shields.io/badge/Blog-(Chinese)-yellowgreen" alt="Blog (Chinese)">
   </a>
 </p>
 
@@ -42,7 +45,7 @@
   <a href="https://img.shields.io/badge/PRs-Welcome-red">
     <img src="https://img.shields.io/badge/PRs-Welcome-red" alt="PRs Welcome">
   </a>
-  <a href=""><img src="https://img.shields.io/github/last-commit/junchenzhi/Awesome-LLM-Ensemble?color=blue"></a>
+  <a href=""><img src="https://img.shields.io/github/last-commit/junchenzhi/Awesome-LLM-Ensemble?color=lightgrey"></a>
 </p>
 
 
@@ -63,10 +66,23 @@
 
 
 
+
+
+
 # 📣 Notices
-> 🔥🔥🔥 This is a collection of papers on  ***LLM Ensemble***.   <a href='https://arxiv.org/abs/2502.18036'><img src='https://img.shields.io/badge/Arxiv-2502.18036-b31b1b.svg?logo=arXiv'></a>    <a href="https://junchenzhi.github.io/LLM-Ensemble/">
-    <img src="https://img.shields.io/badge/Website-Visit%20Now-blue" alt="Website">
-  </a>
+> 🔥🔥🔥 This is a collection of papers on  ***LLM Ensemble***.  
+> <a href='https://arxiv.org/abs/2502.18036'>
+>   <img src='https://img.shields.io/badge/Arxiv-2502.18036-b31b1b.svg?logo=arXiv'>
+> </a>
+> <a href="https://junchenzhi.github.io/LLM-Ensemble/">
+>   <img src="https://img.shields.io/badge/Website-Visit%20Now-purple" alt="Website">
+> </a>
+> <a href="https://mp.weixin.qq.com/s/yVWzHQmr_KyyOfY5k3ivOw">
+>   <img src="https://img.shields.io/badge/Blog-(Chinese)-yellowgreen" alt="Blog (Chinese)">
+> </a>
+
+
+
 
 > **[Always] [Add your paper in this repo]** ***Thank you to all the papers that have cited our survey! 
 We will add all related citing papers to this GitHub repo, in a timely manner, to help increase the visibility of your contributions.***     
