@@ -425,6 +425,9 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
   - Name: DMoA, Code: -
 
 
+- **(Newly added paper, June 2025:) EL4NER: Ensemble Learning for Named Entity Recognition via Multiple Small-Parameter Large Language Models.** [[Paper]](https://arxiv.org/abs/2505.23038) (2025)
+  - Name: EL4NER, Code: -
+
 
 ### 2.3.2 (c,2) Cascade
 
