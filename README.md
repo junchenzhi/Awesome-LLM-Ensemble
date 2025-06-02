@@ -27,7 +27,7 @@
     <img src="https://img.shields.io/badge/Website-Visit%20Now-purple" alt="Website">
   </a>
   <a href="https://mp.weixin.qq.com/s/yVWzHQmr_KyyOfY5k3ivOw">
-    <img src="https://img.shields.io/badge/Blog-(Chinese)-yellowgreen" alt="Blog (Chinese)">
+    <img src="https://img.shields.io/badge/Blog-(Chinese)-orange" alt="Blog (Chinese)">
   </a>
 </p>
 
@@ -78,7 +78,7 @@
 >   <img src="https://img.shields.io/badge/Website-Visit%20Now-purple" alt="Website">
 > </a>
 > <a href="https://mp.weixin.qq.com/s/yVWzHQmr_KyyOfY5k3ivOw">
->   <img src="https://img.shields.io/badge/Blog-(Chinese)-yellowgreen" alt="Blog (Chinese)">
+>   <img src="https://img.shields.io/badge/Blog-(Chinese)-orange" alt="Blog (Chinese)">
 > </a>
 
 
