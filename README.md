@@ -534,7 +534,7 @@ Here we give some examples:
 - **(Newly added paper, May 2025:) A Survey on Collaborative Mechanisms Between Large and Small Language Models.** (2025) <a href="https://arxiv.org/abs/2505.07460"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GitHub: -
 
-- **A comprehensive review on ensemble deep learning: Opportunities and challenges.** (2023) <a href="https://www.sciencedirect.com/science/article/pii/S1319157823000228"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, May 2025:) A comprehensive review on ensemble deep learning: Opportunities and challenges.** (2023) <a href="https://www.sciencedirect.com/science/article/pii/S1319157823000228"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GitHub: -
 
 - **(Newly added paper, May 2025:) Doing More with Less – Implementing Routing Strategies in Large Language Model-Based Systems: An Extended Survey.** (2025) <a href="https://arxiv.org/abs/2502.00409"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
