@@ -15,7 +15,7 @@
     <a href="https://scholar.google.com/citations?user=D0lL1r0AAAAJ&hl=zh-CN/">Philip S. Yu</a>
   </p>
   <p align="center">
-    <img src="fig/logo.png" alt="Logo" width="62%">
+    <img src="fig/logo.png" alt="Logo" width="72%">
   </p>
 </p>
 
