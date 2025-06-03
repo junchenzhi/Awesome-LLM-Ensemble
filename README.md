@@ -514,6 +514,12 @@ Here we give some examples:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Consensus Entropy (CE), Task: Optical Character Recognition, Code: -
 
 
+- **(Newly added paper, June 2025:) Beyond Monoliths: Expert Orchestration for More Capable, Democratic, and Safe Large Language Models.** (2025) <a href="https://arxiv.org/abs/2506.00051"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Expert Orchestration, Task: -, Code: -
+
+
+
+
 
 ### 2.4.3 Related Surveys
 
