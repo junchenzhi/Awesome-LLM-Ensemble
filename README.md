@@ -256,19 +256,19 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 - **Routoo: Learning to Route to Large Language Models Effectively.** (2024) <a href="https://arxiv.org/abs/2401.13979"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Routoo, Code: -
 
-- **RouterDC: Query-Based Router by Dual Contrastive Learning for Assembling Large Language Models.** (2024) <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/7a641b8ec86162fc875fb9f6456a542f-Abstract-Conference.html"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, March 2025:) RouterDC: Query-Based Router by Dual Contrastive Learning for Assembling Large Language Models.** (2024) <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/7a641b8ec86162fc875fb9f6456a542f-Abstract-Conference.html"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: RouterDC, <a href="https://github.com/shuhao02/RouterDC"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
-- **Rethinking Predictive Modeling for LLM Routing: When Simple kNN Beats Complex Learned Routers.** (2025) <a href="https://arxiv.org/abs/2505.12601"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, May 2025:) Rethinking Predictive Modeling for LLM Routing: When Simple kNN Beats Complex Learned Routers.** (2025) <a href="https://arxiv.org/abs/2505.12601"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -, Code: -
 
-- **InferenceDynamics: Efficient Routing Across LLMs through Structured Capability and Knowledge Profiling.** (2025) <a href="https://arxiv.org/abs/2505.16303"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, May 2025:) InferenceDynamics: Efficient Routing Across LLMs through Structured Capability and Knowledge Profiling.** (2025) <a href="https://arxiv.org/abs/2505.16303"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: InferenceDynamics, Code: -
 
-- **CO-OPTIMIZING RECOMMENDATION AND EVALUATION FOR LLM SELECTION.** (2025) <a href="https://openreview.net/pdf?id=gWi4ZcPQRl"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, May 2025:) CO-OPTIMIZING RECOMMENDATION AND EVALUATION FOR LLM SELECTION.** (2025) <a href="https://openreview.net/pdf?id=gWi4ZcPQRl"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: RELM, Code: -
 
-- **Route to Reason: Adaptive Routing for LLM and Reasoning Strategy Selection.** (2025) <a href="https://arxiv.org/abs/2505.19435"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, May 2025:) Route to Reason: Adaptive Routing for LLM and Reasoning Strategy Selection.** (2025) <a href="https://arxiv.org/abs/2505.19435"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: RTR, <a href="https://github.com/goodmanpzh/Route-To-Reason"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
 
@@ -319,10 +319,10 @@ Figure 4:  Summary analysis of the key attributes of ensemble-during-inference m
 - **CITER: Collaborative Inference for Efficient Large Language Model Decoding with Token-Level Routing.** (2025) <a href="https://arxiv.org/abs/2502.01976"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: CITER, <a href="https://github.com/aiming-lab/CITER"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
-- **An Expert is Worth One Token: Synergizing Multiple Expert LLMs as Generalist via Expert Token Routing.** (2024) <a href="https://arxiv.org/abs/2403.16854"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, April 2025:) An Expert is Worth One Token: Synergizing Multiple Expert LLMs as Generalist via Expert Token Routing.** (2024) <a href="https://arxiv.org/abs/2403.16854"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: ETR, <a href="https://github.com/zjunet/ETR"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
-- **Speculative Ensemble: Fast Large Language Model Ensemble via Speculation.** (2025) <a href="https://arxiv.org/abs/2502.01662"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, April 2025:) Speculative Ensemble: Fast Large Language Model Ensemble via Speculation.** (2025) <a href="https://arxiv.org/abs/2502.01662"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Speculative Ensemble, <a href="https://github.com/Kamichanw/Speculative-Ensemble/"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
 
@@ -348,7 +348,7 @@ Figure 4:  Summary analysis of the key attributes of ensemble-during-inference m
 - **SpecFuse: Ensembling Large Language Models via Next-Segment Prediction.** (2024) <a href="https://arxiv.org/abs/2412.07380"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: SpecFuse, Code: -
 
-- **RLAE: Reinforcement Learning-Assisted Ensemble for LLMs.** (2025) <a href="https://arxiv.org/abs/2506.00439"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, June 2025:) RLAE: Reinforcement Learning-Assisted Ensemble for LLMs.** (2025) <a href="https://arxiv.org/abs/2506.00439"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: RLAE, Code: -
 
 
@@ -398,19 +398,19 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 - **URG: A Unified Ranking and Generation Method for Ensembling Language Models.** (2024) <a href="https://aclanthology.org/2024.findings-acl.261/"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: URG, Code: -
 
-- **DFPE: A Diverse Fingerprint Ensemble for Enhancing LLM Performance.** (2025) <a href="https://arxiv.org/abs/2501.17479"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, April 2025:) DFPE: A Diverse Fingerprint Ensemble for Enhancing LLM Performance.** (2025) <a href="https://arxiv.org/abs/2501.17479"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: DFPE, <a href="https://github.com/nivgold/DFPE"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
-- **Two Heads are Better than One: Zero-shot Cognitive Reasoning via Multi-LLM Knowledge Fusion.** (2024) <a href="https://dl.acm.org/doi/abs/10.1145/3627673.3679744"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, April 2025:) Two Heads are Better than One: Zero-shot Cognitive Reasoning via Multi-LLM Knowledge Fusion.** (2024) <a href="https://dl.acm.org/doi/abs/10.1145/3627673.3679744"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: MLKF, <a href="https://github.com/trueBatty/MLKF"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
-- **Symbolic Mixture-of-Experts: Adaptive Skill-based Routing for Heterogeneous Reasoning.** (2025) <a href="https://arxiv.org/abs/2503.05641"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, April 2025:) Symbolic Mixture-of-Experts: Adaptive Skill-based Routing for Heterogeneous Reasoning.** (2025) <a href="https://arxiv.org/abs/2503.05641"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Symbolic-MoE, <a href="https://github.com/dinobby/Symbolic-MoE/"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
-- **BALANCING ACT: DIVERSITY AND CONSISTENCY IN LARGE LANGUAGE MODEL ENSEMBLES.** (2025) <a href="https://openreview.net/pdf?id=Dl6nkKKvlX"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, April 2025:) BALANCING ACT: DIVERSITY AND CONSISTENCY IN LARGE LANGUAGE MODEL ENSEMBLES.** (2025) <a href="https://openreview.net/pdf?id=Dl6nkKKvlX"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: DMoA, Code: -
 
-- **EL4NER: Ensemble Learning for Named Entity Recognition via Multiple Small-Parameter Large Language Models.** (2025) <a href="https://arxiv.org/abs/2505.23038"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, June 2025:) EL4NER: Ensemble Learning for Named Entity Recognition via Multiple Small-Parameter Large Language Models.** (2025) <a href="https://arxiv.org/abs/2505.23038"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: EL4NER, Code: -
 
 
@@ -448,7 +448,7 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 - **Dynamic Ensemble Reasoning for LLM Experts.** (2024) <a href="https://arxiv.org/abs/2412.07448"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: DER, Code: -
 
-- **EMAFusionTM: A SELF-OPTIMIZING SYSTEM FOR SEAMLESS LLM SELECTION AND INTEGRATION.** (2025) <a href="https://arxiv.org/abs/2504.10681"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, April 2025:) EMAFusionTM: A SELF-OPTIMIZING SYSTEM FOR SEAMLESS LLM SELECTION AND INTEGRATION.** (2025) <a href="https://arxiv.org/abs/2504.10681"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: EMAFusionTM, Code: -
 
 
@@ -472,7 +472,7 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 - **RouterBench: A Benchmark for Multi-LLM Routing System.** (2024) <a href="https://arxiv.org/abs/2411.04424"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: RouterBench, Evaluation Goal: Performance and cost, <a href="https://github.com/withmartian/routerbench"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
-- **RouterEval: A Comprehensive Benchmark for Routing LLMs to Explore Model-level Scaling Up in LLMs.** (2025) <a href="https://arxiv.org/abs/2503.10657"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, April 2025:) RouterEval: A Comprehensive Benchmark for Routing LLMs to Explore Model-level Scaling Up in LLMs.** (2025) <a href="https://arxiv.org/abs/2503.10657"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Speculative Ensemble, <a href="https://github.com/MilkThink-Lab/RouterEval"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
 
@@ -495,13 +495,13 @@ Here we give some examples:
 - **LLM-Ensemble: Optimal Large Language Model Ensemble Method for E-commerce Product Attribute Value Extraction.** (2024) <a href="https://arxiv.org/abs/2403.00863"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -, Task: Product Attribute Value Extraction, Code: -
 
-- **FuseGen: PLM Fusion for Data-generation based Zero-shot Learning.** (2024) <a href="https://arxiv.org/abs/2406.12527"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, April 2025:) FuseGen: PLM Fusion for Data-generation based Zero-shot Learning.** (2024) <a href="https://arxiv.org/abs/2406.12527"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: FuseGen, Task: Data-generation, <a href="https://github.com/LindaLydia/FuseGen"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
-- **On Preserving the Knowledge of Long Clinical Texts.** (2023) <a href="https://arxiv.org/abs/2311.01571"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, April 2025:) On Preserving the Knowledge of Long Clinical Texts.** (2023) <a href="https://arxiv.org/abs/2311.01571"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -, Task: Prediction tasks on long clinical notes, Code: -
 
-- **Consensus Entropy: Harnessing Multi-VLM Agreement for Self-Verifying and Self-Improving OCR.** (2025) <a href="https://arxiv.org/abs/2504.11101"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, April 2025:) Consensus Entropy: Harnessing Multi-VLM Agreement for Self-Verifying and Self-Improving OCR.** (2025) <a href="https://arxiv.org/abs/2504.11101"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Consensus Entropy (CE), Task: Optical Character Recognition, Code: -
 
 
@@ -510,25 +510,25 @@ Here we give some examples:
 
 
 
-- **Model Merging in LLMs, MLLMs, and Beyond: Methods, Theories, Applications and Opportunities.** (2024) <a href="https://arxiv.org/abs/2408.07666"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, May 2025:) Model Merging in LLMs, MLLMs, and Beyond: Methods, Theories, Applications and Opportunities.** (2024) <a href="https://arxiv.org/abs/2408.07666"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GitHub: <a href="https://github.com/EnnengYang/Awesome-Model-Merging-Methods-Theories-Applications"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
-- **Merge, Ensemble, and Cooperate! A Survey on Collaborative Strategies in the Era of Large Language Models.** (2024) <a href="https://arxiv.org/abs/2407.06089"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, May 2025:) Merge, Ensemble, and Cooperate! A Survey on Collaborative Strategies in the Era of Large Language Models.** (2024) <a href="https://arxiv.org/abs/2407.06089"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GitHub: -
 
-- **A Survey on Collaborative Mechanisms Between Large and Small Language Models.** (2025) <a href="https://arxiv.org/abs/2505.07460"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, May 2025:) A Survey on Collaborative Mechanisms Between Large and Small Language Models.** (2025) <a href="https://arxiv.org/abs/2505.07460"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GitHub: -
 
 - **A comprehensive review on ensemble deep learning: Opportunities and challenges.** (2023) <a href="https://www.sciencedirect.com/science/article/pii/S1319157823000228"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GitHub: -
 
-- **Doing More with Less – Implementing Routing Strategies in Large Language Model-Based Systems: An Extended Survey.** (2025) <a href="https://arxiv.org/abs/2502.00409"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, May 2025:) Doing More with Less – Implementing Routing Strategies in Large Language Model-Based Systems: An Extended Survey.** (2025) <a href="https://arxiv.org/abs/2502.00409"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GitHub: -
 
-- **A Survey on Model MoErging: Recycling and Routing Among Specialized Experts for Collaborative Learning.** (2024) <a href="https://arxiv.org/abs/2408.07057"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, May 2025:) A Survey on Model MoErging: Recycling and Routing Among Specialized Experts for Collaborative Learning.** (2024) <a href="https://arxiv.org/abs/2408.07057"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GitHub: -
 
-- **Deep Model Fusion: A Survey.** (2023) <a href="https://arxiv.org/abs/2309.15698"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, May 2025:) Deep Model Fusion: A Survey.** (2023) <a href="https://arxiv.org/abs/2309.15698"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GitHub: -
 
 
