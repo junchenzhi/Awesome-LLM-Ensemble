@@ -369,11 +369,15 @@ Figure 4:  Summary analysis of the key attributes of ensemble-during-inference m
 
 
 - **SpecFuse: Ensembling Large Language Models via Next-Segment Prediction.** [[Paper]](https://arxiv.org/abs/2412.07380) (2024)<br> 
-  - Name: SpecFuse, Code: -
+&nbsp &nbsp Name: SpecFuse, Code: -
 
 
 - **(Newly added paper, June 2025:) RLAE: Reinforcement Learning-Assisted Ensemble for LLMs.** [[Paper]](https://arxiv.org/abs/2506.00439) (2025)<br>
 Name: RLAE, Code: -
+
+
+- LLM Bandit: Cost-Efficient LLM Generation via Preference-Conditioned Dynamic Routing. [Paper] (2025)  
+  &nbsp;&nbsp;&nbsp;&nbsp;Name: -, Code: -
 
 
 ### 2.2.3 (b,3) Process-Level Ensemble
