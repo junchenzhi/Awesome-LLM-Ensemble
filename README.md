@@ -10,12 +10,12 @@
     <a href="https://scholar.google.com/citations?user=buUlnJUAAAAJ&hl=zh-CN">Kai Sun<sup>4</sup></a>,
     <a href="https://luoyk1999.github.io/">Yuankai Luo<sup>1</sup></a>,
     <a href="https://scholar.google.com/citations?hl=zh-CN&user=PnDqlPkAAAAJ&view_op=list_works&sortby=pubdate">Qianren Mao<sup>2</sup></a>,
-    <a href="https://scholar.google.co.uk/citations?user=fnfg9S0AAAAJ&hl=en">Dingqi Yang<sup>15</sup></a>,
+    <a href="https://scholar.google.co.uk/citations?user=fnfg9S0AAAAJ&hl=en">Dingqi Yang<sup>5</sup></a>,
     <a href="https://scholar.google.com/citations?user=HWOWCdcAAAAJ&hl=zh-CN">Hailong Sun<sup>1</sup></a>,
     <a href="https://scholar.google.com/citations?user=D0lL1r0AAAAJ&hl=zh-CN/">Philip S. Yu<sup>6</sup></a>
 </p>
 <p align="center">
-  <i>1 Beihang University · 2 Zhongguancun Lab · 3 AVIC Beijing · 4 Xi’an Jiaotong University · 5 University of Macau · 6 University of Illinois Chicago</i><br>
+  1 Beihang University · 2 Zhongguancun Lab · 3 AVIC Beijing · 4 Xi’an Jiaotong University · 5 University of Macau · 6 University of Illinois Chicago<br>
 </p>
 
 <p align="center">
