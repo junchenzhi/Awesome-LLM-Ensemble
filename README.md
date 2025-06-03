@@ -283,7 +283,7 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Name: InferenceDynamics, Code: -
   
 
-- **(Newly added paper, May 2025:) CO-OPTIMIZING RECOMMENDATION AND EVALUATION FOR LLM SELECTION.** [[Paper]](https://openreview.net/pdf?id=gWi4ZcPQRl) (2025)
+- **(Newly added paper, May 2025:) CO-OPTIMIZING RECOMMENDATION AND EVALUATION FOR LLM SELECTION.** [[Paper]](https://openreview.net/pdf?id=gWi4ZcPQRl) (2025)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Name: RELM, Code: -
 
 
@@ -369,11 +369,11 @@ Figure 4:  Summary analysis of the key attributes of ensemble-during-inference m
 
 
 - **SpecFuse: Ensembling Large Language Models via Next-Segment Prediction.** [[Paper]](https://arxiv.org/abs/2412.07380) (2024)  
-<span style="padding-left: 3em;">Name: SpecFuse, Code: -
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Name: SpecFuse, Code: -
 
 
 - **(Newly added paper, June 2025:) RLAE: Reinforcement Learning-Assisted Ensemble for LLMs.** [[Paper]](https://arxiv.org/abs/2506.00439) (2025)  
-<span style="padding-left: 3em;">Name: RLAE, Code: -
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Name: RLAE, Code: -
 
 
 
