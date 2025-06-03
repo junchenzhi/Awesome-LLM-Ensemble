@@ -220,11 +220,11 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 
 
 - **LLM Routing with Benchmark Datasets.** [[Paper]](https://openreview.net/forum?id=k9EfAJhFZc) (2023)  
-<span style="padding-left: 7em;">Name: -, Code: -
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Name: -, Code: -
 
 
 - **RouteLLM: Learning to Route LLMs with Preference Data.** [[Paper]](https://arxiv.org/abs/2406.18665) (2024)  
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Name: RouteLLM, Code: [[Official]](https://github.com/lm-sys/RouteLLM)  
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Name: RouteLLM, Code: [[Official]](https://github.com/lm-sys/RouteLLM)  
 
 
 - **Hybrid LLM: Cost-Efficient and Quality-Aware Query Routing.** [[Paper]](https://arxiv.org/abs/2404.14618) (2024)  
@@ -283,7 +283,7 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 <span style="padding-left: 2.5em;">Name: InferenceDynamics, Code: -
   
 
-- **(Newly added paper, May 2025:) CO-OPTIMIZING RECOMMENDATION AND EVALUATION FOR LLM SELECTION.** [[Paper]](https://openreview.net/pdf?id=gWi4ZcPQRl) (2025)
+- **(Newly added paper, May 2025:) CO-OPTIMIZING RECOMMENDATION AND EVALUATION FOR LLM SELECTION.** [[Paper]](https://openreview.net/pdf?id=gWi4ZcPQRl) (2025)
 <span style="padding-left: 2.5em;">Name: RELM, Code: -
 
 
