@@ -122,7 +122,7 @@ We will add all related citing papers to this GitHub repo, in a timely manner, t
     - 2.3 [Ensemble After Inference](#23-ensemble-after-inference)
     - 2.4 [Others: Benchmarks, Applications and Related Surveys](#24-others-benchmarks-applications-and-related-surveys)
   - 3 [Summarization](#3-summarization) 
-  -  [Citation](#citation)
+  - 4 [Citation](#citation)
 
 
 
@@ -550,7 +550,7 @@ Figure 6:  Summary analysis of the key attributes of LLM Ensemble approaches.
 
 
 
-## Citation
+## 4 Citation
 
 
 ```
