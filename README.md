@@ -372,6 +372,8 @@ Figure 4:  Summary analysis of the key attributes of ensemble-during-inference m
   - Name: SpecFuse, Code: -
 
 
+- **(Newly added paper, June 2025:) RLAE: Reinforcement Learning-Assisted Ensemble for LLMs.** [[Paper]](https://arxiv.org/abs/2506.00439) (2025)<br> 
+  - Name: RLAE, Code: -
 
 
 ### 2.2.3 (b,3) Process-Level Ensemble
