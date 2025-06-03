@@ -121,7 +121,7 @@ We will add all related citing papers to this GitHub repo, in a timely manner, t
     - 2.2 [Ensemble During Inference](#22-ensemble-during-inference)
     - 2.3 [Ensemble After Inference](#23-ensemble-after-inference)
     - 2.4 [Others: Benchmarks, Applications and Related Surveys](#24-others-benchmarks-applications-and-related-surveys)
-  - 3 [Summarization](#3-summarization)
+  - 3 [Summarization](#3-summarization) 
   -  [Citation](#citation)
 
 
@@ -538,7 +538,7 @@ Here we give some examples:
 &nbsp;  
 &nbsp; 
 
-## 3 Summarization 🚀
+## 3 Summarization 
 
 <div align=center>
 <img src="./fig/summary.png" width="90%">
