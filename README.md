@@ -15,13 +15,10 @@
     <a href="https://scholar.google.com/citations?user=D0lL1r0AAAAJ&hl=zh-CN/">Philip S. Yu<sup>6</sup></a>
 </p>
 <p align="center">
-  1 Beihang University · 2 Zhongguancun Lab · 3 AVIC Beijing · 4 Xi’an Jiaotong University · 5 University of Macau  · 6 University of Illinois Chicago<br>
+  <sub><span style="color:gray; font-size:smaller;">1 Beihang University · 2 Zhongguancun Lab · 3 AVIC Beijing · 4 Xi’an Jiaotong University · 5 University of Macau · 6 University of Illinois Chicago</span></sub>
 </p>
 <p align="center">
-  <span style="color:gray; font-size:90%">1 Beihang University · 2 Zhongguancun Lab · 3 AVIC Beijing · 4 Xi’an Jiaotong University · 5 University of Macau · 6 University of Illinois Chicago</span>
-</p>
-<p align="center">
-  <sub><i><span style="color:gray; font-size:smaller;">1 Beihang University · 2 Zhongguancun Lab · 3 AVIC Beijing · 4 Xi’an Jiaotong University · 5 University of Macau · 6 University of Illinois Chicago</span></i></sub>
+  <sub><i><font color="#999999">1 Beihang University · 2 Zhongguancun Lab · 3 AVIC Beijing · 4 Xi’an Jiaotong University · 5 University of Macau · 6 University of Illinois Chicago</font></i></sub>
 </p>
 <p align="center">
     <img src="fig/logo.png" alt="Logo" width="72%">
