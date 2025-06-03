@@ -122,7 +122,7 @@ We will add all related citing papers to this GitHub repo, in a timely manner, t
     - 2.3 [Ensemble After Inference](#23-ensemble-after-inference)
     - 2.4 [Others: Benchmarks, Applications and Related Surveys](#24-others-benchmarks-applications-and-related-surveys)
   - 3 [Summarization](#3-summarization) 
-  - 4 [Citation](#citation)
+  - 4 [Citation](#4-citation)
 
 
 
