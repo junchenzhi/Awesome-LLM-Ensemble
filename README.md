@@ -224,7 +224,7 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 
 
 - **RouteLLM: Learning to Route LLMs with Preference Data.** [[Paper]](https://arxiv.org/abs/2406.18665) (2024)  
-<span style="padding-left: 2.5em;">Name: RouteLLM, Code: [[Official]](https://github.com/lm-sys/RouteLLM)  
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Name: RouteLLM, Code: [[Official]](https://github.com/lm-sys/RouteLLM)  
 
 
 - **Hybrid LLM: Cost-Efficient and Quality-Aware Query Routing.** [[Paper]](https://arxiv.org/abs/2404.14618) (2024)  
