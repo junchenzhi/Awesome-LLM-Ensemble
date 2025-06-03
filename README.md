@@ -224,19 +224,19 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 
 
 - **RouteLLM: Learning to Route LLMs with Preference Data.** [[Paper]](https://arxiv.org/abs/2406.18665) (2024)  
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Name: RouteLLM, Code: [[Official]](https://github.com/lm-sys/RouteLLM)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Name: RouteLLM, Code: [[Official]](https://github.com/lm-sys/RouteLLM)  
 
 
 - **Hybrid LLM: Cost-Efficient and Quality-Aware Query Routing.** [[Paper]](https://arxiv.org/abs/2404.14618) (2024)  
-<span style="padding-left: 2.5em;">Name: Hybrid-LLM, Code: [[Official]](https://github.com/m365-core/hybrid_llm_routing)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Name: Hybrid-LLM, Code: [[Official]](https://github.com/m365-core/hybrid_llm_routing)
 
 
 - **LLM Bandit: Cost-Efficient LLM Generation via Preference-Conditioned Dynamic Routing.** [[Paper]](https://arxiv.org/abs/2502.02743) (2025)  
-<span style="padding-left: 2.5em;">Name: -, Code: -
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Name: -, Code: -
 
 
 - **Harnessing the Power of Multiple Minds: Lessons Learned from LLM Routing.** [[Paper]](https://arxiv.org/abs/2405.00467) (2024)  
-<span style="padding-left: 2.5em;">Name: -, Code: [[Official]](https://github.com/kvadityasrivatsa/llm-routing) 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Name: -, Code: [[Official]](https://github.com/kvadityasrivatsa/llm-routing) 
 
 
 - **MetaLLM: A High-performant and Cost-efficient Dynamic Framework for Wrapping LLMs.** [[Paper]](https://arxiv.org/abs/2407.10834) (2024)  
