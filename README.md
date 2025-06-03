@@ -21,6 +21,9 @@
   <span style="color:gray; font-size:90%">1 Beihang University · 2 Zhongguancun Lab · 3 AVIC Beijing · 4 Xi’an Jiaotong University · 5 University of Macau · 6 University of Illinois Chicago</span>
 </p>
 <p align="center">
+  <sub><i><span style="color:gray; font-size:smaller;">1 Beihang University · 2 Zhongguancun Lab · 3 AVIC Beijing · 4 Xi’an Jiaotong University · 5 University of Macau · 6 University of Illinois Chicago</span></i></sub>
+</p>
+<p align="center">
     <img src="fig/logo.png" alt="Logo" width="72%">
 </p>
 
