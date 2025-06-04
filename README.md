@@ -1,4 +1,4 @@
-<h1 align="center">🔥🔥🔥 Awesome-LLM-Ensemble 🔥🔥🔥
+<h1 align="center">🔥🔥🔥 Awesome-LLM-Ensemble
 
 "Harnessing Multiple Large Language Models: A Survey on LLM Ensemble"  (ArXiv 2025) </h2>
 
