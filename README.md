@@ -8,7 +8,7 @@
     <a href="https://scholar.google.com/citations?user=mzXg1s8AAAAJ&hl=zh-CN">Pengpeng Chen</a>,
     <a href="https://scholar.google.com/citations?user=Hh-IHMoAAAAJ&hl=zh-CN">Zhuoran Li</a>,
     <a href="https://scholar.google.com/citations?user=buUlnJUAAAAJ&hl=zh-CN">Kai Sun</a>,
-    <a href="https://luoyk1999.github.io/">Yuankai Luo<sup>1</sup></a>,
+    <a href="https://luoyk1999.github.io/">Yuankai Luo</a>,
     <a href="https://scholar.google.com/citations?hl=zh-CN&user=PnDqlPkAAAAJ&view_op=list_works&sortby=pubdate">Qianren Mao</a>,
     <a href="https://scholar.google.co.uk/citations?user=fnfg9S0AAAAJ&hl=en">Dingqi Yang</a>,
     <a href="https://scholar.google.com/citations?user=HWOWCdcAAAAJ&hl=zh-CN">Hailong Sun</a>,
