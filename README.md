@@ -338,14 +338,7 @@ Figure 4:  Summary analysis of the key attributes of ensemble-during-inference m
 
 ### 2.2.2 (b,2) Span-Level Ensemble
 
-- **PickLLM: Context-Aware RL-Assisted Large Language Model Routing.** (2024) <a href="https://arxiv.org/abs/2412.12170"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: PickLLM, Code: -
 
-- **Eagle: Efficient Training-Free Router for Multi-LLM Inference.** (2024) <a href="https://arxiv.org/abs/2409.15518"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Eagle, Code: -
-
-- **Blending Is All You Need: Cheaper, Better Alternative to Trillion-Parameters LLM.** (2024) <a href="https://arxiv.org/abs/2401.02994"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Blending, Code: -
 
 - **Cool-Fusion: Fuse Large Language Models without Training.** (2024) <a href="https://arxiv.org/abs/2407.19807"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Cool-Fusion, Code: -
