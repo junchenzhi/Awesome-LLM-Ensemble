@@ -126,8 +126,9 @@ We will add all related citing papers to this GitHub repo, in a timely manner, t
     - 2.2 [Ensemble During Inference](#22-ensemble-during-inference)
     - 2.3 [Ensemble After Inference](#23-ensemble-after-inference)
     - 2.4 [Others: Benchmarks, Applications and Related Surveys](#24-others-benchmarks-applications-and-related-surveys)
-  - 3 [Summarization](#3-summarization) 
-  - 4 [Citation](#4-citation)
+  - 3 [Others: Some open-source implementations of the LLM Ensemble methods](#3-others-some-open-source-implementations-of-the-llm-ensemble-methods)
+  - 4 [Summarization](#4-summarization) 
+  - 5 [Citation](#5-citation)
 
 
 
@@ -545,19 +546,25 @@ Here we give some examples:
 &nbsp;  
 &nbsp; 
 
-## 3 Summarization 
+## 3 Others: Some  open-source implementations of the LLM Ensemble methods 
 
-<div align=center>
-<img src="./fig/summary.png" width="90%">
+
+
+- **(Newly added, May 2025:) Ensemble-Hub.** (2025)   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GitHub: <a href="https://github.com/Fzkuji/Ensemble-Hub"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
+
+
+
+
+## 4 Summarization 
+
+<div align=center><img src="./fig/summary.png" width="90%">
 
 Figure 6:  Summary analysis of the key attributes of LLM Ensemble approaches.
 </div> 
 
 
-
-
-
-## 4 Citation
+## 5 Citation
 
 
 ```
