@@ -540,6 +540,13 @@ Here we give some examples:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GitHub: -
 
 
+
+- **(Newly added paper, June 2025:) Towards Efficient Multi-LLM Inference: Characterization and Analysis of LLM Routing and Hierarchical Techniques.** (2023) <a href="https://www.arxiv.org/abs/2506.06579"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GitHub: -
+
+
+
+
 ---
 
 &nbsp; 
