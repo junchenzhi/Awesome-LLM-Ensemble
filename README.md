@@ -97,16 +97,6 @@ We will add all related citing papers to this GitHub repo, in a timely manner, t
 > **[Always] [Maintain]** ***We will make this list updated frequently (at least until 12/31/2025)!***     
 > If you found any error or any missed/new paper, please don't hesitate to contact [us](zhijunchen@buaa.edu.cn) or Pull requests. 
 
-> **[Always] [Collaboration]** If you have any new and interesting ideas, feel free to discuss with us and explore potential collaborations.
-
-
-# 📣 News
-
-
-> **[3/18/2025]** We would like to extend our gratitude to the authors of the following two papers for reaching out to us.  
-> We have now added these papers to this repository: 1) "Purifying large language models by ensembling a small language model"; 2) "RouterDC: Query-Based Router by Dual Contrastive Learning for Assembling Large Language Models". 
-
----
 
 
 
