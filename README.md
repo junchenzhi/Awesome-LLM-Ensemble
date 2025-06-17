@@ -285,7 +285,12 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Blending, Code: -
 
 
-&nbsp; 
+- **(Newly added paper, June 2025:) The Avengers: A Simple Recipe for Uniting Smaller Language Models to Challenge Proprietary Giants.** (2025) <a href="https://arxiv.org/abs/2505.19797"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Avengers, <a href="https://github.com/ZhangYiqun018/Avengers"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
+
+
+
+
 
 ## 2.2 Ensemble During Inference
 
@@ -444,9 +449,10 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 - **(Newly added paper, April 2025:) EMAFusionTM: A SELF-OPTIMIZING SYSTEM FOR SEAMLESS LLM SELECTION AND INTEGRATION.** (2025) <a href="https://arxiv.org/abs/2504.10681"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: EMAFusionTM, Code: -
 
+- **(Newly added paper, June 2025:) Do We Truly Need So Many Samples? Multi-LLM Repeated Sampling Efficiently Scales Test-Time Compute.** (2025) <a href="https://arxiv.org/abs/2504.00762"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: ModelSwitch, <a href="https://github.com/JianhaoChen-nju/ModelSwitch"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
 
-&nbsp; 
 
 
 
@@ -557,7 +563,30 @@ Here we give some examples:
 &nbsp;  
 &nbsp; 
 
-## 4 Summarization 
+
+## 4 Others: Some other related interesting papers 
+
+
+Here we briefly list some related papers, which are either discovered by us or suggested by the authors to this repository. 
+They mainly focus on **LLM Collaboration**.
+
+- **(Newly added paper, June 2025:)  If Multi-Agent Debate is the Answer, What is the Question?** (2025) <a href="https://arxiv.org/abs/2502.08788"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Heter-MAD,  Code: -
+
+- **(Newly added paper, June 2025:)  Nature-Inspired Population-Based Evolution of Large Language Models** (2025) <a href="https://arxiv.org/abs/2503.01155"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: GENOME,   <a href="https://github.com/ZhangYiqun018/GENOME"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
+
+
+
+
+---
+
+&nbsp; 
+&nbsp;  
+&nbsp; 
+
+
+## 5 Summarization 
 
 <div align=center><img src="./fig/summary.png" width="90%">
 
@@ -570,7 +599,7 @@ Figure 6:  Summary analysis of the key attributes of LLM Ensemble approaches.
 &nbsp;  
 &nbsp; 
 
-## 5 Citation
+## 6 Citation
 
 
 ```
