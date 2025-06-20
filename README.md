@@ -118,8 +118,9 @@ We will add all related citing papers to this GitHub repo, in a timely manner, t
     - 2.3 [Ensemble After Inference](#23-ensemble-after-inference)
     - 2.4 [Others: Benchmarks, Applications and Related Surveys](#24-others-benchmarks-applications-and-related-surveys)
   - 3 [Others: Some pubilic implementations of the LLM Ensemble methods](#3-others-some-public-implementations-of-the-llm-ensemble-methods)
-  - 4 [Summarization](#4-summarization) 
-  - 5 [Citation](#5-citation)
+  - 4 [Others: Some other related interesting papers](#4-Others-some-other-related-interesting-papers) 
+  - 5 [Summarization](#5-summarization) 
+  - 6 [Citation](#6-citation)
 
 
 
