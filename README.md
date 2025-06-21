@@ -273,6 +273,13 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: RadialRouter, Code: -
 
 
+- **(Newly added paper, June 2025:) TAGROUTER: Learning Route to LLMs through Tags for Open-Domain Text Generation Tasks.** (2025) <a href="https://arxiv.org/abs/2506.12473"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: TagRouter, Code: -
+
+
+
+
+
 ### 2.1.2 (a,2) Non pre-trained router
 
 
