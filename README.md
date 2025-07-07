@@ -544,14 +544,11 @@ Here we give some examples:
 - **(Newly added paper, May 2025:) Deep Model Fusion: A Survey.** (2023) <a href="https://arxiv.org/abs/2309.15698"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GitHub: -
 
-
-
-- **(Newly added paper, June 2025:) Towards Efficient Multi-LLM Inference: Characterization and Analysis of LLM Routing and Hierarchical Techniques.** (2023) <a href="https://www.arxiv.org/abs/2506.06579"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, June 2025:) Towards Efficient Multi-LLM Inference: Characterization and Analysis of LLM Routing and Hierarchical Techniques.** (2025) <a href="https://www.arxiv.org/abs/2506.06579"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GitHub: -
 
-
-
-
+- **(Newly added paper, July 2025:) Toward Edge General Intelligence with Multiple-Large Language Model (Multi-LLM): Architecture, Trust, and Orchestration.** (2025) <a href="https://arxiv.org/abs/2507.00672"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GitHub: -
 ---
 
 &nbsp; 
