@@ -416,8 +416,15 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 - **(Newly added paper, April 2025:) BALANCING ACT: DIVERSITY AND CONSISTENCY IN LARGE LANGUAGE MODEL ENSEMBLES.** (2025) <a href="https://openreview.net/pdf?id=Dl6nkKKvlX"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: DMoA, Code: -
 
+
 - **(Newly added paper, June 2025:) EL4NER: Ensemble Learning for Named Entity Recognition via Multiple Small-Parameter Large Language Models.** (2025) <a href="https://arxiv.org/abs/2505.23038"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: EL4NER, Code: -
+
+
+- **(Newly added paper, September 2025:) LENS: Learning Ensemble Confidence from Neural States for Multi-LLM Answer Integration.** (2025) <a href="https://arxiv.org/abs/2507.23167"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: EL4NER, Code: -
+
+
 
 
 ### 2.3.2 (c,2) Cascade
