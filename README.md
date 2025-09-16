@@ -596,6 +596,11 @@ They mainly focus on **LLM Collaboration**.
 
 
 
+- **(Newly added paper, September 2025:)  Small-Large Collaboration: Training-efficient Concept Personalization for Large VLM** (2025) <a href="https://arxiv.org/abs/2508.07260"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: SLC,   <a href="https://github.com/Hhankyangg/SLC"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
+
+
+
 
 ---
 
