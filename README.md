@@ -591,8 +591,8 @@ They mainly focus on **LLM Collaboration**.
 
 
 
-- **(Newly added paper, June 2025:)  LLM-Forest: Ensemble Learning of LLMs with Graph-Augmented Prompts for Data Imputation** (2024) <a href="https://arxiv.org/abs/2410.21520"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: GENOME,   <a href="https://github.com/Xinrui17/LLM-Forest"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
+- **(Newly added paper, September 2025:)  LLM-Forest: Ensemble Learning of LLMs with Graph-Augmented Prompts for Data Imputation** (2024) <a href="https://arxiv.org/abs/2410.21520"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: LLM-Forest,   <a href="https://github.com/Xinrui17/LLM-Forest"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
 
 
