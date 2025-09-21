@@ -427,6 +427,14 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 
 
 
+- **(Newly added paper, September 2025:) CARGO: A Framework for Confidence-Aware Routing of Large Language Models.** (2025) <a href="https://arxiv.org/abs/2509.14899"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name:  CARGO, Code: -
+
+
+
+
+
+
 ### 2.3.2 (c,2) Cascade
 
 
