@@ -3,14 +3,17 @@
 "Harnessing Multiple Large Language Models: A Survey on LLM Ensemble"  (ArXiv 2025) </h2>
 
 <p align="center">
-    <a href="https://scholar.google.com/citations?user=3slpkWAAAAAJ&hl=zh-CN">Zhijun Chen</a>,
-    <a href="https://scholar.google.com/citations?user=6v6JfdsAAAAJ&hl=zh-CN">Jingzheng Li</a>,
-    <a href="https://scholar.google.com/citations?user=mzXg1s8AAAAJ&hl=zh-CN">Pengpeng Chen</a>,
-    <a href="https://scholar.google.com/citations?user=Hh-IHMoAAAAJ&hl=zh-CN">Zhuoran Li</a>,
-    <a href="https://scholar.google.com/citations?user=buUlnJUAAAAJ&hl=zh-CN">Kai Sun</a>,
+    <a href="https://zhijunchen-ai.github.io/">Zhijun Chen</a>,
+    <a href="https://scholar.google.com/citations?user=6v6JfdsAAAAJ&hl=zh-en">Jingzheng Li</a>,
+    <a href="https://scholar.google.com/citations?user=mzXg1s8AAAAJ&hl=zh-en">Pengpeng Chen</a>,
+    <a href="https://lizhuoran-nlp.github.io/">Zhuoran Li</a>,
+    <a href="https://scholar.google.com/citations?user=buUlnJUAAAAJ&hl=zh-en">Kai Sun</a>,
     <a href="https://luoyk1999.github.io/">Yuankai Luo</a>,
     <a href="https://scholar.google.com/citations?hl=zh-CN&user=PnDqlPkAAAAJ&view_op=list_works&sortby=pubdate">Qianren Mao</a>,
+    <a href="https://scholar.google.com/citations?user=H3pKglUAAAAJ&hl=zh-en">Ming Li</a>,    
+    <a href="https://www.researchgate.net/scientific-contributions/Likang-Xiao-2257895822">Likang Xiao</a>,
     <a href="https://scholar.google.co.uk/citations?user=fnfg9S0AAAAJ&hl=en">Dingqi Yang</a>,
+    <a href="https://www.banyikun.com/">Yikun Ban</a>,
     <a href="https://scholar.google.com/citations?user=HWOWCdcAAAAJ&hl=zh-CN">Hailong Sun</a>,
     <a href="https://scholar.google.com/citations?user=D0lL1r0AAAAJ&hl=zh-CN/">Philip S. Yu</a>
 </p>
