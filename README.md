@@ -341,6 +341,8 @@ Figure 4:  Summary analysis of the key attributes of ensemble-during-inference m
 - **(Newly added paper, April 2025:) Speculative Ensemble: Fast Large Language Model Ensemble via Speculation.** (2025) <a href="https://arxiv.org/abs/2502.01662"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Speculative Ensemble, <a href="https://github.com/Kamichanw/Speculative-Ensemble/"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
+- **(Newly added paper, September 2025:) Transformer Copilot: Learning from The Mistake Log in LLM Fine-tuning.** (2025) <a href="https://arxiv.org/abs/2505.16270"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Transformer Copilot, <a href="https://github.com/jiaruzouu/TransformerCopilot"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
 
 
@@ -432,6 +434,11 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 
 - **(Newly added paper, September 2025:) CARGO: A Framework for Confidence-Aware Routing of Large Language Models.** (2025) <a href="https://arxiv.org/abs/2509.14899"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name:  CARGO, Code: -
+
+- **(Newly added paper, September 2025:) LLM-Forest: Ensemble Learning of LLMs with Graph-Augmented Prompts for Data Imputation.** (2025) <a href="https://arxiv.org/abs/2410.21520"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name:  LLM-Forest, <a href="https://github.com/Xinrui17/LLM-Forest"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
+
+
 
 
 
