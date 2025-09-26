@@ -612,11 +612,16 @@ They mainly focus on **LLM Collaboration**.
 - **(Newly added paper, September 2025:)  LLM-Forest: Ensemble Learning of LLMs with Graph-Augmented Prompts for Data Imputation** (2024) <a href="https://arxiv.org/abs/2410.21520"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: LLM-Forest,   <a href="https://github.com/Xinrui17/LLM-Forest"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
-
-
+  
 - **(Newly added paper, September 2025:)  Small-Large Collaboration: Training-efficient Concept Personalization for Large VLM** (2025) <a href="https://arxiv.org/abs/2508.07260"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: SLC,   <a href="https://github.com/Hhankyangg/SLC"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
+
+- **(Newly added paper, September 2025:)  Best-of-∞ – Asymptotic Performance of Test-Time Compute** (2025) <a href="https://arxiv.org/abs/2509.21091"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: SLC,   <a href="https://github.com/jkomiyama/BoInf-code-publish"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
+
+- **(Newly added paper, September 2025:)  MIXTURE OF THOUGHTS: LEARNING TO AGGREGATE WHAT EXPERTS THINK, NOT JUST WHAT THEY SAY** (2025) <a href="https://arxiv.org/abs/2509.21164"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: SLC,   <a href="https://github.com/jacobfa/mot"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
 
 
