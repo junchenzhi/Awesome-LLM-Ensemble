@@ -651,7 +651,7 @@ Figure 6:  Summary analysis of the key attributes of LLM Ensemble approaches.
 ```
 @article{chen2025harnessing,
   title={Harnessing Multiple Large Language Models: A Survey on LLM Ensemble},
-  author={Chen, Zhijun and Li, Jingzheng and Chen, Pengpeng and Li, Zhuoran and Sun, Kai and Luo, Yuankai and Mao, Qianren and Yang, Dingqi and Ban, Yikun and Sun, Hailong and Yu, Philip S},
+  author={Chen, Zhijun and Li, Jingzheng and Chen, Pengpeng and Li, Zhuoran and Sun, Kai and Luo, Yuankai and Mao, Qianren and Li, Ming and Xiao, Likang and Yang, Dingqi and Ban, Yikun and Sun, Hailong and Yu, Philip S},
   journal={arXiv preprint arXiv:2502.18036},
   year={2025}
 }
