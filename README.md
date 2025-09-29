@@ -490,6 +490,9 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 
 
 
+- **(Newly added paper, September 2025:) Semantic Agreement Enables Efficient Open-Ended LLM Cascades.** (2025) <a href="https://www.arxiv.org/abs/2509.21837"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -, Code: -
+
 
 
 &nbsp; 
