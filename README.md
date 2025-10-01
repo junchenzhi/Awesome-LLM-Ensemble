@@ -443,6 +443,10 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 
 
 
+- **(Newly added paper, October 2025:) Explainable Fault Localization for Programming Assignments via LLM-Guided Annotation.** (2025) <a href="https://arxiv.org/pdf/2509.25676v1"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name:  FLAME, <a href="https://github.com/FLAME-FL/FLAME"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
+
+
 
 
 
@@ -545,6 +549,11 @@ Here we give some examples:
 
 - **(Newly added paper, June 2025:) Beyond Monoliths: Expert Orchestration for More Capable, Democratic, and Safe Large Language Models.** (2025) <a href="https://arxiv.org/abs/2506.00051"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Expert Orchestration, Task: -, Code: -
+
+
+
+- **(Newly added paper, October 2025:) Explainable Fault Localization for Programming Assignments via LLM-Guided Annotation.** (2025) <a href="https://arxiv.org/pdf/2509.25676v1"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name:  FLAME, <a href="https://github.com/FLAME-FL/FLAME"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
 
 
