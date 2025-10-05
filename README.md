@@ -280,6 +280,10 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: TagRouter, Code: -
 
 
+- **(Newly added paper, October 2025:) LLMRank: Understanding LLM Strengths for Model Routing.** (2025) <a href="https://arxiv.org/abs/2510.01234"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: LLMRank, Code: -
+
+
 
 
 
@@ -446,6 +450,11 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 - **(Newly added paper, October 2025:) Explainable Fault Localization for Programming Assignments via LLM-Guided Annotation.** (2025) <a href="https://arxiv.org/pdf/2509.25676v1"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name:  FLAME, <a href="https://github.com/FLAME-FL/FLAME"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
+
+
+
+- **(Newly added paper, October 2025:) Beyond Majority Voting: LLM Aggregation by Leveraging Higher-Order Information.** (2025) <a href="https://www.arxiv.org/abs/2510.01499"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: OW/ISP, Code: -
 
 
 
