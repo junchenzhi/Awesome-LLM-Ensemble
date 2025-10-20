@@ -111,19 +111,30 @@ We will add all related citing papers to this GitHub repo, in a timely manner, t
 
 
 
-- [Contents](#Awesome-LLM-Ensemble)
-  - 1 [LLM Ensemble and Taxonomy](#1-llm-ensemble-and-taxonomy)
-    - 1.1 [LLM Ensemble](#11-llm-ensemble)
-    - 1.2 [Taxonomy](#12-taxonomy)
-  - 2 [Papers](#2-papers)
-    - 2.1 [Ensemble Before Inference](#21-ensemble-before-inference)
-    - 2.2 [Ensemble During Inference](#22-ensemble-during-inference)
-    - 2.3 [Ensemble After Inference](#23-ensemble-after-inference)
-    - 2.4 [Others: Benchmarks, Applications and Related Surveys](#24-others-benchmarks-applications-and-related-surveys)
-  - 3 [Others: Some pubilic implementations of the LLM Ensemble methods](#3-others-some-public-implementations-of-the-llm-ensemble-methods)
-  - 4 [Others: Some other related interesting papers](#4-Others-some-other-related-interesting-papers) 
-  - 5 [Summarization](#5-summarization) 
-  - 6 [Citation](#6-citation)
+- [📣 Notices](#-notices)
+- [1. LLM Ensemble and Taxonomy](#1-llm-ensemble-and-taxonomy)
+  - [1.1 LLM Ensemble](#11-llm-ensemble)
+  - [1.2 Taxonomy](#12-taxonomy)
+- [2. Papers](#2-papers)
+  - [2.1 Ensemble Before Inference](#21-ensemble-before-inference)
+    - [2.1.1 (a,1) Pre-Trained Router](#211-a1-pre-trained-router)
+    - [2.1.2 (a,2) Non pre-trained router](#212-a2-non-pre-trained-router)
+  - [2.2 Ensemble During Inference](#22-ensemble-during-inference)
+    - [2.2.1 (b,1) Token-Level Ensemble](#221-b1-token-level-ensemble)
+    - [2.2.2 (b,2) Span-Level Ensemble](#222-b2-span-level-ensemble)
+    - [2.2.3 (b,3) Process-Level Ensemble](#223-b3-process-level-ensemble)
+  - [2.3 Ensemble After Inference](#23-ensemble-after-inference)
+    - [2.3.1 (c,1) Non Cascade](#231-c1-non-cascade)
+    - [2.3.2 (c,2) Cascade](#232-c2-cascade)
+  - [2.4 Others: Benchmarks, Applications and Related Surveys](#24-others-benchmarks-applications-and-related-surveys)
+    - [2.4.1 Benchmarks](#241-benchmarks)
+    - [2.4.2 Applications](#242-applications)
+    - [2.4.3 Related Surveys](#243-related-surveys)
+  - [          GitHub: -](#github--)
+  - [3 Others: Some public implementations of the LLM Ensemble methods](#3-others-some-public-implementations-of-the-llm-ensemble-methods)
+  - [4 Others: Some other related interesting papers](#4-others-some-other-related-interesting-papers)
+  - [5 Summarization](#5-summarization)
+  - [6 Citation](#6-citation)
 
 
 
@@ -260,6 +271,9 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 - **(Newly added paper, March 2025:) RouterDC: Query-Based Router by Dual Contrastive Learning for Assembling Large Language Models.** (2024) <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/7a641b8ec86162fc875fb9f6456a542f-Abstract-Conference.html"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: RouterDC, <a href="https://github.com/shuhao02/RouterDC"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
+- **(Newly added paper, April 2025:) An Expert is Worth One Token: Synergizing Multiple Expert LLMs as Generalist via Expert Token Routing.** (2024) <a href="https://arxiv.org/abs/2403.16854"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: ETR, <a href="https://github.com/zjunet/ETR"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
+
 - **(Newly added paper, May 2025:) Rethinking Predictive Modeling for LLM Routing: When Simple kNN Beats Complex Learned Routers.** (2025) <a href="https://arxiv.org/abs/2505.12601"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -, Code: -
 
@@ -347,9 +361,6 @@ Figure 4:  Summary analysis of the key attributes of ensemble-during-inference m
 
 - **CITER: Collaborative Inference for Efficient Large Language Model Decoding with Token-Level Routing.** (2025) <a href="https://arxiv.org/abs/2502.01976"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: CITER, <a href="https://github.com/aiming-lab/CITER"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-- **(Newly added paper, April 2025:) An Expert is Worth One Token: Synergizing Multiple Expert LLMs as Generalist via Expert Token Routing.** (2024) <a href="https://arxiv.org/abs/2403.16854"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: ETR, <a href="https://github.com/zjunet/ETR"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
 - **(Newly added paper, April 2025:) Speculative Ensemble: Fast Large Language Model Ensemble via Speculation.** (2025) <a href="https://arxiv.org/abs/2502.01662"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Speculative Ensemble, <a href="https://github.com/Kamichanw/Speculative-Ensemble/"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
