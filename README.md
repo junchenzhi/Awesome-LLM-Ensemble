@@ -76,7 +76,6 @@
 
 
 
-
 # 📣 Notices
 > 🔥🔥🔥 This is a collection of papers on  ***LLM Ensemble***.  
 > <a href='https://arxiv.org/abs/2502.18036'>
@@ -111,29 +110,29 @@ We will add all related citing papers to this GitHub repo, in a timely manner, t
 
 
 
-
-- [1. LLM Ensemble and Taxonomy](#1-llm-ensemble-and-taxonomy)
-  - [1.1 LLM Ensemble](#11-llm-ensemble)
-  - [1.2 Taxonomy](#12-taxonomy)
-- [2. Papers](#2-papers)
-  - [2.1 Ensemble Before Inference](#21-ensemble-before-inference)
-    - [2.1.1 (a,1) Pre-Trained Router](#211-a1-pre-trained-router)
-    - [2.1.2 (a,2) Non pre-trained router](#212-a2-non-pre-trained-router)
-  - [2.2 Ensemble During Inference](#22-ensemble-during-inference)
-    - [2.2.1 (b,1) Token-Level Ensemble](#221-b1-token-level-ensemble)
-    - [2.2.2 (b,2) Span-Level Ensemble](#222-b2-span-level-ensemble)
-    - [2.2.3 (b,3) Process-Level Ensemble](#223-b3-process-level-ensemble)
-  - [2.3 Ensemble After Inference](#23-ensemble-after-inference)
-    - [2.3.1 (c,1) Non Cascade](#231-c1-non-cascade)
-    - [2.3.2 (c,2) Cascade](#232-c2-cascade)
-  - [2.4 Others: Benchmarks, Applications and Related Surveys](#24-others-benchmarks-applications-and-related-surveys)
-    - [2.4.1 Benchmarks](#241-benchmarks)
-    - [2.4.2 Applications](#242-applications)
-    - [2.4.3 Related Surveys](#243-related-surveys)
-- [3 Others: Some public implementations of the LLM Ensemble methods](#3-others-some-public-implementations-of-the-llm-ensemble-methods)
-- [4 Others: Some other related interesting papers](#4-others-some-other-related-interesting-papers)
-- [5 Summarization](#5-summarization)
-- [6 Citation](#6-citation)
+- [Contents](#Awesome-LLM-Ensemble)
+  - [1. LLM Ensemble and Taxonomy](#1-llm-ensemble-and-taxonomy)
+    - [1.1 LLM Ensemble](#11-llm-ensemble)
+    - [1.2 Taxonomy](#12-taxonomy)
+  - [2. Papers](#2-papers)
+    - [2.1 Ensemble Before Inference](#21-ensemble-before-inference)
+      - [2.1.1 (a,1) Pre-Trained Router](#211-a1-pre-trained-router)
+      - [2.1.2 (a,2) Non pre-trained router](#212-a2-non-pre-trained-router)
+    - [2.2 Ensemble During Inference](#22-ensemble-during-inference)
+      - [2.2.1 (b,1) Token-Level Ensemble](#221-b1-token-level-ensemble)
+      - [2.2.2 (b,2) Span-Level Ensemble](#222-b2-span-level-ensemble)
+      - [2.2.3 (b,3) Process-Level Ensemble](#223-b3-process-level-ensemble)
+    - [2.3 Ensemble After Inference](#23-ensemble-after-inference)
+      - [2.3.1 (c,1) Non Cascade](#231-c1-non-cascade)
+      - [2.3.2 (c,2) Cascade](#232-c2-cascade)
+    - [2.4 Others: Benchmarks, Applications and Related Surveys](#24-others-benchmarks-applications-and-related-surveys)
+      - [2.4.1 Benchmarks](#241-benchmarks)
+      - [2.4.2 Applications](#242-applications)
+      - [2.4.3 Related Surveys](#243-related-surveys)
+  - [3 Others: Some public implementations of the LLM Ensemble methods](#3-others-some-public-implementations-of-the-llm-ensemble-methods)
+  - [4 Others: Some other related interesting papers](#4-others-some-other-related-interesting-papers)
+  - [5 Summarization](#5-summarization)
+  - [6 Citing This Paper](#6-citing-this-paper)
 
 
 
@@ -693,7 +692,7 @@ Figure 6:  Summary analysis of the key attributes of LLM Ensemble approaches.
 &nbsp;  
 &nbsp; 
 
-## 6 Citation
+## 6 Citing This Paper
 
 
 ```
