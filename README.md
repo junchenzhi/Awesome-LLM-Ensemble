@@ -18,7 +18,7 @@
     <a href="https://scholar.google.com/citations?user=D0lL1r0AAAAJ&hl=zh-CN/">Philip S. Yu</a>
 </p>
 <p align="center">
-    <img src="fig/logo.png" alt="Logo" width="=75%">
+    <img src="fig/logo.png" alt="Logo" width="=80%">
 </p>
 
 
@@ -111,7 +111,7 @@ We will add all related citing papers to this GitHub repo, in a timely manner, t
 
 
 
-- [📣 Notices](#-notices)
+
 - [1. LLM Ensemble and Taxonomy](#1-llm-ensemble-and-taxonomy)
   - [1.1 LLM Ensemble](#11-llm-ensemble)
   - [1.2 Taxonomy](#12-taxonomy)
@@ -130,11 +130,10 @@ We will add all related citing papers to this GitHub repo, in a timely manner, t
     - [2.4.1 Benchmarks](#241-benchmarks)
     - [2.4.2 Applications](#242-applications)
     - [2.4.3 Related Surveys](#243-related-surveys)
-  - [          GitHub: -](#github--)
-  - [3 Others: Some public implementations of the LLM Ensemble methods](#3-others-some-public-implementations-of-the-llm-ensemble-methods)
-  - [4 Others: Some other related interesting papers](#4-others-some-other-related-interesting-papers)
-  - [5 Summarization](#5-summarization)
-  - [6 Citation](#6-citation)
+- [3 Others: Some public implementations of the LLM Ensemble methods](#3-others-some-public-implementations-of-the-llm-ensemble-methods)
+- [4 Others: Some other related interesting papers](#4-others-some-other-related-interesting-papers)
+- [5 Summarization](#5-summarization)
+- [6 Citation](#6-citation)
 
 
 
