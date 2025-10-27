@@ -307,6 +307,10 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 
 
 
+- **(Newly added paper, October 2025:) DISROUTER: DISTRIBUTED SELF-ROUTING FOR LLM SELECTIONS.** (2025) <a href="https://arxiv.org/abs/2510.19208"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: DiSRouter, Code: -
+
+
 
 ### 2.1.2 (a,2) Non pre-trained router
 
