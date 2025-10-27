@@ -669,15 +669,20 @@ They mainly focus on **LLM Collaboration**.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: SLC,   <a href="https://github.com/Hhankyangg/SLC"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
 
-- **(Newly added paper, September 2025:)  Best-of-∞ – Asymptotic Performance of Test-Time Compute** (2025) <a href="https://arxiv.org/abs/2509.21091"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, September 2025:)  Best-of-∞ – Asymptotic Performance of Test-Time Compute.** (2025) <a href="https://arxiv.org/abs/2509.21091"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: SLC,   <a href="https://github.com/jkomiyama/BoInf-code-publish"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
-- **(Newly added paper, September 2025:)  MIXTURE OF THOUGHTS: LEARNING TO AGGREGATE WHAT EXPERTS THINK, NOT JUST WHAT THEY SAY** (2025) <a href="https://arxiv.org/abs/2509.21164"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, September 2025:)  MIXTURE OF THOUGHTS: LEARNING TO AGGREGATE WHAT EXPERTS THINK, NOT JUST WHAT THEY SAY.** (2025) <a href="https://arxiv.org/abs/2509.21164"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: SLC,   <a href="https://github.com/jacobfa/mot"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
 
-- **(Newly added paper, October 2025:) Towards Scalable Oversight with Collaborative Multi-Agent Debate in Error Detection** (2025) <a href="https://arxiv.org/abs/2510.20963v1"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, October 2025:) Towards Scalable Oversight with Collaborative Multi-Agent Debate in Error Detection.** (2025) <a href="https://arxiv.org/abs/2510.20963v1"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: ColMAD,   <a href="https://github.com/jacobfa/mot"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
+
+
+- **(Newly added paper, October 2025:) Adaptive Coopetition: Leveraging Coarse Verifier Signals for Resilient Multi-Agent LLM Reasoning.** (2025) <a href="https://arxiv.org/abs/2510.20963v1"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: AdCo,   <a href="https://github.com/AdCo-Research/adaptive-coopetition"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
+
 
 
 ---
