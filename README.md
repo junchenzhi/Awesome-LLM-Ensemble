@@ -666,6 +666,9 @@ They mainly focus on **LLM Collaboration**.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: SLC,   <a href="https://github.com/jacobfa/mot"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
 
+- **(Newly added paper, October 2025:) Towards Scalable Oversight with Collaborative Multi-Agent Debate in Error Detection** (2025) <a href="https://arxiv.org/abs/2510.20963v1"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: ColMAD,   <a href="https://github.com/jacobfa/mot"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
+
 
 ---
 
