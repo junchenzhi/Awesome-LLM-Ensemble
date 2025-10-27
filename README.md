@@ -375,6 +375,7 @@ Figure 4:  Summary analysis of the key attributes of ensemble-during-inference m
 - **(Newly added paper, September 2025:) Token-level Ensembling of Models with Different Vocabularies.** (2025) <a href="https://arxiv.org/abs/2502.21265"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: ABE, <a href="https://github.com/mjpost/abe"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
+
 - **(Newly added paper, September 2025:) When to Ensemble: Identifying Token-Level Points for Stable and Fast LLM Ensembling.** (2025) <a href="https://arxiv.org/pdf/2510.15346"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: SAFE, Code: -
 
@@ -686,6 +687,11 @@ They mainly focus on **LLM Collaboration**.
 
 - **(Newly added paper, October 2025:) Adaptive Coopetition: Leveraging Coarse Verifier Signals for Resilient Multi-Agent LLM Reasoning.** (2025) <a href="https://www.arxiv.org/abs/2510.18179"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: AdCo,   <a href="https://github.com/AdCo-Research/adaptive-coopetition"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
+
+
+- **(Newly added paper, October 2025:) Harmonizing Diverse Models: A Layer-wise Merging Strategy for Consistent Generation.** (2025) <a href="https://www.arxiv.org/abs/2510.18179"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -,  Code: -
+
 
 
 
