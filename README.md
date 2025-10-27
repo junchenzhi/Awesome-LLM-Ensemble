@@ -488,6 +488,9 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Note that: this work focuses on proposing a system rather than a regular research paper.
 
 
+- **(Newly added paper, October 2025:) Beyond Consensus: Mitigating the Agreeableness Bias in LLM Judge Evaluations.** (2025) <a href="https://arxiv.org/abs/2510.11822"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -,  <a href="https://github.com/ai-cet/paper-arxiv-llm-judge-calibration"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
+
 
 
 ### 2.3.2 (c,2) Cascade
