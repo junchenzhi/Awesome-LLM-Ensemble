@@ -472,13 +472,12 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 - **(Newly added paper, October 2025:) Explainable Fault Localization for Programming Assignments via LLM-Guided Annotation.** (2025) <a href="https://arxiv.org/pdf/2509.25676v1"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name:  FLAME, <a href="https://github.com/FLAME-FL/FLAME"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
-
-
-
 - **(Newly added paper, October 2025:) Beyond Majority Voting: LLM Aggregation by Leveraging Higher-Order Information.** (2025) <a href="https://www.arxiv.org/abs/2510.01499"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: OW/ISP, Code: -
 
-
+- **(Newly added paper, October 2025:) LLMartini: Seamless and Interactive Leveraging of Multiple LLMs through Comparison and Composition.** (2025) <a href="https://www.arxiv.org/abs/2510.01499"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: LLMartini, Code: -  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Note that: this work focuses on proposing a system rather than a regular research paper.
 
 
 
