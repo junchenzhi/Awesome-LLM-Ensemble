@@ -299,20 +299,20 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: LLMRank, Code: -
 
 
-
 - **(Newly added paper, October 2025:) GraphRouter: A Graph-based Router for LLM Selections.** (2025) <a href="https://arxiv.org/abs/2410.03834"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: GraphRouter, Code: <a href="https://github.com/ulab-uiuc/GraphRouter"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
 
 
 - **(Newly added paper, October 2025:) Router-R1: Teaching LLMs Multi-Round Routing and Aggregation via Reinforcement Learning.** (2025) <a href="https://arxiv.org/abs/2506.09033"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Router-R1, Code: <a href="https://github.com/ulab-uiuc/Router-R1"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
 
-
 - **(Newly added paper, October 2025:) DISROUTER: DISTRIBUTED SELF-ROUTING FOR LLM SELECTIONS.** (2025) <a href="https://arxiv.org/abs/2510.19208"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: DiSRouter, Code: -
 
+
+- **(Newly added paper, October 2025:) WebRouter: Query-specific Router via Variational Information Bottleneck for Cost-sensitive Web Agent.** (2025) <a href="https://arxiv.org/abs/2510.11221"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: WebRouter, Code: -
 
 
 ### 2.1.2 (a,2) Non pre-trained router
