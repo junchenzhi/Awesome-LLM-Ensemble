@@ -375,6 +375,10 @@ Figure 4:  Summary analysis of the key attributes of ensemble-during-inference m
 - **(Newly added paper, September 2025:) Token-level Ensembling of Models with Different Vocabularies.** (2025) <a href="https://arxiv.org/abs/2502.21265"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: ABE, <a href="https://github.com/mjpost/abe"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
+- **(Newly added paper, September 2025:) When to Ensemble: Identifying Token-Level Points for Stable and Fast LLM Ensembling.** (2025) <a href="https://arxiv.org/pdf/2510.15346"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: SAFE, Code: -
+
+
 
 ### 2.2.2 (b,2) Span-Level Ensemble
 
