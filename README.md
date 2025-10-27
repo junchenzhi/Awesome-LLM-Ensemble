@@ -519,7 +519,7 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: FrugalGPT, Code: -
 
 - **Language Model Cascades: Token-level uncertainty and beyond.** (2024) <a href="https://arxiv.org/abs/2404.10136"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: FrugalGPT, Code: -
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -, Code: -
 
 - **AutoMix: Automatically Mixing Language Models.** (2023) <a href="https://arxiv.org/abs/2310.12963"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: AutoMix, <a href="https://github.com/automix-llm/automix"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
