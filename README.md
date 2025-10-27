@@ -680,7 +680,7 @@ They mainly focus on **LLM Collaboration**.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: ColMAD,   <a href="https://github.com/jacobfa/mot"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
 
-- **(Newly added paper, October 2025:) Adaptive Coopetition: Leveraging Coarse Verifier Signals for Resilient Multi-Agent LLM Reasoning.** (2025) <a href="https://arxiv.org/abs/2510.20963v1"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, October 2025:) Adaptive Coopetition: Leveraging Coarse Verifier Signals for Resilient Multi-Agent LLM Reasoning.** (2025) <a href="https://www.arxiv.org/abs/2510.18179"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: AdCo,   <a href="https://github.com/AdCo-Research/adaptive-coopetition"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
 
