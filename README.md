@@ -132,6 +132,8 @@ We will add all related citing papers to this GitHub repo, in a timely manner, t
       - [2.4.4 Related Surveys](#244-related-surveys)
   - [3 Others: Some public implementations of the LLM Ensemble methods](#3-others-some-public-implementations-of-the-llm-ensemble-methods)
   - [4 Others: Some other related interesting papers](#4-others-some-other-related-interesting-papers)
+      - [4.1 Test-Time Scaling](#41-test-time-scaling)
+      - [4.2 LLM Collaboration and Others](#42-llm-collaboration-and-others)
   - [5 Summarization](#5-summarization)
   - [6 Citing This Paper](#6-citing-this-paper)
 
@@ -631,6 +633,13 @@ Here we give some examples:
 
 - **(Newly added paper, July 2025:) Toward Edge General Intelligence with Multiple-Large Language Model (Multi-LLM): Architecture, Trust, and Orchestration.** (2025) <a href="https://arxiv.org/abs/2507.00672"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GitHub: -
+
+- **(Newly added paper, October 2025:) A Survey on Test-Time Scaling in Large Language Models: What, How, Where, and How Well.** (2025) <a href="https://arxiv.org/abs/2503.24235"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GitHub: <a href="https://testtimescaling.github.io/"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
+
+
+
+
 ---
 
 &nbsp; 
@@ -652,10 +661,17 @@ Here we give some examples:
 
 
 ## 4 Others: Some other related interesting papers 
-
-
 Here we briefly list some related papers, which are either discovered by us or suggested by the authors to this repository. 
 They mainly focus on **LLM Collaboration**.
+
+### 4.1 Test-Time Scaling
+- **(Newly added paper, October 2025:) Stable LLM Ensemble: Interaction between Example Representativeness and Diversity.** (2025) <a href="https://arxiv.org/abs/2510.13143"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -,  Code: -
+
+
+
+### 4.2 LLM Collaboration and Others
+
 
 - **(Newly added paper, June 2025:)  If Multi-Agent Debate is the Answer, What is the Question?** (2025) <a href="https://arxiv.org/abs/2502.08788"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Heter-MAD,  Code: -
@@ -689,7 +705,7 @@ They mainly focus on **LLM Collaboration**.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: AdCo,   <a href="https://github.com/AdCo-Research/adaptive-coopetition"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
 
-- **(Newly added paper, October 2025:) Harmonizing Diverse Models: A Layer-wise Merging Strategy for Consistent Generation.** (2025) <a href="https://www.arxiv.org/abs/2510.18179"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+- **(Newly added paper, October 2025:) Harmonizing Diverse Models: A Layer-wise Merging Strategy for Consistent Generation.** (2025) <a href="https://www.arxiv.org/abs/2510.14915"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -,  Code: -
 
 
