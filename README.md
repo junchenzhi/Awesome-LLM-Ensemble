@@ -589,7 +589,13 @@ Here we give some examples:
 
 
 
-### 2.4.3 Related Surveys
+### 2.4.3 Systems
+
+- **(Newly added paper, October 2025:) LLMartini: Seamless and Interactive Leveraging of Multiple LLMs through Comparison and Composition.** (2025) <a href="https://www.arxiv.org/abs/2510.01499"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: LLMartini, Code: -  
+
+
+### 2.4.4 Related Surveys
 
 
 
