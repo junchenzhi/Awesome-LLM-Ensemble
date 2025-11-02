@@ -382,6 +382,10 @@ Figure 4:  Summary analysis of the key attributes of ensemble-during-inference m
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: SAFE, Code: -
 
 
+- **(Newly added paper, November 2025:) Harnessing Consistency for Robust Test-Time LLM Ensemble.** (2025) <a href="https://www.arxiv.org/abs/2510.13855"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: CoRe, Code: -
+
+
 
 ### 2.2.2 (b,2) Span-Level Ensemble
 
