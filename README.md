@@ -414,6 +414,9 @@ Figure 4:  Summary analysis of the key attributes of ensemble-during-inference m
 - **Ensembling Large Language Models with Process Reward-Guided Tree Search for Better Complex Reasoning.** (2024) <a href="https://arxiv.org/abs/2412.15797"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: LE-MCTS, Code: -
 
+- **(Newly added paper, November 2025:) Collaborative Beam Search: Enhancing LLM Reasoning via Collective Consensus.** (2025) <a href="https://aclanthology.org/2025.emnlp-main.574/"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: CBS, Code: -
+
 
 
 &nbsp; 
