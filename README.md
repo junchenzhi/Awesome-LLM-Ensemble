@@ -89,9 +89,12 @@
 > </a>
 
 
+> 🔥🔥🔥 **[Stay tuned for our updated arXiv version in December 2025!]**  It will be a more comprehensive journal-style version, incorporating the latest papers proposed in recent months.      
+>
 
 
-> **[Always] [Add your paper in this repo]** ***Thank you to all the papers that have cited our survey! 
+
+> **[Always] [Add your papers in this repo]** ***Thank you to all the papers that have cited our survey! 
 We will add all related citing papers to this GitHub repo, in a timely manner, to help increase the visibility of your contributions.***     
 >
 
