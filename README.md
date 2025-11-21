@@ -89,7 +89,7 @@
 > </a>
 
 
-> 🔥🔥🔥 **[Stay tuned for our updated arXiv version in December 2025!]**  It will be a more comprehensive journal-style version, incorporating the latest papers proposed in recent months.      
+> 🔥🔥🔥 **[Stay tuned for our updated arXiv paper in December 2025!]**  It will be a more comprehensive journal-style version, incorporating the latest papers proposed in recent months.      
 >
 
 
