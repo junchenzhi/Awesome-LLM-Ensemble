@@ -503,6 +503,11 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 
 
 
+- **(Newly added paper, 12/2025:) Scoring, Reasoning, and Selecting the Best! Ensembling Large Language Models via a Peer-Review Process.** (2025) <a href="https://arxiv.org/abs/2512.23213"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -,  <a href="https://github.com/zeyuji/LLM-PeerReview"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
+
+
+
 ### 2.3.2 (c,2) Cascade
 
 
