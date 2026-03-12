@@ -671,6 +671,12 @@ Here we give some examples:
 - **(Newly added paper, October 2025:) A Survey on Test-Time Scaling in Large Language Models: What, How, Where, and How Well.** (2025) <a href="https://arxiv.org/abs/2503.24235"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GitHub: <a href="https://testtimescaling.github.io/"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
+- **(Newly added paper, 2026:) Doing More with Less: A Survey on Routing Strategies for Resource Optimisation in Large Language Model-Based Systems.** (2025) <a href="https://arxiv.org/abs/2502.00409"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GitHub: -
+
+- **(Newly added paper, 2026:) Dynamic Model Routing and Cascading for Efficient LLM Inference: A Survey.** (2025) <a href="https://arxiv.org/abs/2603.04445"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GitHub: -
+
 
 
 
