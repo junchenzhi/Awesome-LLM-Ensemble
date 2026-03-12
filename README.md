@@ -564,8 +564,11 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 ### 2.4.1 Benchmarks
 
 
+We recommend our recent paper, which provides open-source implementations of several LLM Ensemble baselines across multiple datasets. We welcome you to explore and use them.
+- **(Newly added paper, 12/2025:) Scoring, Reasoning, and Selecting the Best! Ensembling Large Language Models via a Peer-Review Process.** (2025) <a href="https://arxiv.org/abs/2512.23213"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -,  <a href="https://github.com/zeyuji/LLM-PeerReview"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
-
+Other benchmarks:
 - **LLM-BLENDER: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion.** (2023) <a href="https://arxiv.org/abs/2306.02561"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: MixInstruct, Evaluation Goal: Performance, <a href="https://yuchenlin.xyz/LLM-Blender/"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
@@ -575,12 +578,13 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 - **(Newly added paper, April 2025:) RouterEval: A Comprehensive Benchmark for Routing LLMs to Explore Model-level Scaling Up in LLMs.** (2025) <a href="https://arxiv.org/abs/2503.10657"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Speculative Ensemble, <a href="https://github.com/MilkThink-Lab/RouterEval"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
-- **(Newly added paper, 12/2025:) Scoring, Reasoning, and Selecting the Best! Ensembling Large Language Models via a Peer-Review Process.** (2025) <a href="https://arxiv.org/abs/2512.23213"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -,  <a href="https://github.com/zeyuji/LLM-PeerReview"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
 
 - **(Newly added paper, 2026:) LLMRouterBench: A Massive Benchmark and Unified Framework for LLM Routing.** (2025) <a href="https://arxiv.org/abs/2601.07206"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -,  <a href="https://github.com/ynulihao/LLMRouterBench"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
+
+
+- **(Newly added paper, 2026:) RouterArena: An Open Platform for Comprehensive Comparison of LLM Routers.** (2025) <a href="https://arxiv.org/abs/2510.00202"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -,  <a href="https://github.com/RouteWorks/RouterArena"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
 
 
