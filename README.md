@@ -586,6 +586,8 @@ Other benchmarks:
 - **(Newly added paper, 2026:) RouterArena: An Open Platform for Comprehensive Comparison of LLM Routers.** (2025) <a href="https://arxiv.org/abs/2510.00202"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -,  <a href="https://github.com/RouteWorks/RouterArena"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
+- **(Newly added paper, 2026:) FusionFactory: Fusing LLM Capabilities with Multi-LLM Log Data.** (2025) <a href="hthttps://arxiv.org/abs/2507.10540"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -,  <a href="https://github.com/ulab-uiuc/FusionFactory?tab=readme-ov-file"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
 
 ### 2.4.2 Applications
