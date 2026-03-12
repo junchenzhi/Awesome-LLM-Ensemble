@@ -575,6 +575,14 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 - **(Newly added paper, April 2025:) RouterEval: A Comprehensive Benchmark for Routing LLMs to Explore Model-level Scaling Up in LLMs.** (2025) <a href="https://arxiv.org/abs/2503.10657"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Speculative Ensemble, <a href="https://github.com/MilkThink-Lab/RouterEval"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
+- **(Newly added paper, 12/2025:) Scoring, Reasoning, and Selecting the Best! Ensembling Large Language Models via a Peer-Review Process.** (2025) <a href="https://arxiv.org/abs/2512.23213"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -,  <a href="https://github.com/zeyuji/LLM-PeerReview"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
+
+
+- **(Newly added paper, 2026:) LLMRouterBench: A Massive Benchmark and Unified Framework for LLM Routing.** (2025) <a href="https://arxiv.org/abs/2601.07206"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -,  <a href="https://github.com/ynulihao/LLMRouterBench"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
+
+
 
 ### 2.4.2 Applications
 
