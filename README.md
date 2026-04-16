@@ -89,7 +89,7 @@
 > </a>
 
 
-> 🔥🔥🔥 **[Stay tuned for our updated arXiv paper in December 2025!]**  It will be a more comprehensive journal-style version, incorporating the latest papers proposed in recent months.      
+> 🔥🔥🔥 **[Stay tuned for our journal-style  paper,  incorporating the latest papers proposed in recent months.]**    
 >
 
 
@@ -99,7 +99,7 @@ We will add all related citing papers to this GitHub repo, in a timely manner, t
 >
 
 
-> **[Always] [Maintain]** ***We will make this list updated frequently (at least until 12/31/2025)!***     
+> **[Always] [Maintain]** ***We will make this list updated frequently!***     
 > If you found any error or any missed/new paper, please don't hesitate to contact [us](zhijunchen@buaa.edu.cn) or Pull requests. 
 
 ---
