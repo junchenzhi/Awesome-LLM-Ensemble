@@ -4,6 +4,7 @@
 
 <p align="center">
     <a href="https://zhijunchen-ai.github.io/">Zhijun Chen</a>,
+   <a href="https://scholar.google.com/citations?user=JEdD0o8AAAAJ&hl">Xiaodong Lu</a>,
     <a href="https://scholar.google.com/citations?user=6v6JfdsAAAAJ&hl=zh-en">Jingzheng Li</a>,
     <a href="https://scholar.google.com/citations?user=mzXg1s8AAAAJ&hl=zh-en">Pengpeng Chen</a>,
     <a href="https://lizhuoran-nlp.github.io/">Zhuoran Li</a>,
@@ -13,6 +14,7 @@
     <a href="https://scholar.google.com/citations?user=H3pKglUAAAAJ&hl=zh-en">Ming Li</a>,    
     <a href="https://www.researchgate.net/scientific-contributions/Likang-Xiao-2257895822">Likang Xiao</a>,
     <a href="https://scholar.google.co.uk/citations?user=fnfg9S0AAAAJ&hl=en">Dingqi Yang</a>,
+    <a href="https://scholar.google.com/citations?user=Be21PkYAAAAJ">Xiao Huang</a>,
     <a href="https://www.banyikun.com/">Yikun Ban</a>,
     <a href="https://scholar.google.com/citations?user=HWOWCdcAAAAJ&hl=zh-CN">Hailong Sun</a>,
     <a href="https://scholar.google.com/citations?user=D0lL1r0AAAAJ&hl=zh-CN/">Philip S. Yu</a>
