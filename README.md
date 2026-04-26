@@ -179,10 +179,9 @@ A curated list of papers  on LLM Ensemble is available at https://github.com/jun
 
 
 - ***(a) Ensemble before inference.***  
-In essence, this approach employs a routing algorithm prior to LLM inference to allocate a specific query to the most suitable model, allowing the selected model that is specialized for the query and typically more cost-efficient inference to perform the task.
- Existing methods can be classified into two categories, depending on whether the router necessitates the use of pre-customized data for pre-training:   
-  - ***(a1) Pre-training router;***
-  - ***(a2) Non pre-training router.***
+Since the ensemble-before-inference methods require routing a query to the most suitable LLM before LLM inference, the core of such methods lies in predicting the utility of candidate models for a given query under certain preferences (e.g., performance or cost). Based on how they formulate the utility of candidate LLMs, we divide existing methods into two categories:
+  - ***(a1) Discrete utility*** methods, discretize the model utility into categorical labels;
+  - ***(a2) Continuous utility*** methods model LLM utility as real-valued variables, such as response length or performance scores. This formulation enables a fine-grained characterization of model behavior, capturing subtle performance differences obscured by categorical definitions.
 
 
 
@@ -790,3 +789,11 @@ Figure 6:  Summary analysis of the key attributes of LLM Ensemble approaches.
   year={2025}
 }
 ```
+
+&nbsp; 
+<div align=center><img src="./fig/logobeihang.png" width="60%">
+
+
+</div> 
+
+&nbsp; 
