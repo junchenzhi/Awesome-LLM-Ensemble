@@ -111,8 +111,9 @@ We will add all related citing papers to this GitHub repo, in a timely manner, t
 > **[Always] [Maintain]** ***We will make this list updated frequently!***     
 > If you found any error or any missed/new paper, please don't hesitate to contact [us](zhijunchen@buaa.edu.cn) or Pull requests. 
 
----
 
+
+&nbsp; 
 
 ## 🍀 Citation
 If you find this survey helpful, please cite our paper:
@@ -222,7 +223,7 @@ These methods can be classified into two categories:
 
 
 
----
+
 
 
 
@@ -485,7 +486,7 @@ Here we give some examples:
 | 2025 | Ensemble-Hub | [![GITHUB Stars](https://img.shields.io/github/stars/Fzkuji/Ensemble-Hub?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/Fzkuji/Ensemble-Hub) |
 
 
----
+
 
 &nbsp; 
 &nbsp;  
@@ -522,7 +523,7 @@ They mainly focus on **LLM Collaboration**.
 | 2025-12 | `CogER` | Beyond Fast and Slow: Cognitive-Inspired Elastic Reasoning for Large Language Models | <a href="https://arxiv.org/abs/2512.15089"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 
 
----
+
 
 &nbsp; 
 &nbsp;  
@@ -541,7 +542,7 @@ They mainly focus on **LLM Collaboration**.
 Figure 6:  Summary analysis of the key attributes of LLM Ensemble approaches.
 </div> 
 
----
+
 
 &nbsp; 
 &nbsp;  
