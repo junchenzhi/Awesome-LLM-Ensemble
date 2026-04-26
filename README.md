@@ -142,7 +142,7 @@ We will add all related citing papers to this GitHub repo, in a timely manner, t
       - [4.1 Test-Time Scaling](#41-test-time-scaling)
       - [4.2 LLM Collaboration and Others](#42-llm-collaboration-and-others)
   - [5 Summarization](#5-summarization)
-  - [6 Citing This Paper](#6-citing-this-paper)
+  - [6 Citation](#6-citation)
 
 
 
@@ -400,18 +400,15 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 ### 2.4.1 Benchmarks
 
 
-
-
 | Date | Name | Title | Paper/Github |
 |:---:|:---:|---|:---:|
+| 2026-01 | `-` | LLMRouterBench: A Massive Benchmark and Unified Framework for LLM Routing | <a href="https://arxiv.org/abs/2601.07206"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/ynulihao/LLMRouterBench?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/ynulihao/LLMRouterBench) |
 | 2025-12 | `-` | Scoring, Reasoning, and Selecting the Best! Ensembling Large Language Models via a Peer-Review Process | <a href="https://arxiv.org/abs/2512.23213"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/zeyuji/LLM-PeerReview?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/zeyuji/LLM-PeerReview) |
-| 2023 | `MixInstruct` | LLM-BLENDER: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion | <a href="https://arxiv.org/abs/2306.02561"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/yuchenlin/LLM-Blender?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/yuchenlin/LLM-Blender) |
-| 2024 | `RouterBench` | RouterBench: A Benchmark for Multi-LLM Routing System | <a href="https://arxiv.org/abs/2411.04424"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/withmartian/routerbench?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/withmartian/routerbench) |
-| 2025-04 | `Speculative Ensemble` | RouterEval: A Comprehensive Benchmark for Routing LLMs to Explore Model-level Scaling Up in LLMs | <a href="https://arxiv.org/abs/2503.10657"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/MilkThink-Lab/RouterEval?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/MilkThink-Lab/RouterEval) |
-| 2026 | `-` | LLMRouterBench: A Massive Benchmark and Unified Framework for LLM Routing | <a href="https://arxiv.org/abs/2601.07206"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/ynulihao/LLMRouterBench?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/ynulihao/LLMRouterBench) |
-| 2026 | `-` | RouterArena: An Open Platform for Comprehensive Comparison of LLM Routers | <a href="https://arxiv.org/abs/2510.00202"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/RouteWorks/RouterArena?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/RouteWorks/RouterArena) |
-| 2026 | `-` | FusionFactory: Fusing LLM Capabilities with Multi-LLM Log Data | <a href="https://arxiv.org/abs/2507.10540"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/ulab-uiuc/FusionFactory?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/ulab-uiuc/FusionFactory) |
-
+| 2025-09 | `-` | RouterArena: An Open Platform for Comprehensive Comparison of LLM Routers | <a href="https://arxiv.org/abs/2510.00202"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/RouteWorks/RouterArena?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/RouteWorks/RouterArena) |
+| 2025-07 | `-` | FusionFactory: Fusing LLM Capabilities with Multi-LLM Log Data | <a href="https://arxiv.org/abs/2507.10540"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/ulab-uiuc/FusionFactory?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/ulab-uiuc/FusionFactory) |
+| 2025-03 | `Speculative Ensemble` | RouterEval: A Comprehensive Benchmark for Routing LLMs to Explore Model-level Scaling Up in LLMs | <a href="https://arxiv.org/abs/2503.10657"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/MilkThink-Lab/RouterEval?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/MilkThink-Lab/RouterEval) |
+| 2024-03 | `RouterBench` | RouterBench: A Benchmark for Multi-LLM Routing System | <a href="https://arxiv.org/abs/2403.12031"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/withmartian/routerbench?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/withmartian/routerbench) |
+| 2023-06 | `MixInstruct` | LLM-BLENDER: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion | <a href="https://arxiv.org/abs/2306.02561"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/yuchenlin/LLM-Blender?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/yuchenlin/LLM-Blender) |
 
 
 ### 2.4.2 Applications
@@ -421,17 +418,18 @@ Beyond the methods presented before, the concept of LLM Ensemble has found appli
 Here we give some examples:
 
 
+
 | Date | Name | Title | Paper/Github |
 |:---:|:---:|---|:---:|
-| 2023 | `Ensemble-Instruct` | Ensemble-Instruct: Generating Instruction-Tuning Data with a Heterogeneous Mixture of LMs | <a href="https://arxiv.org/abs/2310.13961"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/IBM/ensemble-instruct?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/IBM/ensemble-instruct) |
-| 2024 | `BWRS` | Bayesian Calibration of Win Rate Estimation with LLM Evaluators | <a href="https://arxiv.org/abs/2411.04424"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/yale-nlp/bay-calibration-llm-evaluators?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/yale-nlp/bay-calibration-llm-evaluators) |
-| 2024 | `-` | PromptMind Team at MEDIQA-CORR 2024: Improving Clinical Text Correction with Error Categorization and LLM Ensembles | <a href="https://arxiv.org/abs/2405.08373"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
-| 2024 | `-` | LLM-Ensemble: Optimal Large Language Model Ensemble Method for E-commerce Product Attribute Value Extraction | <a href="https://arxiv.org/abs/2403.00863"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
-| 2024 | `FuseGen` | FuseGen: PLM Fusion for Data-generation based Zero-shot Learning | <a href="https://arxiv.org/abs/2406.12527"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/LindaLydia/FuseGen?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/LindaLydia/FuseGen) |
-| 2023 | `-` | On Preserving the Knowledge of Long Clinical Texts | <a href="https://arxiv.org/abs/2311.01571"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
-| 2025 | `Consensus Entropy` | Consensus Entropy: Harnessing Multi-VLM Agreement for Self-Verifying and Self-Improving OCR | <a href="https://arxiv.org/abs/2504.11101"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
-| 2025 | `Expert Orchestration` | Beyond Monoliths: Expert Orchestration for More Capable, Democratic, and Safe Large Language Models | <a href="https://arxiv.org/abs/2506.00051"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
-| 2025 | `FLAME` | Explainable Fault Localization for Programming Assignments via LLM-Guided Annotation | <a href="https://arxiv.org/pdf/2509.25676v1"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/FLAME-FL/FLAME?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/FLAME-FL/FLAME) |
+| 2025-09 | `FLAME` | Explainable Fault Localization for Programming Assignments via LLM-Guided Annotation | <a href="https://arxiv.org/pdf/2509.25676v1"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/FLAME-FL/FLAME?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/FLAME-FL/FLAME) |
+| 2025-05 | `Expert Orchestration` | Beyond Monoliths: Expert Orchestration for More Capable, Democratic, and Safe Large Language Models | <a href="https://arxiv.org/abs/2506.00051"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
+| 2025-04 | `Consensus Entropy` | Consensus Entropy: Harnessing Multi-VLM Agreement for Self-Verifying and Self-Improving OCR | <a href="https://arxiv.org/abs/2504.11101"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
+| 2024-11 | `BWRS` | Bayesian Calibration of Win Rate Estimation with LLM Evaluators | <a href="https://arxiv.org/abs/2411.04424"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/yale-nlp/bay-calibration-llm-evaluators?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/yale-nlp/bay-calibration-llm-evaluators) |
+| 2024-06 | `FuseGen` | FuseGen: PLM Fusion for Data-generation based Zero-shot Learning | <a href="https://arxiv.org/abs/2406.12527"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/LindaLydia/FuseGen?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/LindaLydia/FuseGen) |
+| 2024-05 | `-` | PromptMind Team at MEDIQA-CORR 2024: Improving Clinical Text Correction with Error Categorization and LLM Ensembles | <a href="https://arxiv.org/abs/2405.08373"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
+| 2024-02 | `-` | LLM-Ensemble: Optimal Large Language Model Ensemble Method for E-commerce Product Attribute Value Extraction | <a href="https://arxiv.org/abs/2403.00863"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
+| 2023-11 | `-` | On Preserving the Knowledge of Long Clinical Texts | <a href="https://arxiv.org/abs/2311.01571"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
+| 2023-10 | `Ensemble-Instruct` | Ensemble-Instruct: Generating Instruction-Tuning Data with a Heterogeneous Mixture of LMs | <a href="https://arxiv.org/abs/2310.13961"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/IBM/ensemble-instruct?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/IBM/ensemble-instruct) |
 
 ### 2.4.3 Systems
 
@@ -442,22 +440,21 @@ Here we give some examples:
 
 ### 2.4.4 Related Surveys
 
+
 | Date | Title | Paper/Github |
 |:---:|---|:---:|
-| 2024 | Model Merging in LLMs, MLLMs, and Beyond: Methods, Theories, Applications and Opportunities | <a href="https://arxiv.org/abs/2408.07666"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/EnnengYang/Awesome-Model-Merging-Methods-Theories-Applications?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/EnnengYang/Awesome-Model-Merging-Methods-Theories-Applications) |
-| 2024 | Merge, Ensemble, and Cooperate! A Survey on Collaborative Strategies in the Era of Large Language Models | <a href="https://arxiv.org/abs/2407.06089"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
-| 2025 | A Survey on Collaborative Mechanisms Between Large and Small Language Models | <a href="https://arxiv.org/abs/2505.07460"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
-| 2023 | A comprehensive review on ensemble deep learning: Opportunities and challenges | <a href="https://www.sciencedirect.com/science/article/pii/S1319157823000228"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=googledocs&logoColor=white" height="18"></a><br>- |
-| 2025 | Doing More with Less – Implementing Routing Strategies in Large Language Model-Based Systems: An Extended Survey | <a href="https://arxiv.org/abs/2502.00409"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
-| 2024 | A Survey on Model MoErging: Recycling and Routing Among Specialized Experts for Collaborative Learning | <a href="https://arxiv.org/abs/2408.07057"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
-| 2023 | Deep Model Fusion: A Survey | <a href="https://arxiv.org/abs/2309.15698"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
-| 2025 | Towards Efficient Multi-LLM Inference: Characterization and Analysis of LLM Routing and Hierarchical Techniques | <a href="https://www.arxiv.org/abs/2506.06579"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
-| 2025 | Toward Edge General Intelligence with Multiple-Large Language Model (Multi-LLM): Architecture, Trust, and Orchestration | <a href="https://arxiv.org/abs/2507.00672"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
-| 2025 | A Survey on Test-Time Scaling in Large Language Models: What, How, Where, and How Well | <a href="https://arxiv.org/abs/2503.24235"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/testtimescaling/testtimescaling.github.io?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/testtimescaling/testtimescaling.github.io) |
-| 2025 | Doing More with Less: A Survey on Routing Strategies for Resource Optimisation in Large Language Model-Based Systems | <a href="https://arxiv.org/abs/2502.00409"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
-| 2025 | Dynamic Model Routing and Cascading for Efficient LLM Inference: A Survey | <a href="https://arxiv.org/abs/2603.04445"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
-
-
+| 2026-02 | Dynamic Model Routing and Cascading for Efficient LLM Inference: A Survey | <a href="https://arxiv.org/abs/2603.04445"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
+| 2025-07 | Toward Edge General Intelligence with Multiple-Large Language Model (Multi-LLM): Architecture, Trust, and Orchestration | <a href="https://arxiv.org/abs/2507.00672"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
+| 2025-06 | Towards Efficient Multi-LLM Inference: Characterization and Analysis of LLM Routing and Hierarchical Techniques | <a href="https://www.arxiv.org/abs/2506.06579"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
+| 2025-05 | A Survey on Collaborative Mechanisms Between Large and Small Language Models | <a href="https://arxiv.org/abs/2505.07460"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
+| 2025-03 | A Survey on Test-Time Scaling in Large Language Models: What, How, Where, and How Well | <a href="https://arxiv.org/abs/2503.24235"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/testtimescaling/testtimescaling.github.io?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/testtimescaling/testtimescaling.github.io) |
+| 2025-02 | Doing More with Less – Implementing Routing Strategies in Large Language Model-Based Systems: An Extended Survey | <a href="https://arxiv.org/abs/2502.00409"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
+| 2025-02 | Doing More with Less: A Survey on Routing Strategies for Resource Optimisation in Large Language Model-Based Systems | <a href="https://arxiv.org/abs/2502.00409"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
+| 2024-08 | Model Merging in LLMs, MLLMs, and Beyond: Methods, Theories, Applications and Opportunities | <a href="https://arxiv.org/abs/2408.07666"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/EnnengYang/Awesome-Model-Merging-Methods-Theories-Applications?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/EnnengYang/Awesome-Model-Merging-Methods-Theories-Applications) |
+| 2024-08 | A Survey on Model MoErging: Recycling and Routing Among Specialized Experts for Collaborative Learning | <a href="https://arxiv.org/abs/2408.07057"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
+| 2024-07 | Merge, Ensemble, and Cooperate! A Survey on Collaborative Strategies in the Era of Large Language Models | <a href="https://arxiv.org/abs/2407.06089"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
+| 2023-09 | Deep Model Fusion: A Survey | <a href="https://arxiv.org/abs/2309.15698"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
+| 2023-02 | A comprehensive review on ensemble deep learning: Opportunities and challenges | <a href="https://www.sciencedirect.com/science/article/pii/S1319157823000228"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=googledocs&logoColor=white" height="18"></a><br>- |
 
 ---
 
@@ -534,7 +531,7 @@ Figure 6:  Summary analysis of the key attributes of LLM Ensemble approaches.
 &nbsp;  
 &nbsp; 
 
-## 6 Citing This Paper
+## 6 Citation
 
 
 ```
