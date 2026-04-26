@@ -320,7 +320,7 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: WebRouter, Code: -
 
 
-### 2.1.2 (a,2) Non pre-trained router
+
 
 
 - **PickLLM: Context-Aware RL-Assisted Large Language Model Routing.** (2024) <a href="https://arxiv.org/abs/2412.12170"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
@@ -337,7 +337,7 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Avengers, <a href="https://github.com/ZhangYiqun018/Avengers"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
 
-
+### 2.1.2 (a,2) Non pre-trained router
 
 
 ## 2.2 Ensemble During Inference
@@ -785,7 +785,7 @@ Figure 6:  Summary analysis of the key attributes of LLM Ensemble approaches.
 ```
 @article{chen2025harnessing,
   title={Harnessing Multiple Large Language Models: A Survey on LLM Ensemble},
-  author={Chen, Zhijun and Li, Jingzheng and Chen, Pengpeng and Li, Zhuoran and Sun, Kai and Luo, Yuankai and Mao, Qianren and Li, Ming and Xiao, Likang and Yang, Dingqi and Ban, Yikun and Sun, Hailong and Yu, Philip S},
+  author={Chen, Zhijun and Lu, Xiaodong and Li, Jingzheng and Chen, Pengpeng and Li, Zhuoran and Sun, Kai and Luo, Yuankai and Mao, Qianren and Li, Ming and Xiao, Likang and Yang, Dingqi and and Huang, Xiao and Ban, Yikun and Sun, Hailong and Yu, Philip S},
   journal={arXiv preprint arXiv:2502.18036},
   year={2025}
 }
