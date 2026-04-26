@@ -547,7 +547,7 @@ Figure 6:  Summary analysis of the key attributes of LLM Ensemble approaches.
 &nbsp;  
 &nbsp; 
 
-
+---
 
 &nbsp; 
 <div align=center><img src="./fig/logobeihang.png" width="60%">
