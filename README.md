@@ -473,7 +473,7 @@ Here we give some examples:
 | 2024-07 | Merge, Ensemble, and Cooperate! A Survey on Collaborative Strategies in the Era of Large Language Models | <a href="https://arxiv.org/abs/2407.06089"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2023-09 | Deep Model Fusion: A Survey | <a href="https://arxiv.org/abs/2309.15698"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2023-02 | A comprehensive review on ensemble deep learning: Opportunities and challenges | <a href="https://www.sciencedirect.com/science/article/pii/S1319157823000228"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
----
+
 
 &nbsp; 
 &nbsp;  
@@ -529,7 +529,6 @@ They mainly focus on **LLM Collaboration**.
 &nbsp;  
 &nbsp; 
 
-***************
 
 
 
