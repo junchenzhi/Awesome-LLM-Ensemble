@@ -228,117 +228,50 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 
 
 
-### 2.1.1 (a,1) Pre-Trained Router
+### 2.1.1 (a,1) Discrete utility methods
+
+
+
+| Date | Name | Title | Paper | Github |
+|:---:|:---:|:---|:---:|:---:|
+| 2025-10 | <code>DiSRouter</code> | DISROUTER: Distributed Self-Routing for LLM Selections | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.19208) | - |
+| 2025-06 | <code>TagRouter</code> | TAGROUTER: Learning Route to LLMs through Tags for Open-Domain Text Generation Tasks | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.12473) | - |
+| 2025-06 | <code>Router-R1</code> | Router-R1: Teaching LLMs Multi-Round Routing and Aggregation via Reinforcement Learning | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.09033) | [![GitHub Stars](https://img.shields.io/github/stars/ulab-uiuc/Router-R1?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ulab-uiuc/Router-R1) |
+| 2025-06 | <code>RadialRouter</code> | RadialRouter: Structured Representation for Efficient and Robust Large Language Models Routing | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://www.arxiv.org/abs/2506.03880) | - |
+| 2025-05 | <code>RTR</code> | Route to Reason: Adaptive Routing for LLM and Reasoning Strategy Selection | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.19435) | [![GitHub Stars](https://img.shields.io/github/stars/goodmanpzh/Route-To-Reason?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/goodmanpzh/Route-To-Reason) |
+| 2024-12 | <code>Bench-CoE</code> | Bench-CoE: a Framework for Collaboration of Experts from Benchmark | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2412.04167) | [![GitHub Stars](https://img.shields.io/github/stars/ZhangXJ199/Bench-CoE?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ZhangXJ199/Bench-CoE) |
+| 2024-10 | <code>GraphRouter</code> | GraphRouter: A Graph-based Router for LLM Selections | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.03834) | [![GitHub Stars](https://img.shields.io/github/stars/ulab-uiuc/GraphRouter?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ulab-uiuc/GraphRouter) |
+| 2024-09 | <code>Eagle</code> | Eagle: Efficient Training-Free Router for Multi-LLM Inference | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2409.15518) | - |
+| 2024-08 | <code>SelectLLM</code> | SelectLLM: Query-Aware Efficient Selection Algorithm for Large Language Models | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2408.08545) | - |
+| 2024-06 | <code>RouteLLM</code> | RouteLLM: Learning to Route LLMs with Preference Data | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.18665) | [![GitHub Stars](https://img.shields.io/github/stars/lm-sys/RouteLLM?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/lm-sys/RouteLLM) |
+| 2024-05 | <code>LLM Routing Lessons</code> | Harnessing the Power of Multiple Minds: Lessons Learned from LLM Routing | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.00467) | [![GitHub Stars](https://img.shields.io/github/stars/kvadityasrivatsa/llm-routing?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/kvadityasrivatsa/llm-routing) |
+| 2024-04 | <code>Hybrid-LLM</code> | Hybrid LLM: Cost-Efficient and Quality-Aware Query Routing | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.14618) | [![GitHub Stars](https://img.shields.io/github/stars/m365-core/hybrid_llm_routing?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/m365-core/hybrid_llm_routing) |
+| 2024-03 | <code>ETR</code> | An Expert is Worth One Token: Synergizing Multiple Expert LLMs as Generalist via Expert Token Routing | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2403.16854) | [![GitHub Stars](https://img.shields.io/github/stars/zjunet/ETR?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/zjunet/ETR) |
+| 2024-01 | <code>Routoo</code> | Routoo: Learning to Route to Large Language Models Effectively | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2401.13979) | - |
+| 2024 | <code>RouterDC</code> | RouterDC: Query-Based Router by Dual Contrastive Learning for Assembling Large Language Models | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://proceedings.neurips.cc/paper_files/paper/2024/hash/7a641b8ec86162fc875fb9f6456a542f-Abstract-Conference.html) | [![GitHub Stars](https://img.shields.io/github/stars/shuhao02/RouterDC?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/shuhao02/RouterDC) |
+| 2023-11 | <code>ZOOTER</code> | Routing to the Expert: Efficient Reward-guided Ensemble of Large Language Models | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.08692) | - |
+| 2023-08 | <code>FORC</code> | Fly-Swat or Cannon? Cost-Effective Language Model Choice via Meta-Modeling | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.06077) | [![GitHub Stars](https://img.shields.io/github/stars/epfl-dlab/forc?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/epfl-dlab/forc) |
+| 2023 | <code>Benchmark Routing</code> | LLM Routing with Benchmark Datasets | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=openreview&logoColor=white)](https://openreview.net/forum?id=k9EfAJhFZc) | - |
+
+### 2.1.2 (a,2) Continuous utility methods
 
 
 
 
-
-- **LLM Routing with Benchmark Datasets.** (2023) <a href="https://openreview.net/forum?id=k9EfAJhFZc"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -, Code: -
-
-- **RouteLLM: Learning to Route LLMs with Preference Data.** (2024) <a href="https://arxiv.org/abs/2406.18665"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: RouteLLM, <a href="https://github.com/lm-sys/RouteLLM"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-- **Hybrid LLM: Cost-Efficient and Quality-Aware Query Routing.** (2024) <a href="https://arxiv.org/abs/2404.14618"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Hybrid-LLM, <a href="https://github.com/m365-core/hybrid_llm_routing"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-- **LLM Bandit: Cost-Efficient LLM Generation via Preference-Conditioned Dynamic Routing.** (2025) <a href="https://arxiv.org/abs/2502.02743"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -, Code: -
-
-- **Harnessing the Power of Multiple Minds: Lessons Learned from LLM Routing.** (2024) <a href="https://arxiv.org/abs/2405.00467"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -, <a href="https://github.com/kvadityasrivatsa/llm-routing"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-- **MetaLLM: A High-performant and Cost-efficient Dynamic Framework for Wrapping LLMs.** (2024) <a href="https://arxiv.org/abs/2407.10834"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: MetaLLM, <a href="https://github.com/mail-research/MetaLLM-wrapper/"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-- **SelectLLM: Query-Aware Efficient Selection Algorithm for Large Language Models.** (2024) <a href="https://arxiv.org/abs/2408.08545"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: SelectLLM, Code: -
-
-- **Bench-CoE: a Framework for Collaboration of Experts from Benchmark.** (2024) <a href="https://arxiv.org/abs/2412.04167"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Bench-CoE, <a href="https://github.com/ZhangXJ199/Bench-CoE"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-- **Routing to the Expert: Efficient Reward-guided Ensemble of Large Language Models.** (2023) <a href="https://arxiv.org/abs/2311.08692"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: ZOOTER, Code: -
-
-- **TensorOpera Router: A Multi-Model Router for Efficient LLM Inference.** (2024) <a href="https://arxiv.org/abs/2408.12320"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: TO-Router, Code: -
-
-- **Query Routing for Homogeneous Tools: An Instantiation in the RAG Scenario.** (2024) <a href="https://arxiv.org/abs/2406.12429"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: HomoRouter, Code: -
-
-- **Fly-Swat or Cannon? Cost-Effective Language Model Choice via Meta-Modeling.** (2023) <a href="https://arxiv.org/abs/2308.06077"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: FORC, <a href="https://github.com/epfl-dlab/forc"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-- **Routoo: Learning to Route to Large Language Models Effectively.** (2024) <a href="https://arxiv.org/abs/2401.13979"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Routoo, Code: -
-
-- **(Newly added paper, March 2025:) RouterDC: Query-Based Router by Dual Contrastive Learning for Assembling Large Language Models.** (2024) <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/7a641b8ec86162fc875fb9f6456a542f-Abstract-Conference.html"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: RouterDC, <a href="https://github.com/shuhao02/RouterDC"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-- **(Newly added paper, April 2025:) An Expert is Worth One Token: Synergizing Multiple Expert LLMs as Generalist via Expert Token Routing.** (2024) <a href="https://arxiv.org/abs/2403.16854"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: ETR, <a href="https://github.com/zjunet/ETR"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-- **(Newly added paper, May 2025:) Rethinking Predictive Modeling for LLM Routing: When Simple kNN Beats Complex Learned Routers.** (2025) <a href="https://arxiv.org/abs/2505.12601"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -, Code: -
-
-- **(Newly added paper, May 2025:) InferenceDynamics: Efficient Routing Across LLMs through Structured Capability and Knowledge Profiling.** (2025) <a href="https://arxiv.org/abs/2505.16303"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: InferenceDynamics, Code: -
-
-- **(Newly added paper, May 2025:) CO-OPTIMIZING RECOMMENDATION AND EVALUATION FOR LLM SELECTION.** (2025) <a href="https://openreview.net/pdf?id=gWi4ZcPQRl"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: RELM, Code: -
-
-- **(Newly added paper, May 2025:) Route to Reason: Adaptive Routing for LLM and Reasoning Strategy Selection.** (2025) <a href="https://arxiv.org/abs/2505.19435"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: RTR, <a href="https://github.com/goodmanpzh/Route-To-Reason"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-- **(Newly added paper, June 2025:) RadialRouter: Structured Representation for Efficient and Robust Large Language Models Routing.** (2025) <a href="https://www.arxiv.org/abs/2506.03880"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: RadialRouter, Code: -
-
-
-- **(Newly added paper, June 2025:) TAGROUTER: Learning Route to LLMs through Tags for Open-Domain Text Generation Tasks.** (2025) <a href="https://arxiv.org/abs/2506.12473"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: TagRouter, Code: -
-
-
-- **(Newly added paper, October 2025:) LLMRank: Understanding LLM Strengths for Model Routing.** (2025) <a href="https://arxiv.org/abs/2510.01234"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: LLMRank, Code: -
-
-
-- **(Newly added paper, October 2025:) GraphRouter: A Graph-based Router for LLM Selections.** (2025) <a href="https://arxiv.org/abs/2410.03834"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: GraphRouter, Code: <a href="https://github.com/ulab-uiuc/GraphRouter"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-
-- **(Newly added paper, October 2025:) Router-R1: Teaching LLMs Multi-Round Routing and Aggregation via Reinforcement Learning.** (2025) <a href="https://arxiv.org/abs/2506.09033"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Router-R1, Code: <a href="https://github.com/ulab-uiuc/Router-R1"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-
-- **(Newly added paper, October 2025:) DISROUTER: DISTRIBUTED SELF-ROUTING FOR LLM SELECTIONS.** (2025) <a href="https://arxiv.org/abs/2510.19208"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: DiSRouter, Code: -
-
-
-- **(Newly added paper, October 2025:) WebRouter: Query-specific Router via Variational Information Bottleneck for Cost-sensitive Web Agent.** (2025) <a href="https://arxiv.org/abs/2510.11221"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: WebRouter, Code: -
-
-
-
-
-
-- **PickLLM: Context-Aware RL-Assisted Large Language Model Routing.** (2024) <a href="https://arxiv.org/abs/2412.12170"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: PickLLM, Code: -
-
-- **Eagle: Efficient Training-Free Router for Multi-LLM Inference.** (2024) <a href="https://arxiv.org/abs/2409.15518"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Eagle, Code: -
-
-- **Blending Is All You Need: Cheaper, Better Alternative to Trillion-Parameters LLM.** (2024) <a href="https://arxiv.org/abs/2401.02994"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Blending, Code: -
-
-
-- **(Newly added paper, June 2025:) The Avengers: A Simple Recipe for Uniting Smaller Language Models to Challenge Proprietary Giants.** (2025) <a href="https://arxiv.org/abs/2505.19797"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Avengers, <a href="https://github.com/ZhangYiqun018/Avengers"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-
-### 2.1.2 (a,2) Non pre-trained router
-
-
+| Date | Name | Title | Paper/Github |
+|:---:|:---:|:---|:---:|
+| 2025-10 | <code>WebRouter</code> | WebRouter: Query-specific Router via Variational Information Bottleneck for Cost-sensitive Web Agent | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.11221)<br>- |
+| 2025-10 | <code>LLMRank</code> | LLMRank: Understanding LLM Strengths for Model Routing | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.01234)<br>- |
+| 2025-05 | <code>Avengers</code> | The Avengers: A Simple Recipe for Uniting Smaller Language Models to Challenge Proprietary Giants | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.19797)<br>[![GitHub Stars](https://img.shields.io/github/stars/ZhangYiqun018/Avengers?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ZhangYiqun018/Avengers) |
+| 2025-05 | <code>InferenceDynamics</code> | InferenceDynamics: Efficient Routing Across LLMs through Structured Capability and Knowledge Profiling | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.16303)<br>- |
+| 2025-05 | <code>kNN Router</code> | Rethinking Predictive Modeling for LLM Routing: When Simple kNN Beats Complex Learned Routers | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.12601)<br>- |
+| 2025 | <code>RELM</code> | Co-optimizing Recommendation and Evaluation for LLM Selection | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=openreview&logoColor=white)](https://openreview.net/pdf?id=gWi4ZcPQRl)<br>- |
+| 2025-02 | <code>LLM Bandit</code> | LLM Bandit: Cost-Efficient LLM Generation via Preference-Conditioned Dynamic Routing | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.02743)<br>- |
+| 2024-12 | <code>PickLLM</code> | PickLLM: Context-Aware RL-Assisted Large Language Model Routing | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2412.12170)<br>- |
+| 2024-08 | <code>TO-Router</code> | TensorOpera Router: A Multi-Model Router for Efficient LLM Inference | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2408.12320)<br>- |
+| 2024-07 | <code>MetaLLM</code> | MetaLLM: A High-performant and Cost-efficient Dynamic Framework for Wrapping LLMs | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.10834)<br>[![GitHub Stars](https://img.shields.io/github/stars/mail-research/MetaLLM-wrapper?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/mail-research/MetaLLM-wrapper/) |
+| 2024-06 | <code>HomoRouter</code> | Query Routing for Homogeneous Tools: An Instantiation in the RAG Scenario | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.12429)<br>- |
+| 2024-01 | <code>Blending</code> | Blending Is All You Need: Cheaper, Better Alternative to Trillion-Parameters LLM | [![Paper](https://img.shields.io/badge/PAPER-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2401.02994)<br>- |
 ## 2.2 Ensemble During Inference
 
 <div align=center>
@@ -350,78 +283,47 @@ Figure 4:  Summary analysis of the key attributes of ensemble-during-inference m
 
 
 ### 2.2.1 (b,1) Token-Level Ensemble
-- **Breaking the Ceiling of the LLM Community by Treating Token Generation as a Classification for Ensembling.** (2024) <a href="https://arxiv.org/abs/2406.12585"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: GaC, <a href="https://github.com/yaoching0/GaC"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-- **Ensemble Learning for Heterogeneous Large Language Models with Deep Parallel Collaboration.** (2024) <a href="https://arxiv.org/abs/2404.12715"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: DeePEn, <a href="https://github.com/OrangeInSouth/DeePEn"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-- **Bridging the Gap between Different Vocabularies for LLM Ensemble.** (2024) <a href="https://arxiv.org/abs/2404.09492"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: EVA, <a href="https://github.com/xydaytoy/EVA"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-- **Determine-Then-Ensemble: Necessity of Top-k Union for Large Language Model Ensembling.** (2024) <a href="https://arxiv.org/abs/2410.03777"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: UniTe, Code: -
-
-- **Pack of LLMs: Model Fusion at Test-Time via Perplexity Optimization.** (2024) <a href="https://arxiv.org/abs/2404.11531"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: PackLLM, <a href="https://github.com/cmavro/PackLLM"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-- **Purifying large language models by ensembling a small language model.** (2024) <a href="https://arxiv.org/abs/2402.14845"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -, Code: -
-
-- **CITER: Collaborative Inference for Efficient Large Language Model Decoding with Token-Level Routing.** (2025) <a href="https://arxiv.org/abs/2502.01976"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: CITER, <a href="https://github.com/aiming-lab/CITER"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-- **(Newly added paper, April 2025:) Speculative Ensemble: Fast Large Language Model Ensemble via Speculation.** (2025) <a href="https://arxiv.org/abs/2502.01662"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Speculative Ensemble, <a href="https://github.com/Kamichanw/Speculative-Ensemble/"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-- **(Newly added paper, September 2025:) Transformer Copilot: Learning from The Mistake Log in LLM Fine-tuning.** (2025) <a href="https://arxiv.org/abs/2505.16270"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Transformer Copilot, <a href="https://github.com/jiaruzouu/TransformerCopilot"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
 
-- **(Newly added paper, September 2025:) Token-level Ensembling of Models with Different Vocabularies.** (2025) <a href="https://arxiv.org/abs/2502.21265"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: ABE, <a href="https://github.com/mjpost/abe"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-
-- **(Newly added paper, September 2025:) When to Ensemble: Identifying Token-Level Points for Stable and Fast LLM Ensembling.** (2025) <a href="https://arxiv.org/pdf/2510.15346"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: SAFE, Code: -
-
-
-- **(Newly added paper, November 2025:) Harnessing Consistency for Robust Test-Time LLM Ensemble.** (2025) <a href="https://www.arxiv.org/abs/2510.13855"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: CoRe, Code: -
-
+| Date | Name | Title | Paper | Github |
+|:---:|:---:|---|:---:|:---:|
+| 2025-10 | `SAFE` | When to Ensemble: Identifying Token-Level Points for Stable and Fast LLM Ensembling | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.15346) | - |
+| 2025-10 | `CoRe` | Harnessing Consistency for Robust Test-Time LLM Ensemble | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://www.arxiv.org/abs/2510.13855) | - |
+| 2025-05 | `Transformer Copilot` | Transformer Copilot: Learning from The Mistake Log in LLM Fine-tuning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.16270) | [![GitHub Stars](https://img.shields.io/github/stars/jiaruzouu/TransformerCopilot?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/jiaruzouu/TransformerCopilot) |
+| 2025-02 | `ABE` | Token-level Ensembling of Models with Different Vocabularies | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.21265) | [![GitHub Stars](https://img.shields.io/github/stars/mjpost/abe?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/mjpost/abe) |
+| 2025-02 | `CITER` | CITER: Collaborative Inference for Efficient Large Language Model Decoding with Token-Level Routing | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.01976) | [![GitHub Stars](https://img.shields.io/github/stars/aiming-lab/CITER?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/aiming-lab/CITER) |
+| 2025-02 | `Speculative Ensemble` | Speculative Ensemble: Fast Large Language Model Ensemble via Speculation | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.01662) | [![GitHub Stars](https://img.shields.io/github/stars/Kamichanw/Speculative-Ensemble?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Kamichanw/Speculative-Ensemble/) |
+| 2024-10 | `UniTe` | Determine-Then-Ensemble: Necessity of Top-k Union for Large Language Model Ensembling | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.03777) | - |
+| 2024-06 | `GaC` | Breaking the Ceiling of the LLM Community by Treating Token Generation as a Classification for Ensembling | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.12585) | [![GitHub Stars](https://img.shields.io/github/stars/yaoching0/GaC?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/yaoching0/GaC) |
+| 2024-04 | `DeePEn` | Ensemble Learning for Heterogeneous Large Language Models with Deep Parallel Collaboration | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.12715) | [![GitHub Stars](https://img.shields.io/github/stars/OrangeInSouth/DeePEn?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/OrangeInSouth/DeePEn) |
+| 2024-04 | `PackLLM` | Pack of LLMs: Model Fusion at Test-Time via Perplexity Optimization | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.11531) | [![GitHub Stars](https://img.shields.io/github/stars/cmavro/PackLLM?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/cmavro/PackLLM) |
+| 2024-04 | `EVA` | Bridging the Gap between Different Vocabularies for LLM Ensemble | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.09492) | [![GitHub Stars](https://img.shields.io/github/stars/xydaytoy/EVA?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/xydaytoy/EVA) |
+| 2024-02 | `-` | Purifying large language models by ensembling a small language model | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2402.14845) | - |
 
 
 ### 2.2.2 (b,2) Span-Level Ensemble
 
 
 
-- **Cool-Fusion: Fuse Large Language Models without Training.** (2024) <a href="https://arxiv.org/abs/2407.19807"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Cool-Fusion, Code: -
-
-- **Hit the Sweet Spot! Span-Level Ensemble for Large Language Models.** (2024) <a href="https://arxiv.org/abs/2409.18583"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: SweetSpan, Code: -
-
-- **SpecFuse: Ensembling Large Language Models via Next-Segment Prediction.** (2024) <a href="https://arxiv.org/abs/2412.07380"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: SpecFuse, Code: -
-
-- **(Newly added paper, June 2025:) RLAE: Reinforcement Learning-Assisted Ensemble for LLMs.** (2025) <a href="https://arxiv.org/abs/2506.00439"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: RLAE, Code: -
 
 
 
+| Date | Name | Title | Paper | Github |
+|:---:|:---:|---|:---:|:---:|
+| 2025-06 | `RLAE` | RLAE: Reinforcement Learning-Assisted Ensemble for LLMs | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.00439) | - |
+| 2024-12 | `SpecFuse` | SpecFuse: Ensembling Large Language Models via Next-Segment Prediction | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2412.07380) | - |
+| 2024-09 | `SweetSpan` | Hit the Sweet Spot! Span-Level Ensemble for Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2409.18583) | - |
+| 2024-07 | `Cool-Fusion` | Cool-Fusion: Fuse Large Language Models without Training | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.19807) | - |
 
 ### 2.2.3 (b,3) Process-Level Ensemble
 
 
 
 
-- **Ensembling Large Language Models with Process Reward-Guided Tree Search for Better Complex Reasoning.** (2024) <a href="https://arxiv.org/abs/2412.15797"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: LE-MCTS, Code: -
-
-- **(Newly added paper, November 2025:) Collaborative Beam Search: Enhancing LLM Reasoning via Collective Consensus.** (2025) <a href="https://aclanthology.org/2025.emnlp-main.574/"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: CBS, Code: -
-
-
+| Date | Name | Title | Paper | Github |
+|:---:|:---:|---|:---:|:---:|
+| 2025-11 | `CBS` | Collaborative Beam Search: Enhancing LLM Reasoning via Collective Consensus | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://aclanthology.org/2025.emnlp-main.574/) | - |
+| 2024-12 | `LE-MCTS` | Ensembling Large Language Models with Process Reward-Guided Tree Search for Better Complex Reasoning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2412.15797) | - |
 
 &nbsp; 
 
@@ -439,73 +341,29 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 ### 2.3.1 (c,1) Non Cascade
 
 
-- **More Agents Is All You Need.** (2024) <a href="https://arxiv.org/abs/2402.05120"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Agent-Forest, <a href="https://github.com/MoreAgentsIsAllYouNeed/AgentForest"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
-- **Smoothie: Label Free Language Model Routing.** (2024) <a href="https://arxiv.org/abs/2412.04692"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Smoothie, <a href="https://github.com/HazyResearch/smoothie"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
+| Date | Name | Title | Paper | Github |
+|:---:|:---:|---|:---:|:---:|
+| 2025-12 | `LLM-PeerReview` | Scoring, Reasoning, and Selecting the Best! Ensembling Large Language Models via a Peer-Review Process | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2512.23213) | [![GitHub Stars](https://img.shields.io/github/stars/zeyuji/LLM-PeerReview?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/zeyuji/LLM-PeerReview) |
+| 2025-10 | `LLMartini` | LLMartini: Seamless and Interactive Leveraging of Multiple LLMs through Comparison and Composition | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.19252) | - |
+| 2025-10 | `-` | Beyond Consensus: Mitigating the Agreeableness Bias in LLM Judge Evaluations | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.11822) | [![GitHub Stars](https://img.shields.io/github/stars/ai-cet/paper-arxiv-llm-judge-calibration?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ai-cet/paper-arxiv-llm-judge-calibration) |
+| 2025-10 | `OW/ISP` | Beyond Majority Voting: LLM Aggregation by Leveraging Higher-Order Information | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://www.arxiv.org/abs/2510.01499) | - |
+| 2025-09 | `FLAME` | Explainable Fault Localization for Programming Assignments via LLM-Guided Annotation | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2509.25676v1) | [![GitHub Stars](https://img.shields.io/github/stars/FLAME-FL/FLAME?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/FLAME-FL/FLAME) |
+| 2025-09 | `CARGO` | CARGO: A Framework for Confidence-Aware Routing of Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.14899) | - |
+| 2025-07 | `LENS` | LENS: Learning Ensemble Confidence from Neural States for Multi-LLM Answer Integration | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2507.23167) | - |
+| 2025-05 | `EL4NER` | EL4NER: Ensemble Learning for Named Entity Recognition via Multiple Small-Parameter Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.23038) | - |
+| 2025-03 | `Symbolic-MoE` | Symbolic Mixture-of-Experts: Adaptive Skill-based Routing for Heterogeneous Reasoning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.05641) | [![GitHub Stars](https://img.shields.io/github/stars/dinobby/Symbolic-MoE?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/dinobby/Symbolic-MoE/) |
+| 2025-01 | `DFPE` | DFPE: A Diverse Fingerprint Ensemble for Enhancing LLM Performance | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2501.17479) | [![GitHub Stars](https://img.shields.io/github/stars/nivgold/DFPE?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/nivgold/DFPE) |
+| 2025-01 | `DMoA` | Balancing Act: Diversity and Consistency in Large Language Model Ensembles | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://openreview.net/pdf?id=Dl6nkKKvlX) | - |
+| 2024-12 | `Smoothie` | Smoothie: Label Free Language Model Routing | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2412.04692) | [![GitHub Stars](https://img.shields.io/github/stars/HazyResearch/smoothie?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/HazyResearch/smoothie) |
+| 2024-10 | `LLM-Forest` | LLM-Forest: Ensemble Learning of LLMs with Graph-Augmented Prompts for Data Imputation | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.21520) | [![GitHub Stars](https://img.shields.io/github/stars/Xinrui17/LLM-Forest?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Xinrui17/LLM-Forest) |
+| 2024-10 | `LLM-TOPLA` | LLM-TOPLA: Efficient LLM Ensemble by Maximising Diversity | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.03953) | [![GitHub Stars](https://img.shields.io/github/stars/git-disl/llm-topla?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/git-disl/llm-topla) |
+| 2024-10 | `MLKF` | Two Heads are Better than One: Zero-shot Cognitive Reasoning via Multi-LLM Knowledge Fusion | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://dl.acm.org/doi/abs/10.1145/3627673.3679744) | [![GitHub Stars](https://img.shields.io/github/stars/trueBatty/MLKF?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/trueBatty/MLKF) |
+| 2024-08 | `URG` | URG: A Unified Ranking and Generation Method for Ensembling Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://aclanthology.org/2024.findings-acl.261/) | - |
+| 2024-02 | `Agent-Forest` | More Agents Is All You Need | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2402.05120) | [![GitHub Stars](https://img.shields.io/github/stars/MoreAgentsIsAllYouNeed/AgentForest?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/MoreAgentsIsAllYouNeed/AgentForest) |
+| 2023-06 | `LLM-Blender` | LLM-Blender: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2306.02561) | [![GitHub Stars](https://img.shields.io/github/stars/yuchenlin/LLM-Blender?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/yuchenlin/LLM-Blender) |
+| 2023-05 | `MoRE` | Getting MoRE out of Mixture of Language Model Reasoning Experts | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.14628) | [![GitHub Stars](https://img.shields.io/github/stars/NoviScl/MoRE?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/NoviScl/MoRE) |
 
-- **Getting MoRE out of Mixture of Language Model Reasoning Experts.** (2023) <a href="https://arxiv.org/abs/2305.14628"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: MoRE, <a href="https://github.com/NoviScl/MoRE"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-- **LLM-Blender: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion.** (2023) <a href="https://arxiv.org/abs/2306.02561"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: LLM-Blender, <a href="https://github.com/yuchenlin/LLM-Blender"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-- **LLM-TOPLA: Efficient LLM Ensemble by Maximising Diversity.** (2024) <a href="https://arxiv.org/abs/2410.03953"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: LLM-TOPLA, <a href="https://github.com/git-disl/llm-topla"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-- **URG: A Unified Ranking and Generation Method for Ensembling Language Models.** (2024) <a href="https://aclanthology.org/2024.findings-acl.261/"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: URG, Code: -
-
-- **(Newly added paper, April 2025:) DFPE: A Diverse Fingerprint Ensemble for Enhancing LLM Performance.** (2025) <a href="https://arxiv.org/abs/2501.17479"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: DFPE, <a href="https://github.com/nivgold/DFPE"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-- **(Newly added paper, April 2025:) Two Heads are Better than One: Zero-shot Cognitive Reasoning via Multi-LLM Knowledge Fusion.** (2024) <a href="https://dl.acm.org/doi/abs/10.1145/3627673.3679744"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: MLKF, <a href="https://github.com/trueBatty/MLKF"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-- **(Newly added paper, April 2025:) Symbolic Mixture-of-Experts: Adaptive Skill-based Routing for Heterogeneous Reasoning.** (2025) <a href="https://arxiv.org/abs/2503.05641"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Symbolic-MoE, <a href="https://github.com/dinobby/Symbolic-MoE/"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-- **(Newly added paper, April 2025:) BALANCING ACT: DIVERSITY AND CONSISTENCY IN LARGE LANGUAGE MODEL ENSEMBLES.** (2025) <a href="https://openreview.net/pdf?id=Dl6nkKKvlX"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: DMoA, Code: -
-
-
-- **(Newly added paper, June 2025:) EL4NER: Ensemble Learning for Named Entity Recognition via Multiple Small-Parameter Large Language Models.** (2025) <a href="https://arxiv.org/abs/2505.23038"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: EL4NER, Code: -
-
-
-- **(Newly added paper, September 2025:) LENS: Learning Ensemble Confidence from Neural States for Multi-LLM Answer Integration.** (2025) <a href="https://arxiv.org/abs/2507.23167"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: EL4NER, Code: -
-
-
-
-
-- **(Newly added paper, September 2025:) CARGO: A Framework for Confidence-Aware Routing of Large Language Models.** (2025) <a href="https://arxiv.org/abs/2509.14899"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name:  CARGO, Code: -
-
-- **(Newly added paper, September 2025:) LLM-Forest: Ensemble Learning of LLMs with Graph-Augmented Prompts for Data Imputation.** (2025) <a href="https://arxiv.org/abs/2410.21520"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name:  LLM-Forest, <a href="https://github.com/Xinrui17/LLM-Forest"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-
-
-- **(Newly added paper, October 2025:) Explainable Fault Localization for Programming Assignments via LLM-Guided Annotation.** (2025) <a href="https://arxiv.org/pdf/2509.25676v1"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name:  FLAME, <a href="https://github.com/FLAME-FL/FLAME"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-- **(Newly added paper, October 2025:) Beyond Majority Voting: LLM Aggregation by Leveraging Higher-Order Information.** (2025) <a href="https://www.arxiv.org/abs/2510.01499"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: OW/ISP, Code: -
-
-- **(Newly added paper, October 2025:) LLMartini: Seamless and Interactive Leveraging of Multiple LLMs through Comparison and Composition.** (2025) <a href="https://www.arxiv.org/abs/2510.01499"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: LLMartini, Code: -  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Note that: this work focuses on proposing a system rather than a regular research paper.
-
-
-- **(Newly added paper, October 2025:) Beyond Consensus: Mitigating the Agreeableness Bias in LLM Judge Evaluations.** (2025) <a href="https://arxiv.org/abs/2510.11822"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -,  <a href="https://github.com/ai-cet/paper-arxiv-llm-judge-calibration"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-
-
-- **(Newly added paper, 12/2025:) Scoring, Reasoning, and Selecting the Best! Ensembling Large Language Models via a Peer-Review Process.** (2025) <a href="https://arxiv.org/abs/2512.23213"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -,  <a href="https://github.com/zeyuji/LLM-PeerReview"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
 
 
@@ -513,49 +371,25 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 
 
 
-- **EcoAssistant: Using LLM Assistant More Affordably and Accurately.** (2023) <a href="https://arxiv.org/abs/2310.03046"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: EcoAssistant, <a href="https://github.com/JieyuZ2/EcoAssistant"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
-- **Large Language Model Cascades with Mixture of Thoughts Representations for Cost-efficient Reasoning.** (2023) <a href="https://arxiv.org/abs/2310.03094"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -, <a href="https://github.com/MurongYue/LLM_MoT_cascade"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-- **Model Cascading: Towards Jointly Improving Efficiency and Accuracy of NLP Systems.** (2022) <a href="https://arxiv.org/abs/2210.05528"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Model Cascading, Code: -
-
-- **Cache & Distil: Optimising API Calls to Large Language Models.** (2023) <a href="https://arxiv.org/abs/2310.13561"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: neural caching, <a href="https://github.com/guillemram97/neural-caching"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-- **A Unified Approach to Routing and Cascading for LLMs.** (2024) <a href="https://arxiv.org/abs/2410.10347"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: Cascade Routing, <a href="https://github.com/eth-sri/cascade-routing"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-- **When Does Confidence-Based Cascade Deferral Suffice?** (2023) <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/1f09e1ee5035a4c3fe38a5681cae5815-Abstract-Conference.html"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -, Code: -
-
-- **FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance.** (2023) <a href="https://arxiv.org/abs/2305.05176"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: FrugalGPT, Code: -
-
-- **Language Model Cascades: Token-level uncertainty and beyond.** (2024) <a href="https://arxiv.org/abs/2404.10136"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -, Code: -
-
-- **AutoMix: Automatically Mixing Language Models.** (2023) <a href="https://arxiv.org/abs/2310.12963"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: AutoMix, <a href="https://github.com/automix-llm/automix"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
-
-- **Dynamic Ensemble Reasoning for LLM Experts.** (2024) <a href="https://arxiv.org/abs/2412.07448"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: DER, Code: -
-
-- **(Newly added paper, April 2025:) EMAFusionTM: A SELF-OPTIMIZING SYSTEM FOR SEAMLESS LLM SELECTION AND INTEGRATION.** (2025) <a href="https://arxiv.org/abs/2504.10681"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: EMAFusionTM, Code: -
-
-- **(Newly added paper, June 2025:) Do We Truly Need So Many Samples? Multi-LLM Repeated Sampling Efficiently Scales Test-Time Compute.** (2025) <a href="https://arxiv.org/abs/2504.00762"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: ModelSwitch, <a href="https://github.com/JianhaoChen-nju/ModelSwitch"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
+| Date | Name | Title | Paper | Github |
+|:---:|:---:|---|:---:|:---:|
+| 2025-12 | `RoBoN` | RoBoN: Routed Online Best-of-n for Test-Time Scaling with Multiple LLMs | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://www.arxiv.org/abs/2512.05542) | [![GitHub Stars](https://img.shields.io/github/stars/j-geuter/RoBoN?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/j-geuter/RoBoN) |
+| 2025-09 | `-` | Semantic Agreement Enables Efficient Open-Ended LLM Cascades | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://www.arxiv.org/abs/2509.21837) | - |
+| 2025-04 | `EMAFusionTM` | EMAFusionTM: A Self-Optimizing System for Seamless LLM Selection and Integration | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.10681) | - |
+| 2025-04 | `ModelSwitch` | Do We Truly Need So Many Samples? Multi-LLM Repeated Sampling Efficiently Scales Test-Time Compute | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.00762) | [![GitHub Stars](https://img.shields.io/github/stars/JianhaoChen-nju/ModelSwitch?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/JianhaoChen-nju/ModelSwitch) |
+| 2024-12 | `DER` | Dynamic Ensemble Reasoning for LLM Experts | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2412.07448) | - |
+| 2024-10 | `Cascade Routing` | A Unified Approach to Routing and Cascading for LLMs | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.10347) | [![GitHub Stars](https://img.shields.io/github/stars/eth-sri/cascade-routing?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/eth-sri/cascade-routing) |
+| 2024-04 | `-` | Language Model Cascades: Token-level uncertainty and beyond | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.10136) | - |
+| 2023-10 | `AutoMix` | AutoMix: Automatically Mixing Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.12963) | [![GitHub Stars](https://img.shields.io/github/stars/automix-llm/automix?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/automix-llm/automix) |
+| 2023-10 | `neural caching` | Cache & Distil: Optimising API Calls to Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.13561) | [![GitHub Stars](https://img.shields.io/github/stars/guillemram97/neural-caching?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/guillemram97/neural-caching) |
+| 2023-10 | `-` | Large Language Model Cascades with Mixture of Thoughts Representations for Cost-efficient Reasoning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.03094) | [![GitHub Stars](https://img.shields.io/github/stars/MurongYue/LLM_MoT_cascade?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/MurongYue/LLM_MoT_cascade) |
+| 2023-10 | `EcoAssistant` | EcoAssistant: Using LLM Assistant More Affordably and Accurately | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.03046) | [![GitHub Stars](https://img.shields.io/github/stars/JieyuZ2/EcoAssistant?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/JieyuZ2/EcoAssistant) |
+| 2023-05 | `FrugalGPT` | FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.05176) | - |
+| 2023-01 | `-` | When Does Confidence-Based Cascade Deferral Suffice? | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://proceedings.neurips.cc/paper_files/paper/2023/hash/1f09e1ee5035a4c3fe38a5681cae5815-Abstract-Conference.html) | - |
+| 2022-10 | `Model Cascading` | Model Cascading: Towards Jointly Improving Efficiency and Accuracy of NLP Systems | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2210.05528) | - |
 
 
-
-- **(Newly added paper, September 2025:) Semantic Agreement Enables Efficient Open-Ended LLM Cascades.** (2025) <a href="https://www.arxiv.org/abs/2509.21837"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: -, Code: -
-
-- **(Newly added paper, September 2025:) RoBoN: Routed Online Best-of-n for Test-Time Scaling with Multiple LLMs.** (2025) <a href="https://www.arxiv.org/abs/2512.05542"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=white"></a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: RoBoN, <a href="https://github.com/j-geuter/RoBoN"><img src="https://img.shields.io/badge/Code-Official-blue?logo=github"></a>
 
 
 &nbsp; 
