@@ -66,7 +66,12 @@
       <a href="https://github.com/junchenzhi/Awesome-LLM-Ensemble/network">
         <img src="https://img.shields.io/github/forks/junchenzhi/Awesome-LLM-Ensemble?color=blue&label=Forks" alt="GitHub forks">
       </a>
+      <a href="https://arxiv.org/abs/2502.18036">
+        <img src="https://img.shields.io/badge/ARXIV%20CITATIONS-95-brightgreen?labelColor=555555" alt="arXiv citations">
+      </a>
 </p>
+
+
 
 
 
@@ -109,6 +114,18 @@ We will add all related citing papers to this GitHub repo, in a timely manner, t
 ---
 
 
+## 🍀 Citation
+If you find this survey helpful, please cite our paper:
+
+
+```
+@article{chen2025harnessing,
+  title={Harnessing Multiple Large Language Models: A Survey on LLM Ensemble},
+  author={Chen, Zhijun and Lu, Xiaodong and Li, Jingzheng and Chen, Pengpeng and Li, Zhuoran and Sun, Kai and Luo, Yuankai and Mao, Qianren and Li, Ming and Xiao, Likang and Yang, Dingqi and Huang, Xiao and Ban, Yikun and Sun, Hailong and Yu, Philip S},
+  journal={arXiv preprint arXiv:2502.18036},
+  year={2025}
+}
+```
 
 &nbsp; 
 &nbsp;  
@@ -142,7 +159,7 @@ We will add all related citing papers to this GitHub repo, in a timely manner, t
       - [4.1 Test-Time Scaling](#41-test-time-scaling)
       - [4.2 LLM Collaboration and Others](#42-llm-collaboration-and-others)
   - [5 Summarization](#5-summarization)
-  - [6 Citation](#6-citation)
+
 
 
 
@@ -248,7 +265,7 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 | 2024-08 | <code>SelectLLM</code> | SelectLLM: Query-Aware Efficient Selection Algorithm for Large Language Models | <a href="https://arxiv.org/abs/2408.08545"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2024-06 | <code>RouteLLM</code> | RouteLLM: Learning to Route LLMs with Preference Data | <a href="https://arxiv.org/abs/2406.18665"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/lm-sys/RouteLLM?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/lm-sys/RouteLLM) |
 | 2024-05 | <code>LLM Routing Lessons</code> | Harnessing the Power of Multiple Minds: Lessons Learned from LLM Routing | <a href="https://arxiv.org/abs/2405.00467"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/kvadityasrivatsa/llm-routing?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/kvadityasrivatsa/llm-routing) |
-| 2024-04 | <code>Hybrid-LLM</code> | Hybrid LLM: Cost-Efficient and Quality-Aware Query Routing | <a href="https://arxiv.org/abs/2404.14618"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/m365-core/hybrid_llm_routing?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/m365-core/hybrid_llm_routing) |
+| 2024-04 | <code>Hybrid-LLM</code> | Hybrid LLM: Cost-Efficient and Quality-Aware Query Routing | <a href="https://arxiv.org/abs/2404.14618"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2024-03 | <code>ETR</code> | An Expert is Worth One Token: Synergizing Multiple Expert LLMs as Generalist via Expert Token Routing | <a href="https://arxiv.org/abs/2403.16854"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/zjunet/ETR?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/zjunet/ETR) |
 | 2024-01 | <code>Routoo</code> | Routoo: Learning to Route to Large Language Models Effectively | <a href="https://arxiv.org/abs/2401.13979"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2024 | <code>RouterDC</code> | RouterDC: Query-Based Router by Dual Contrastive Learning for Assembling Large Language Models | <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/7a641b8ec86162fc875fb9f6456a542f-Abstract-Conference.html"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/shuhao02/RouterDC?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/shuhao02/RouterDC) |
@@ -364,7 +381,7 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 | 2024-12 | `Smoothie` | Smoothie: Label Free Language Model Routing | <a href="https://arxiv.org/abs/2412.04692"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/HazyResearch/smoothie?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/HazyResearch/smoothie) |
 | 2024-10 | `LLM-Forest` | LLM-Forest: Ensemble Learning of LLMs with Graph-Augmented Prompts for Data Imputation | <a href="https://arxiv.org/abs/2410.21520"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/Xinrui17/LLM-Forest?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/Xinrui17/LLM-Forest) |
 | 2024-10 | `LLM-TOPLA` | LLM-TOPLA: Efficient LLM Ensemble by Maximising Diversity | <a href="https://arxiv.org/abs/2410.03953"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/git-disl/llm-topla?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/git-disl/llm-topla) |
-| 2024-10 | `MLKF` | Two Heads are Better than One: Zero-shot Cognitive Reasoning via Multi-LLM Knowledge Fusion | <a href="https://dl.acm.org/doi/abs/10.1145/3627673.3679744"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/trueBatty/MLKF?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/trueBatty/MLKF) |
+| 2024-10 | `MLKF` | Two Heads are Better than One: Zero-shot Cognitive Reasoning via Multi-LLM Knowledge Fusion | <a href="https://dl.acm.org/doi/abs/10.1145/3627673.3679744"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2024-08 | `URG` | URG: A Unified Ranking and Generation Method for Ensembling Language Models | <a href="https://aclanthology.org/2024.findings-acl.261/"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2024-02 | `Agent-Forest` | More Agents Is All You Need | <a href="https://arxiv.org/abs/2402.05120"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/MoreAgentsIsAllYouNeed/AgentForest?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/MoreAgentsIsAllYouNeed/AgentForest) |
 | 2023-06 | `LLM-Blender` | LLM-Blender: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion | <a href="https://arxiv.org/abs/2306.02561"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/yuchenlin/LLM-Blender?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/yuchenlin/LLM-Blender) |
@@ -454,8 +471,7 @@ Here we give some examples:
 | 2024-08 | A Survey on Model MoErging: Recycling and Routing Among Specialized Experts for Collaborative Learning | <a href="https://arxiv.org/abs/2408.07057"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2024-07 | Merge, Ensemble, and Cooperate! A Survey on Collaborative Strategies in the Era of Large Language Models | <a href="https://arxiv.org/abs/2407.06089"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2023-09 | Deep Model Fusion: A Survey | <a href="https://arxiv.org/abs/2309.15698"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
-| 2023-02 | A comprehensive review on ensemble deep learning: Opportunities and challenges | <a href="https://www.sciencedirect.com/science/article/pii/S1319157823000228"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=googledocs&logoColor=white" height="18"></a><br>- |
-
+| 2023-02 | A comprehensive review on ensemble deep learning: Opportunities and challenges | <a href="https://www.sciencedirect.com/science/article/pii/S1319157823000228"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 ---
 
 &nbsp; 
@@ -531,17 +547,7 @@ Figure 6:  Summary analysis of the key attributes of LLM Ensemble approaches.
 &nbsp;  
 &nbsp; 
 
-## 6 Citation
 
-
-```
-@article{chen2025harnessing,
-  title={Harnessing Multiple Large Language Models: A Survey on LLM Ensemble},
-  author={Chen, Zhijun and Lu, Xiaodong and Li, Jingzheng and Chen, Pengpeng and Li, Zhuoran and Sun, Kai and Luo, Yuankai and Mao, Qianren and Li, Ming and Xiao, Likang and Yang, Dingqi and Huang, Xiao and Ban, Yikun and Sun, Hailong and Yu, Philip S},
-  journal={arXiv preprint arXiv:2502.18036},
-  year={2025}
-}
-```
 
 &nbsp; 
 <div align=center><img src="./fig/logobeihang.png" width="60%">
