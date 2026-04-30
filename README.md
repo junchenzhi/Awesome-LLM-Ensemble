@@ -102,19 +102,19 @@
 > **[2026-05] Accepted by IJCAI Survey 2026!**    
 >
 
-> 🔥🔥🔥 **[2026-04] We have updated our arXiv paper with a new version. Welcome to check it out! Stay tuned for our journal-style paper in recent months.**    
+> 🔥🔥🔥 **[2026-04] We have updated our arXiv paper with a new version! Stay tuned for our journal-style paper in recent months.**    
 >
 
 
 
 
-> **[Always] [Add your papers in this repo]** ***Thank you to all the papers that have cited our survey! 
-We will add all related citing papers to this GitHub repo, in a timely manner, to help increase the visibility of your contributions.***     
+> **[Always] [Add your papers in this repo]** **Thank you to all the papers that have cited our survey.** 
+>We will add all related citing papers to this GitHub repo, in a timely manner, to help increase the visibility of your contributions.    
 >
 
 
-> **[Always] [Maintain]** ***We will make this list updated frequently!***     
-> If you found any error or any missed/new paper, please don't hesitate to contact [us](zhijunchen@buaa.edu.cn) or Pull requests. 
+> **[Always] [Maintain]** **We will make this list updated frequently!**     
+> If you found any missed/new paper, please don't hesitate to contact [us](zhijunchen@buaa.edu.cn) or Pull requests. 
 
 
 
