@@ -1,8 +1,6 @@
 <h1 align="center">🔥🔥🔥 Awesome-LLM-Ensemble
 
-"Harnessing Multiple Large Language Models: A Survey on LLM Ensemble" 
-
-(IJCAI Survey 2026) </h2>
+"Harnessing Multiple Large Language Models: A Survey on LLM Ensemble" (IJCAI Survey 2026) </h2>
 
 <p align="center">
     <a href="https://zhijunchen-ai.github.io/">Zhijun Chen</a>,
