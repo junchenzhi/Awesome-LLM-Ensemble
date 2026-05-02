@@ -1,6 +1,8 @@
 <h1 align="center">🔥🔥🔥 Awesome-LLM-Ensemble
 
-"Harnessing Multiple Large Language Models: A Survey on LLM Ensemble"  (IJCAI Survey 2026) </h2>
+"Harnessing Multiple Large Language Models: A Survey on LLM Ensemble" 
+
+(IJCAI Survey 2026) </h2>
 
 <p align="center">
     <a href="https://zhijunchen-ai.github.io/">Zhijun Chen</a>,
@@ -120,7 +122,7 @@
 &nbsp; 
 
 ## 🍀 Citation
-If you find this survey helpful, please cite our paper:
+If you find this survey useful, please consider citing our paper:
 
 
 ```
@@ -543,7 +545,7 @@ They mainly focus on **LLM Collaboration**.
 
 ## 5 Summarization 
 
-<div align=center><img src="./fig/summary.png" width="90%">
+<div align=center><img src="./fig/summary.png" width="95%">
 
 Figure 6:  Summary analysis of the key attributes of LLM Ensemble approaches.
 </div> 
