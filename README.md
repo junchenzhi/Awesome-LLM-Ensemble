@@ -68,7 +68,7 @@
         <img src="https://img.shields.io/github/forks/junchenzhi/Awesome-LLM-Ensemble?color=blue&label=Forks" alt="GitHub forks">
       </a>
       <a href="https://arxiv.org/abs/2502.18036">
-        <img src="https://img.shields.io/badge/ARXIV%20CITATIONS-95-brightgreen?labelColor=555555" alt="arXiv citations">
+        <img src="https://img.shields.io/badge/ARXIV%20CITATIONS-98-brightgreen?labelColor=555555" alt="arXiv citations">
       </a>
   <a href="https://visitor-badge.laobi.icu/badge?page_id=junchenzhi.Awesome-LLM-Ensemble">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=junchenzhi.Awesome-LLM-Ensemble" alt="Visitors">
