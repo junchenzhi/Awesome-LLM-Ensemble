@@ -67,8 +67,8 @@
       <a href="https://github.com/junchenzhi/Awesome-LLM-Ensemble/network">
         <img src="https://img.shields.io/github/forks/junchenzhi/Awesome-LLM-Ensemble?color=blue&label=Forks" alt="GitHub forks">
       </a>
-  <a href="https://scholar.google.com/scholar?q=10.48550%2FarXiv.2502.18036">
-    <img src="https://api.juleskreuer.eu/citation-badge.php?doi=10.48550/arXiv.2502.18036" alt="Google Scholar citations">
+  <a href="https://scholar.google.com/scholar?q=%22Harnessing%20Multiple%20Large%20Language%20Models%3A%20A%20Survey%20on%20LLM%20Ensemble%22">
+    <img src="https://api.juleskreuer.eu/citation-badge.php?doi=10.48550%2FarXiv.2502.18036" alt="Google Scholar citations">
   </a>
   <a href="https://visitor-badge.laobi.icu/badge?page_id=junchenzhi.Awesome-LLM-Ensemble">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=junchenzhi.Awesome-LLM-Ensemble" alt="Visitors">
