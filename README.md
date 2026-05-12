@@ -403,6 +403,7 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 
 | Date | Name | Title | Paper/Github |
 |:---:|:---:|---|:---:|
+| 2026-5 | `-` | Is Escalation Worth It? A Decision-Theoretic Characterization of LLM Cascades | <a href="https://arxiv.org/abs/2605.06350"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2025-12 | `RoBoN` | RoBoN: Routed Online Best-of-n for Test-Time Scaling with Multiple LLMs | <a href="https://www.arxiv.org/abs/2512.05542"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/j-geuter/RoBoN?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/j-geuter/RoBoN) |
 | 2025-09 | `-` | Semantic Agreement Enables Efficient Open-Ended LLM Cascades | <a href="https://www.arxiv.org/abs/2509.21837"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2025-04 | `EMAFusionTM` | EMAFusionTM: A Self-Optimizing System for Seamless LLM Selection and Integration | <a href="https://arxiv.org/abs/2504.10681"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
