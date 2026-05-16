@@ -1,0 +1,98 @@
+name: Update Google Scholar Citations
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch Google Scholar citation count and update README
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        run: |
+          python3 - <<'PY'
+          import os
+          import re
+          import json
+          import urllib.parse
+          import urllib.request
+
+          title = "Harnessing Multiple Large Language Models: A Survey on LLM Ensemble"
+          scholar_url = "https://scholar.google.com/scholar?q=%22Harnessing%20Multiple%20Large%20Language%20Models%3A%20A%20Survey%20on%20LLM%20Ensemble%22"
+
+          params = urllib.parse.urlencode({
+              "engine": "google_scholar",
+              "q": f'"{title}"',
+              "hl": "en",
+              "api_key": os.environ["SERPAPI_KEY"],
+          })
+
+          url = "https://serpapi.com/search.json?" + params
+
+          with urllib.request.urlopen(url) as response:
+              data = json.loads(response.read().decode("utf-8"))
+
+          results = data.get("organic_results", [])
+          if not results:
+              raise RuntimeError("No Google Scholar results found.")
+
+          target = None
+          for item in results:
+              item_title = item.get("title", "").lower()
+              item_link = item.get("link", "")
+              if "harnessing multiple large language models" in item_title and "llm ensemble" in item_title:
+                  target = item
+                  break
+              if "2502.18036" in item_link:
+                  target = item
+                  break
+
+          if target is None:
+              target = results[0]
+
+          cited_by = target.get("cited_by", {})
+          count = cited_by.get("total")
+
+          if count is None:
+              raise RuntimeError("No citation count found in Google Scholar result.")
+
+          count = str(count)
+
+          badge = f'''<!-- GS_CITATIONS_BADGE_START -->
+          <a href="{scholar_url}">
+            <img src="https://img.shields.io/badge/Google%20Scholar%20Citations-{count}-brightgreen?labelColor=555555" alt="Google Scholar citations">
+          </a>
+          <!-- GS_CITATIONS_BADGE_END -->'''
+
+          with open("README.md", "r", encoding="utf-8") as f:
+              readme = f.read()
+
+          pattern = r"<!-- GS_CITATIONS_BADGE_START -->.*?<!-- GS_CITATIONS_BADGE_END -->"
+
+          if not re.search(pattern, readme, flags=re.S):
+              raise RuntimeError("Citation badge markers not found in README.md.")
+
+          readme = re.sub(pattern, badge, readme, flags=re.S)
+
+          with open("README.md", "w", encoding="utf-8") as f:
+              f.write(readme)
+
+          print(f"Updated Google Scholar citations to {count}")
+          PY
+
+      - name: Commit updated README
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "Update Google Scholar citation badge"
+          git push
