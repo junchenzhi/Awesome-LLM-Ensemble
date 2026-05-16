@@ -46,24 +46,41 @@ jobs:
               raise RuntimeError("No Google Scholar results found.")
 
           target = None
+
           for item in results:
               item_title = item.get("title", "").lower()
               item_link = item.get("link", "")
-              if "harnessing multiple large language models" in item_title and "llm ensemble" in item_title:
-                  target = item
-                  break
-              if "2502.18036" in item_link:
-                  target = item
-                  break
+              inline_links = item.get("inline_links", {})
+              cited_by = inline_links.get("cited_by", {})
+              count = cited_by.get("total")
+
+              if count is not None:
+                  if "harnessing multiple large language models" in item_title and "llm ensemble" in item_title:
+                      target = item
+                      break
+                  if "2502.18036" in item_link:
+                      target = item
+                      break
 
           if target is None:
-              target = results[0]
+              for item in results:
+                  inline_links = item.get("inline_links", {})
+                  cited_by = inline_links.get("cited_by", {})
+                  count = cited_by.get("total")
+                  if count is not None:
+                      target = item
+                      break
 
-          cited_by = target.get("cited_by", {})
+          if target is None:
+              print(json.dumps(results[:3], indent=2, ensure_ascii=False))
+              raise RuntimeError("No citation count found in Google Scholar result.")
+
+          inline_links = target.get("inline_links", {})
+          cited_by = inline_links.get("cited_by", {})
           count = cited_by.get("total")
 
           if count is None:
-              raise RuntimeError("No citation count found in Google Scholar result.")
+              raise RuntimeError("No citation count found in target result.")
 
           count = str(count)
 
