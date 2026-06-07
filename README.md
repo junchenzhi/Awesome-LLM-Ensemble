@@ -282,13 +282,13 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 
 
 
+
+
 ### 2.1.2 (a,2) Continuous utility methods
-
-
-
 
 | Date | Name | Title | Paper/Github |
 |:---:|:---:|:---|:---:|
+| 2025-11 | <code>EPIC</code> | EPIC: Ensemble Planning with Contrastive learning | <a href="https://arxiv.org/abs/2511.00521"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/nguyenngocbaocmt02/EPIC?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/nguyenngocbaocmt02/EPIC) |
 | 2025-10 | <code>WebRouter</code> | WebRouter: Query-specific Router via Variational Information Bottleneck for Cost-sensitive Web Agent | <a href="https://arxiv.org/abs/2510.11221"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2025-10 | <code>LLMRank</code> | LLMRank: Understanding LLM Strengths for Model Routing | <a href="https://arxiv.org/abs/2510.01234"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2025-05 | <code>Avengers</code> | The Avengers: A Simple Recipe for Uniting Smaller Language Models to Challenge Proprietary Giants | <a href="https://arxiv.org/abs/2505.19797"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/ZhangYiqun018/Avengers?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/ZhangYiqun018/Avengers) |
@@ -301,6 +301,7 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 | 2024-07 | <code>MetaLLM</code> | MetaLLM: A High-performant and Cost-efficient Dynamic Framework for Wrapping LLMs | <a href="https://arxiv.org/abs/2407.10834"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/mail-research/MetaLLM-wrapper?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/mail-research/MetaLLM-wrapper/) |
 | 2024-06 | <code>HomoRouter</code> | Query Routing for Homogeneous Tools: An Instantiation in the RAG Scenario | <a href="https://arxiv.org/abs/2406.12429"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2024-01 | <code>Blending</code> | Blending Is All You Need: Cheaper, Better Alternative to Trillion-Parameters LLM | <a href="https://arxiv.org/abs/2401.02994"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
+
 
 ## 2.2 Ensemble During Inference
 
