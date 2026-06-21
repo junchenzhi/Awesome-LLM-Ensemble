@@ -69,7 +69,7 @@
   </a>
   <!-- GS_CITATIONS_BADGE_START -->
 <a href="https://scholar.google.com/scholar?q=%22Harnessing%20Multiple%20Large%20Language%20Models%3A%20A%20Survey%20on%20LLM%20Ensemble%22">
-  <img src="https://img.shields.io/badge/Google%20Scholar%20Citations-110-brightgreen?labelColor=555555" alt="Google Scholar citations">
+  <img src="https://img.shields.io/badge/Google%20Scholar%20Citations-112-brightgreen?labelColor=555555" alt="Google Scholar citations">
 </a>
 <!-- GS_CITATIONS_BADGE_END -->
   <a href="https://visitor-badge.laobi.icu/badge?page_id=junchenzhi.Awesome-LLM-Ensemble">
