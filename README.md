@@ -261,6 +261,7 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 
 | Date | Name | Title | Paper/Github |
 |:---:|:---:|:---|:---:|
+| 2026-04 | <code>DialRouter</code> | From Myopic Selection to Long-Horizon Awareness: Sequential LLM Routing for Multi-Turn Dialogue | <a href="https://arxiv.org/abs/2604.12385"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2025-10 | <code>DiSRouter</code> | DISROUTER: Distributed Self-Routing for LLM Selections | <a href="https://arxiv.org/abs/2510.19208"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2025-06 | <code>TagRouter</code> | TAGROUTER: Learning Route to LLMs through Tags for Open-Domain Text Generation Tasks | <a href="https://arxiv.org/abs/2506.12473"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2025-06 | <code>Router-R1</code> | Router-R1: Teaching LLMs Multi-Round Routing and Aggregation via Reinforcement Learning | <a href="https://arxiv.org/abs/2506.09033"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/ulab-uiuc/Router-R1?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/ulab-uiuc/Router-R1) |
@@ -288,6 +289,12 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 
 | Date | Name | Title | Paper/Github |
 |:---:|:---:|:---|:---:|
+| 2026-06 | <code>SCOPE</code> | SCOPE: Cost-Efficient Model Selection for Compound AI Systems under Quality Constraints | <a href="https://arxiv.org/abs/2606.00774"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
+| 2026-03 | <code>MonoRouter</code> | MonoRouter: Enforcing Monotonicity in Item Response Theory for LLM Routing | <a href="https://www.semanticscholar.org/paper/4d269df75f97ae82ba63bd248e1d7d9adf30e0a0"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=semantic-scholar&logoColor=white" height="18"></a><br>- |
+| 2026-03 | <code>ReLope</code> | ReLope: KL-Regularized LoRA Probes for Multimodal LLM Routing | <a href="https://arxiv.org/abs/2603.24787"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/Spinozaaa/ReLope?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/Spinozaaa/ReLope) |
+| 2026-03 | <code>-</code> | Multi-LLM Query Optimization | <a href="https://arxiv.org/abs/2603.24617"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
+| 2026-02 | <code>RACER</code> | RACER: Risk-Aware Calibrated Efficient Routing for Large Language Models | <a href="https://arxiv.org/abs/2603.06616"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
+| 2026-02 | <code>-</code> | Don't Always Pick the Highest-Performing Model: An Information Theoretic View of LLM Ensemble Selection | <a href="https://arxiv.org/abs/2602.08003"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2025-11 | <code>EPIC</code> | EPIC: Ensemble Planning with Contrastive learning | <a href="https://arxiv.org/abs/2511.00521"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/nguyenngocbaocmt02/EPIC?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/nguyenngocbaocmt02/EPIC) |
 | 2025-10 | <code>WebRouter</code> | WebRouter: Query-specific Router via Variational Information Bottleneck for Cost-sensitive Web Agent | <a href="https://arxiv.org/abs/2510.11221"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2025-10 | <code>LLMRank</code> | LLMRank: Understanding LLM Strengths for Model Routing | <a href="https://arxiv.org/abs/2510.01234"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
@@ -319,6 +326,10 @@ Figure 4:  Summary analysis of the key attributes of ensemble-during-inference m
 | Date | Name | Title | Paper/Github |
 |:---:|:---:|---|:---:|
 | 2026-06 | `DLLG` | DLLG: Dynamic Logit-Level Gating of LLM Experts | <a href="https://arxiv.org/abs/2606.04378"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
+| 2026-05 | `WASH` | Linear Ensembles Wash Away Watermarks: On the Fragility of Distributional Perturbations in LLMs | <a href="https://arxiv.org/abs/2605.30501"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
+| 2026-05 | `ME` | Rethinking LLM Ensembling from the Perspective of Mixture Models | <a href="https://arxiv.org/abs/2605.00419"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/Kamichanw/Mixture-model-like-Ensemble?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/Kamichanw/Mixture-model-like-Ensemble) |
+| 2026-04 | `SpecFed` | SpecFed: Accelerating Federated LLM Inference with Speculative Decoding and Compressed Transmission | <a href="https://arxiv.org/abs/2604.25777"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
+| 2026-01 | `FusionRoute` | Token-Level LLM Collaboration via FusionRoute | <a href="https://arxiv.org/abs/2601.05106"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2025-10 | `SAFE` | When to Ensemble: Identifying Token-Level Points for Stable and Fast LLM Ensembling | <a href="https://arxiv.org/pdf/2510.15346"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2025-10 | `CoRe` | Harnessing Consistency for Robust Test-Time LLM Ensemble | <a href="https://www.arxiv.org/abs/2510.13855"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2025-05 | `Transformer Copilot` | Transformer Copilot: Learning from The Mistake Log in LLM Fine-tuning | <a href="https://arxiv.org/abs/2505.16270"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/jiaruzouu/TransformerCopilot?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/jiaruzouu/TransformerCopilot) |
@@ -355,6 +366,8 @@ Figure 4:  Summary analysis of the key attributes of ensemble-during-inference m
 
 | Date | Name | Title | Paper/Github |
 |:---:|:---:|---|:---:|
+| 2026-05 | `-` | Empirical Study of Process Reward-Guided Model Ensemble for Edge Reasoning | <a href="https://www.semanticscholar.org/paper/cb402251297a6349231d9f48995c264c3117eb4a"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=semantic-scholar&logoColor=white" height="18"></a><br>- |
+| 2026-03 | `RouteGoT` | RouteGoT: Node-Adaptive Routing for Cost-Efficient Graph of Thoughts Reasoning | <a href="https://arxiv.org/abs/2603.05818"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2025-11 | `CBS` | Collaborative Beam Search: Enhancing LLM Reasoning via Collective Consensus | <a href="https://aclanthology.org/2025.emnlp-main.574/"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2024-12 | `LE-MCTS` | Ensembling Large Language Models with Process Reward-Guided Tree Search for Better Complex Reasoning | <a href="https://arxiv.org/abs/2412.15797"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 
@@ -379,6 +392,8 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 
 | Date | Name | Title | Paper/Github |
 |:---:|:---:|---|:---:|
+| 2026-05 | `MCA` | Mixture of Complementary Agents for Robust LLM Ensemble | <a href="https://arxiv.org/abs/2605.24048"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
+| 2026-03 | `SCoOP` | SCoOP: Semantic Consistent Opinion Pooling for Uncertainty Quantification in Multiple Vision-Language Model Systems | <a href="https://arxiv.org/abs/2603.23853"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/chungenyu6/SCoOP?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/chungenyu6/SCoOP) |
 | 2025-12 | `LLM-PeerReview` | Scoring, Reasoning, and Selecting the Best! Ensembling Large Language Models via a Peer-Review Process | <a href="https://arxiv.org/abs/2512.23213"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/zeyuji/LLM-PeerReview?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/zeyuji/LLM-PeerReview) |
 | 2025-10 | `LLMartini` | LLMartini: Seamless and Interactive Leveraging of Multiple LLMs through Comparison and Composition | <a href="https://arxiv.org/abs/2510.19252"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2025-10 | `-` | Beyond Consensus: Mitigating the Agreeableness Bias in LLM Judge Evaluations | <a href="https://arxiv.org/abs/2510.11822"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/ai-cet/paper-arxiv-llm-judge-calibration?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/ai-cet/paper-arxiv-llm-judge-calibration) |
@@ -452,6 +467,9 @@ Here we give some examples:
 
 | Date | Name | Title | Paper/Github |
 |:---:|:---:|---|:---:|
+| 2026-04 | `-` | Pneumonia Detection in Paediatric Chest X-Rays using Ensembled Large Language Models | <a href="https://www.semanticscholar.org/paper/8721e6e3a45b99b3831e6dcd780bc3c5edf53e1b"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=semantic-scholar&logoColor=white" height="18"></a><br>- |
+| 2026-02 | `-` | Ensemble Strategies for LLM-based Text Summarization: A Timing-Based Framework | <a href="https://www.semanticscholar.org/paper/86520973121f614fd8951f44e3ce4b77461f666e"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=semantic-scholar&logoColor=white" height="18"></a><br>- |
+| 2026-01 | `-` | Next Generation Active Learning: Mixture of LLMs in the Loop | <a href="https://arxiv.org/abs/2601.15773"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2025-09 | `FLAME` | Explainable Fault Localization for Programming Assignments via LLM-Guided Annotation | <a href="https://arxiv.org/pdf/2509.25676v1"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/FLAME-FL/FLAME?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/FLAME-FL/FLAME) |
 | 2025-05 | `Expert Orchestration` | Beyond Monoliths: Expert Orchestration for More Capable, Democratic, and Safe Large Language Models | <a href="https://arxiv.org/abs/2506.00051"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2025-04 | `Consensus Entropy` | Consensus Entropy: Harnessing Multi-VLM Agreement for Self-Verifying and Self-Improving OCR | <a href="https://arxiv.org/abs/2504.11101"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
@@ -466,6 +484,7 @@ Here we give some examples:
 
 | Date | Name | Title | Paper/Github |
 |:---:|:---:|---|:---:|
+| 2025-12 | `TADEL` | TADEL: Task-Aware Dynamic Ensemble of Lightweight LLMs for Improved Inference Accuracy in Edge AI | <a href="https://www.semanticscholar.org/paper/ecdcbc6d1954ed220c782e7943e611b7299a712f"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=semantic-scholar&logoColor=white" height="18"></a><br>- |
 | 2025-10 | `LLMartini` | LLMartini: Seamless and Interactive Leveraging of Multiple LLMs through Comparison and Composition | <a href="https://www.arxiv.org/abs/2510.01499"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 
 
@@ -516,6 +535,8 @@ They mainly focus on **LLM Collaboration**.
 
 | Date | Name | Title | Paper/Github |
 |:---:|:---:|---|:---:|
+| 2026-05 | `-` | Agentic Systems as Boosting Weak Reasoning Models | <a href="https://arxiv.org/abs/2605.14163"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
+| 2025-12 | `-` | The Law of Multi-Model Collaboration: Scaling Limits of Model Ensembling for Large Language Models | <a href="https://arxiv.org/abs/2512.23340"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2025-10 | `-` | Stable LLM Ensemble: Interaction between Example Representativeness and Diversity | <a href="https://arxiv.org/abs/2510.13143"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 
 ### 4.2 LLM Collaboration and Others
@@ -524,6 +545,10 @@ They mainly focus on **LLM Collaboration**.
 
 | Date | Name | Title | Paper/Github |
 |:---:|:---:|---|:---:|
+| 2026-04 | `Tandem` | Tandem: Riding Together with Large and Small Language Models for Efficient Reasoning | <a href="https://arxiv.org/abs/2604.23623"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/Applied-Machine-Learning-Lab/ACL2026_Tandem?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/Applied-Machine-Learning-Lab/ACL2026_Tandem) |
+| 2026-03 | `CCPO` | Counterfactual Credit Policy Optimization for Multi-Agent Collaboration | <a href="https://arxiv.org/abs/2603.21563"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/bhai114/ccpo?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/bhai114/ccpo) |
+| 2026-03 | `ARE` | Adaptive Robust Estimator for Multi-Agent Reinforcement Learning | <a href="https://arxiv.org/abs/2603.21574"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
+| 2025-12 | `Consensus-Driven Reasoning` | Towards Responsible and Explainable AI Agents with Consensus-Driven Reasoning | <a href="https://arxiv.org/abs/2512.21699"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2026-06 | `PerspectiveGap` | PerspectiveGap: A Benchmark for Multi-Agent Orchestration Prompting | <a href="https://arxiv.org/abs/2606.08878"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/WhymustIhaveaname/PerspectiveGap?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/WhymustIhaveaname/PerspectiveGap) |
 | 2025-02 | `Heter-MAD` | If Multi-Agent Debate is the Answer, What is the Question? | <a href="https://arxiv.org/abs/2502.08788"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2025-03 | `GENOME` | Nature-Inspired Population-Based Evolution of Large Language Models | <a href="https://arxiv.org/abs/2503.01155"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/ZhangYiqun018/GENOME?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/ZhangYiqun018/GENOME) |
