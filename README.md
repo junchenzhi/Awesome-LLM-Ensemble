@@ -318,6 +318,7 @@ Figure 4:  Summary analysis of the key attributes of ensemble-during-inference m
 
 | Date | Name | Title | Paper/Github |
 |:---:|:---:|---|:---:|
+| 2026-06 | `DLLG` | DLLG: Dynamic Logit-Level Gating of LLM Experts | <a href="https://arxiv.org/abs/2606.04378"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2025-10 | `SAFE` | When to Ensemble: Identifying Token-Level Points for Stable and Fast LLM Ensembling | <a href="https://arxiv.org/pdf/2510.15346"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2025-10 | `CoRe` | Harnessing Consistency for Robust Test-Time LLM Ensemble | <a href="https://www.arxiv.org/abs/2510.13855"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2025-05 | `Transformer Copilot` | Transformer Copilot: Learning from The Mistake Log in LLM Fine-tuning | <a href="https://arxiv.org/abs/2505.16270"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/jiaruzouu/TransformerCopilot?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/jiaruzouu/TransformerCopilot) |
