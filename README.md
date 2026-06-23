@@ -261,6 +261,7 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 
 | Date | Name | Title | Paper/Github |
 |:---:|:---:|:---|:---:|
+| 2026-06 | <code>ACRouter</code> | Agent-as-a-Router: Agentic Model Routing for Coding Tasks | <a href="https://arxiv.org/abs/2606.22902"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/LanceZPF/agent-as-a-router?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/LanceZPF/agent-as-a-router) |
 | 2026-04 | <code>DialRouter</code> | From Myopic Selection to Long-Horizon Awareness: Sequential LLM Routing for Multi-Turn Dialogue | <a href="https://arxiv.org/abs/2604.12385"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2025-10 | <code>DiSRouter</code> | DISROUTER: Distributed Self-Routing for LLM Selections | <a href="https://arxiv.org/abs/2510.19208"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2025-06 | <code>TagRouter</code> | TAGROUTER: Learning Route to LLMs through Tags for Open-Domain Text Generation Tasks | <a href="https://arxiv.org/abs/2506.12473"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
@@ -467,6 +468,7 @@ Here we give some examples:
 
 | Date | Name | Title | Paper/Github |
 |:---:|:---:|---|:---:|
+| 2026 | `-` | Scalable code generation with large language models: an open-source ensemble and reinforcement learning-based selector | <a href="https://scholar.google.com/scholar?q=Scalable+code+generation+with+large+language+models+an+open-source+ensemble+and+reinforcement+learning-based+selector"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=google-scholar&logoColor=white" height="18"></a><br>- |
 | 2026-04 | `-` | Pneumonia Detection in Paediatric Chest X-Rays using Ensembled Large Language Models | <a href="https://www.semanticscholar.org/paper/8721e6e3a45b99b3831e6dcd780bc3c5edf53e1b"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=semantic-scholar&logoColor=white" height="18"></a><br>- |
 | 2026-02 | `-` | Ensemble Strategies for LLM-based Text Summarization: A Timing-Based Framework | <a href="https://www.semanticscholar.org/paper/86520973121f614fd8951f44e3ce4b77461f666e"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=semantic-scholar&logoColor=white" height="18"></a><br>- |
 | 2026-01 | `-` | Next Generation Active Learning: Mixture of LLMs in the Loop | <a href="https://arxiv.org/abs/2601.15773"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
