@@ -426,6 +426,7 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 
 | Date | Name | Title | Paper/Github |
 |:---:|:---:|---|:---:|
+| 2026-07 | `WALLA` | Decentralized Aggregation of LLM Predictions via Wagering Mechanisms | <a href="https://arxiv.org/abs/2607.04389"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2026-5 | `-` | Is Escalation Worth It? A Decision-Theoretic Characterization of LLM Cascades | <a href="https://arxiv.org/abs/2605.06350"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2025-12 | `RoBoN` | RoBoN: Routed Online Best-of-n for Test-Time Scaling with Multiple LLMs | <a href="https://www.arxiv.org/abs/2512.05542"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/j-geuter/RoBoN?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/j-geuter/RoBoN) |
 | 2025-09 | `-` | Semantic Agreement Enables Efficient Open-Ended LLM Cascades | <a href="https://www.arxiv.org/abs/2509.21837"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
@@ -471,6 +472,8 @@ Here we give some examples:
 
 | Date | Name | Title | Paper/Github |
 |:---:|:---:|---|:---:|
+| 2026-06 | `BEATS` | BEATS: Bootstrapping E-commerce Attribute Taxonomies for Search through Iterative Human-AI Collaboration | <a href="https://arxiv.org/abs/2606.04909"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
+| 2026-05 | `-` | Extracting Social Determinants of Health From Electronic Health Records: Development and Comparison of Rule-Based and Large Language Model Methods | <a href="https://medinform.jmir.org/2026/1/e89534"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=doi&logoColor=white" height="18"></a><br>- |
 | 2026 | `-` | Scalable code generation with large language models: an open-source ensemble and reinforcement learning-based selector | <a href="https://scholar.google.com/scholar?q=Scalable+code+generation+with+large+language+models+an+open-source+ensemble+and+reinforcement+learning-based+selector"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=google-scholar&logoColor=white" height="18"></a><br>- |
 | 2026-04 | `-` | Pneumonia Detection in Paediatric Chest X-Rays using Ensembled Large Language Models | <a href="https://www.semanticscholar.org/paper/8721e6e3a45b99b3831e6dcd780bc3c5edf53e1b"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=semantic-scholar&logoColor=white" height="18"></a><br>- |
 | 2026-02 | `-` | Ensemble Strategies for LLM-based Text Summarization: A Timing-Based Framework | <a href="https://www.semanticscholar.org/paper/86520973121f614fd8951f44e3ce4b77461f666e"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=semantic-scholar&logoColor=white" height="18"></a><br>- |
@@ -550,6 +553,7 @@ They mainly focus on **LLM Collaboration**.
 
 | Date | Name | Title | Paper/Github |
 |:---:|:---:|---|:---:|
+| 2026-07 | `CanonicalMerge` | Cache Merging as a Convergent Replicated State for Multi-Agent Latent Reasoning | <a href="https://arxiv.org/abs/2607.01308"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2026-06 | `-` | Understanding Input-Output Uncertainty in LLM Routing Supervision | <a href="https://scholar.google.com/scholar?q=Understanding+Input-Output+Uncertainty+in+LLM+Routing+Supervision"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=google-scholar&logoColor=white" height="18"></a><br>- |
 | 2026-06 | `PerspectiveGap` | PerspectiveGap: A Benchmark for Multi-Agent Orchestration Prompting | <a href="https://arxiv.org/abs/2606.08878"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/WhymustIhaveaname/PerspectiveGap?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/WhymustIhaveaname/PerspectiveGap) |
 | 2026-04 | `Tandem` | Tandem: Riding Together with Large and Small Language Models for Efficient Reasoning | <a href="https://arxiv.org/abs/2604.23623"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/Applied-Machine-Learning-Lab/ACL2026_Tandem?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/Applied-Machine-Learning-Lab/ACL2026_Tandem) |
