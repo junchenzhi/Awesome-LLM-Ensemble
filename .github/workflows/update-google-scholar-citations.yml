@@ -23,23 +23,35 @@ jobs:
           import os
           import re
           import json
+          import urllib.error
           import urllib.parse
           import urllib.request
 
           title = "Harnessing Multiple Large Language Models: A Survey on LLM Ensemble"
           scholar_url = "https://scholar.google.com/scholar?q=%22Harnessing%20Multiple%20Large%20Language%20Models%3A%20A%20Survey%20on%20LLM%20Ensemble%22"
 
+          api_key = os.environ.get("SERPAPI_KEY", "").strip()
+          if not api_key:
+              raise RuntimeError(
+                  "SERPAPI_KEY secret is missing or empty. "
+                  "Add it under Settings > Secrets and variables > Actions."
+              )
+
           params = urllib.parse.urlencode({
               "engine": "google_scholar",
               "q": f'"{title}"',
               "hl": "en",
-              "api_key": os.environ["SERPAPI_KEY"],
+              "api_key": api_key,
           })
 
           url = "https://serpapi.com/search.json?" + params
 
-          with urllib.request.urlopen(url) as response:
-              data = json.loads(response.read().decode("utf-8"))
+          try:
+              with urllib.request.urlopen(url) as response:
+                  data = json.loads(response.read().decode("utf-8"))
+          except urllib.error.HTTPError as e:
+              body = e.read().decode("utf-8", errors="replace")
+              raise RuntimeError(f"SerpAPI HTTP {e.code}: {body}") from e
 
           results = data.get("organic_results", [])
           if not results:
