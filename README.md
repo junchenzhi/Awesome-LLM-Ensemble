@@ -72,9 +72,6 @@
   <img src="https://img.shields.io/badge/Google%20Scholar%20Citations-132-brightgreen?labelColor=555555" alt="Google Scholar citations">
 </a>
 <!-- GS_CITATIONS_BADGE_END -->
-  <a href="https://visitor-badge.laobi.icu/badge?page_id=junchenzhi.Awesome-LLM-Ensemble">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=junchenzhi.Awesome-LLM-Ensemble" alt="Visitors">
-  </a>
 </p>
 
 
