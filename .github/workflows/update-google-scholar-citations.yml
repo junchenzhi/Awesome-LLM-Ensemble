@@ -27,8 +27,22 @@ jobs:
           import urllib.parse
           import urllib.request
 
-          title = "Harnessing Multiple Large Language Models: A Survey on LLM Ensemble"
-          scholar_url = "https://scholar.google.com/scholar?q=%22Harnessing%20Multiple%20Large%20Language%20Models%3A%20A%20Survey%20on%20LLM%20Ensemble%22"
+          # Primary arXiv id for this survey. Scholar indexes several near-duplicate
+          # records for the same paper (some with only ~5 cites). We must prefer the
+          # canonical arXiv:2502.18036 record (currently ~139 cites), not a stale dupe.
+          ARXIV_ID = "2502.18036"
+          TITLE = "Harnessing Multiple Large Language Models: A Survey on LLM Ensemble"
+          TITLE_NEEDLES = (
+              "harnessing multiple large language models",
+              "llm ensemble",
+          )
+
+          # Fallback public Scholar search (badge click-through). Prefer cluster URL
+          # once SerpAPI returns one for the chosen record.
+          scholar_url = (
+              "https://scholar.google.com/scholar?q="
+              + urllib.parse.quote(f'"{TITLE}" {ARXIV_ID}')
+          )
 
           api_key = os.environ.get("SERPAPI_KEY", "").strip()
           if not api_key:
@@ -39,8 +53,9 @@ jobs:
 
           params = urllib.parse.urlencode({
               "engine": "google_scholar",
-              "q": f'"{title}"',
+              "q": f'"{TITLE}"',
               "hl": "en",
+              "num": "20",
               "api_key": api_key,
           })
 
@@ -57,44 +72,100 @@ jobs:
           if not results:
               raise RuntimeError("No Google Scholar results found.")
 
-          target = None
+          def citation_count(item):
+              cited_by = item.get("inline_links", {}).get("cited_by", {}) or {}
+              total = cited_by.get("total")
+              return int(total) if total is not None else None
 
+          def text_blob(item):
+              pub = item.get("publication_info", {}) or {}
+              parts = [
+                  item.get("title", ""),
+                  item.get("link", ""),
+                  item.get("snippet", ""),
+                  pub.get("summary", ""),
+              ]
+              return " ".join(p for p in parts if p).lower()
+
+          def is_our_paper(item):
+              blob = text_blob(item)
+              title = item.get("title", "").lower()
+              if ARXIV_ID in blob:
+                  return True
+              return all(n in title for n in TITLE_NEEDLES) or all(
+                  n in blob for n in TITLE_NEEDLES
+              )
+
+          candidates = []
           for item in results:
-              item_title = item.get("title", "").lower()
-              item_link = item.get("link", "")
-              inline_links = item.get("inline_links", {})
-              cited_by = inline_links.get("cited_by", {})
-              count = cited_by.get("total")
+              count = citation_count(item)
+              if count is None:
+                  continue
+              if is_our_paper(item):
+                  candidates.append(item)
 
-              if count is not None:
-                  if "harnessing multiple large language models" in item_title and "llm ensemble" in item_title:
-                      target = item
-                      break
-                  if "2502.18036" in item_link:
-                      target = item
-                      break
-
-          if target is None:
+          if not candidates:
+              # Last resort: any result with a citation count (should not happen).
               for item in results:
-                  inline_links = item.get("inline_links", {})
-                  cited_by = inline_links.get("cited_by", {})
-                  count = cited_by.get("total")
-                  if count is not None:
-                      target = item
-                      break
+                  if citation_count(item) is not None:
+                      candidates.append(item)
 
-          if target is None:
-              print(json.dumps(results[:3], indent=2, ensure_ascii=False))
+          if not candidates:
+              print(json.dumps(results[:5], indent=2, ensure_ascii=False))
               raise RuntimeError("No citation count found in Google Scholar result.")
 
-          inline_links = target.get("inline_links", {})
-          cited_by = inline_links.get("cited_by", {})
-          count = cited_by.get("total")
+          # Prefer records that explicitly mention the arXiv id, then highest cites.
+          # This avoids locking onto a low-cite Scholar duplicate (~5) when the
+          # canonical arXiv preprint record (~139+) is also in the result list.
+          def rank_key(item):
+              blob = text_blob(item)
+              has_arxiv = 1 if ARXIV_ID in blob else 0
+              return (has_arxiv, citation_count(item) or 0)
 
+          target = max(candidates, key=rank_key)
+          count = citation_count(target)
           if count is None:
               raise RuntimeError("No citation count found in target result.")
 
+          # Prefer a stable cluster / cites deep-link for the badge href.
+          inline = target.get("inline_links", {}) or {}
+          versions = inline.get("versions", {}) or {}
+          cited_by = inline.get("cited_by", {}) or {}
+          cluster_id = versions.get("cluster_id") or cited_by.get("cites_id")
+          if cluster_id:
+              scholar_url = (
+                  f"https://scholar.google.com/scholar?cluster={cluster_id}&hl=en"
+              )
+          elif cited_by.get("link"):
+              scholar_url = cited_by["link"]
+          elif target.get("link"):
+              scholar_url = target["link"]
+
           count = str(count)
+
+          print(
+              "Selected Scholar record:",
+              json.dumps(
+                  {
+                      "title": target.get("title"),
+                      "link": target.get("link"),
+                      "publication": (target.get("publication_info") or {}).get("summary"),
+                      "citations": count,
+                      "cluster_id": cluster_id,
+                      "candidates": [
+                          {
+                              "title": c.get("title"),
+                              "publication": (c.get("publication_info") or {}).get("summary"),
+                              "citations": citation_count(c),
+                              "link": c.get("link"),
+                          }
+                          for c in sorted(candidates, key=rank_key, reverse=True)
+                      ],
+                  },
+                  indent=2,
+                  ensure_ascii=False,
+              ),
+          )
 
           badge = f'''<!-- GS_CITATIONS_BADGE_START -->
           <a href="{scholar_url}">
