@@ -27,21 +27,29 @@ jobs:
           import urllib.parse
           import urllib.request
 
-          # Primary arXiv id for this survey. Scholar indexes several near-duplicate
-          # records for the same paper (some with only ~5 cites). We must prefer the
-          # canonical arXiv:2502.18036 record (currently ~139 cites), not a stale dupe.
-          ARXIV_ID = "2502.18036"
+          # Use Zhijun Chen's Google Scholar *author profile* entry for this survey.
+          # That page shows the *merged cluster* citation total (~174), which folds
+          # together arXiv:2502.18036 (~139) and Scholar's other version records.
+          # Organic google_scholar search only returns per-version counts; preferring
+          # the arXiv id therefore under-counts vs the profile.
+          AUTHOR_ID = "3slpkWAAAAAJ"
+          # Stable citation_for_view id for this paper on the author profile.
+          CITATION_ID = "3slpkWAAAAAJ:_kc_bZDykSQC"
           TITLE = "Harnessing Multiple Large Language Models: A Survey on LLM Ensemble"
           TITLE_NEEDLES = (
               "harnessing multiple large language models",
               "llm ensemble",
           )
+          ARXIV_ID = "2502.18036"
 
-          # Fallback public Scholar search (badge click-through). Prefer cluster URL
-          # once SerpAPI returns one for the chosen record.
           scholar_url = (
-              "https://scholar.google.com/scholar?q="
-              + urllib.parse.quote(f'"{TITLE}" {ARXIV_ID}')
+              "https://scholar.google.com/citations?"
+              + urllib.parse.urlencode({
+                  "view_op": "view_citation",
+                  "hl": "en",
+                  "user": AUTHOR_ID,
+                  "citation_for_view": CITATION_ID,
+              })
           )
 
           api_key = os.environ.get("SERPAPI_KEY", "").strip()
@@ -51,125 +59,192 @@ jobs:
                   "Add it under Settings > Secrets and variables > Actions."
               )
 
-          params = urllib.parse.urlencode({
-              "engine": "google_scholar",
-              "q": f'"{TITLE}"',
+          def serpapi_get(params):
+              qs = urllib.parse.urlencode({**params, "api_key": api_key})
+              url = "https://serpapi.com/search.json?" + qs
+              try:
+                  with urllib.request.urlopen(url) as response:
+                      return json.loads(response.read().decode("utf-8"))
+              except urllib.error.HTTPError as e:
+                  body = e.read().decode("utf-8", errors="replace")
+                  raise RuntimeError(f"SerpAPI HTTP {e.code}: {body}") from e
+
+          def title_matches(title: str) -> bool:
+              t = (title or "").lower()
+              return all(n in t for n in TITLE_NEEDLES)
+
+          # 1) Preferred: author-profile article list (merged cluster cites).
+          author_data = serpapi_get({
+              "engine": "google_scholar_author",
+              "author_id": AUTHOR_ID,
               "hl": "en",
-              "num": "20",
-              "api_key": api_key,
+              "num": "100",
           })
+          articles = author_data.get("articles") or []
 
-          url = "https://serpapi.com/search.json?" + params
-
-          try:
-              with urllib.request.urlopen(url) as response:
-                  data = json.loads(response.read().decode("utf-8"))
-          except urllib.error.HTTPError as e:
-              body = e.read().decode("utf-8", errors="replace")
-              raise RuntimeError(f"SerpAPI HTTP {e.code}: {body}") from e
-
-          results = data.get("organic_results", [])
-          if not results:
-              raise RuntimeError("No Google Scholar results found.")
-
-          def citation_count(item):
-              cited_by = item.get("inline_links", {}).get("cited_by", {}) or {}
-              total = cited_by.get("total")
-              return int(total) if total is not None else None
-
-          def text_blob(item):
-              pub = item.get("publication_info", {}) or {}
-              parts = [
-                  item.get("title", ""),
-                  item.get("link", ""),
-                  item.get("snippet", ""),
-                  pub.get("summary", ""),
-              ]
-              return " ".join(p for p in parts if p).lower()
-
-          def is_our_paper(item):
-              blob = text_blob(item)
-              title = item.get("title", "").lower()
-              if ARXIV_ID in blob:
-                  return True
-              return all(n in title for n in TITLE_NEEDLES) or all(
-                  n in blob for n in TITLE_NEEDLES
-              )
-
-          candidates = []
-          for item in results:
-              count = citation_count(item)
-              if count is None:
+          profile_hits = []
+          for art in articles:
+              title = art.get("title") or ""
+              if not title_matches(title):
                   continue
-              if is_our_paper(item):
-                  candidates.append(item)
+              cited = art.get("cited_by") or {}
+              value = cited.get("value")
+              if value is None:
+                  continue
+              profile_hits.append(art)
 
-          if not candidates:
-              # Last resort: any result with a citation count (should not happen).
-              for item in results:
-                  if citation_count(item) is not None:
-                      candidates.append(item)
+          target_source = None
+          count = None
+          cluster_or_cites_id = None
 
-          if not candidates:
-              print(json.dumps(results[:5], indent=2, ensure_ascii=False))
-              raise RuntimeError("No citation count found in Google Scholar result.")
-
-          # Prefer records that explicitly mention the arXiv id, then highest cites.
-          # This avoids locking onto a low-cite Scholar duplicate (~5) when the
-          # canonical arXiv preprint record (~139+) is also in the result list.
-          def rank_key(item):
-              blob = text_blob(item)
-              has_arxiv = 1 if ARXIV_ID in blob else 0
-              return (has_arxiv, citation_count(item) or 0)
-
-          target = max(candidates, key=rank_key)
-          count = citation_count(target)
-          if count is None:
-              raise RuntimeError("No citation count found in target result.")
-
-          # Prefer a stable cluster / cites deep-link for the badge href.
-          inline = target.get("inline_links", {}) or {}
-          versions = inline.get("versions", {}) or {}
-          cited_by = inline.get("cited_by", {}) or {}
-          cluster_id = versions.get("cluster_id") or cited_by.get("cites_id")
-          if cluster_id:
-              scholar_url = (
-                  f"https://scholar.google.com/scholar?cluster={cluster_id}&hl=en"
+          if profile_hits:
+              # If several title matches exist, take the highest merged count.
+              target = max(
+                  profile_hits,
+                  key=lambda a: int((a.get("cited_by") or {}).get("value") or 0),
               )
-          elif cited_by.get("link"):
-              scholar_url = cited_by["link"]
-          elif target.get("link"):
-              scholar_url = target["link"]
+              count = int((target.get("cited_by") or {}).get("value"))
+              target_source = "author_profile"
+              if target.get("link"):
+                  scholar_url = target["link"]
+              citation_id = target.get("citation_id") or CITATION_ID
+              cited = target.get("cited_by") or {}
+              cluster_or_cites_id = cited.get("cites_id") or citation_id
+              print(
+                  "Selected author-profile record:",
+                  json.dumps(
+                      {
+                          "title": target.get("title"),
+                          "publication": target.get("publication"),
+                          "citations": count,
+                          "citation_id": citation_id,
+                          "link": target.get("link"),
+                          "cites_id": cited.get("cites_id"),
+                          "profile_hits": [
+                              {
+                                  "title": a.get("title"),
+                                  "publication": a.get("publication"),
+                                  "citations": (a.get("cited_by") or {}).get("value"),
+                                  "citation_id": a.get("citation_id"),
+                              }
+                              for a in profile_hits
+                          ],
+                      },
+                      indent=2,
+                      ensure_ascii=False,
+                  ),
+              )
+          else:
+              # 2) Fallback: organic Scholar search — prefer highest cites among
+              # title matches (do NOT prefer arXiv-only ~139 over a larger cluster).
+              print(
+                  "Author-profile match missing; falling back to organic Scholar search."
+              )
+              search_data = serpapi_get({
+                  "engine": "google_scholar",
+                  "q": f'"{TITLE}"',
+                  "hl": "en",
+                  "num": "20",
+              })
+              results = search_data.get("organic_results") or []
+              if not results:
+                  raise RuntimeError("No Google Scholar results found.")
 
-          count = str(count)
+              def citation_count(item):
+                  cited_by = item.get("inline_links", {}).get("cited_by", {}) or {}
+                  total = cited_by.get("total")
+                  return int(total) if total is not None else None
 
-          print(
-              "Selected Scholar record:",
-              json.dumps(
-                  {
-                      "title": target.get("title"),
-                      "link": target.get("link"),
-                      "publication": (target.get("publication_info") or {}).get("summary"),
-                      "citations": count,
-                      "cluster_id": cluster_id,
-                      "candidates": [
-                          {
-                              "title": c.get("title"),
-                              "publication": (c.get("publication_info") or {}).get("summary"),
-                              "citations": citation_count(c),
-                              "link": c.get("link"),
-                          }
-                          for c in sorted(candidates, key=rank_key, reverse=True)
-                      ],
-                  },
-                  indent=2,
-                  ensure_ascii=False,
-              ),
-          )
+              def text_blob(item):
+                  pub = item.get("publication_info", {}) or {}
+                  parts = [
+                      item.get("title", ""),
+                      item.get("link", ""),
+                      item.get("snippet", ""),
+                      pub.get("summary", ""),
+                  ]
+                  return " ".join(p for p in parts if p).lower()
+
+              def is_our_paper(item):
+                  blob = text_blob(item)
+                  title = item.get("title", "").lower()
+                  if ARXIV_ID in blob:
+                      return True
+                  return all(n in title for n in TITLE_NEEDLES) or all(
+                      n in blob for n in TITLE_NEEDLES
+                  )
+
+              candidates = [
+                  item
+                  for item in results
+                  if citation_count(item) is not None and is_our_paper(item)
+              ]
+              if not candidates:
+                  for item in results:
+                      if citation_count(item) is not None:
+                          candidates.append(item)
+              if not candidates:
+                  print(json.dumps(results[:5], indent=2, ensure_ascii=False))
+                  raise RuntimeError("No citation count found in Google Scholar result.")
+
+              # Prefer the *largest* Scholar-reported count (merged/cluster if present).
+              target = max(candidates, key=lambda item: citation_count(item) or 0)
+              count = citation_count(target)
+              target_source = "organic_search_max"
+              inline = target.get("inline_links", {}) or {}
+              versions = inline.get("versions", {}) or {}
+              cited_by = inline.get("cited_by", {}) or {}
+              cluster_or_cites_id = versions.get("cluster_id") or cited_by.get("cites_id")
+              if cluster_or_cites_id:
+                  scholar_url = (
+                      f"https://scholar.google.com/scholar?"
+                      f"cluster={cluster_or_cites_id}&hl=en"
+                  )
+              elif cited_by.get("link"):
+                  scholar_url = cited_by["link"]
+              elif target.get("link"):
+                  scholar_url = target["link"]
+
+              print(
+                  "Selected organic Scholar record:",
+                  json.dumps(
+                      {
+                          "title": target.get("title"),
+                          "link": target.get("link"),
+                          "publication": (target.get("publication_info") or {}).get(
+                              "summary"
+                          ),
+                          "citations": count,
+                          "cluster_id": cluster_or_cites_id,
+                          "candidates": [
+                              {
+                                  "title": c.get("title"),
+                                  "publication": (c.get("publication_info") or {}).get(
+                                      "summary"
+                                  ),
+                                  "citations": citation_count(c),
+                                  "link": c.get("link"),
+                              }
+                              for c in sorted(
+                                  candidates,
+                                  key=lambda item: citation_count(item) or 0,
+                                  reverse=True,
+                              )
+                          ],
+                      },
+                      indent=2,
+                      ensure_ascii=False,
+                  ),
+              )
+
+          if count is None:
+              raise RuntimeError("No citation count found.")
+
+          count_str = str(count)
 
           badge = f'''<!-- GS_CITATIONS_BADGE_START -->
           <a href="{scholar_url}">
-            <img src="https://img.shields.io/badge/Google%20Scholar%20Citations-{count}-brightgreen?labelColor=555555" alt="Google Scholar citations">
+            <img src="https://img.shields.io/badge/Google%20Scholar%20Citations-{count_str}-brightgreen?labelColor=555555" alt="Google Scholar citations">
           </a>
           <!-- GS_CITATIONS_BADGE_END -->'''
 
@@ -186,7 +261,10 @@ jobs:
           with open("README.md", "w", encoding="utf-8") as f:
               f.write(readme)
 
-          print(f"Updated Google Scholar citations to {count}")
+          print(
+              f"Updated Google Scholar citations to {count_str} "
+              f"(source={target_source}, id={cluster_or_cites_id})"
+          )
           PY
 
       - name: Commit updated README
