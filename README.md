@@ -162,6 +162,7 @@ If you find this survey useful, please consider citing our paper:
   - [4 Others: Some other related interesting papers](#4-others-some-other-related-interesting-papers)
       - [4.1 Test-Time Scaling](#41-test-time-scaling)
       - [4.2 LLM Collaboration and Others](#42-llm-collaboration-and-others)
+      - [4.3 Ensemble (or Routing) Methods for Long-Horizon Agent Tasks](#43-ensemble-or-routing-methods-for-long-horizon-agent-tasks)
   - [5 Summarization](#5-summarization)
 
 
@@ -576,6 +577,19 @@ They mainly focus on **LLM Collaboration**.
 &nbsp; 
 
 
+
+
+
+
+
+### 4.3 Ensemble (or Routing) Methods for Long-Horizon Agent Tasks
+
+Methods that perform ensemble-style selection or routing over closed-set choices during long-horizon agent workflows (e.g., tools, skills, apps, sub-agents, or models at intermediate steps), rather than one-shot query-to-LLM routing before inference.
+
+
+| Date | Name | Title | Paper/Github |
+|:---:|:---:|---|:---:|
+| 2026-02 | `TabAgent` | TabAgent: Distilling LLM Agent Components into Cheap Classifiers | <a href="https://arxiv.org/abs/2602.16429"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/dolev31/TabAgent?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/dolev31/TabAgent) |
 
 
 
