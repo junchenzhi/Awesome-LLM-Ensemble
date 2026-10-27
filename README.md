@@ -288,6 +288,7 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 
 | Date | Name | Title | Paper/Github |
 |:---:|:---:|:---|:---:|
+| 2026-09 | <code>C²-MAS</code> | Which Models Work Well Together? Measuring Heterogeneity for LLM Team Selection | <a href="https://arxiv.org/abs/2609.38274"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2026-06 | <code>FLARE</code> | FLARE: Fine-Grained Length-Aware Routing for Resource-Efficient Heterogeneous LLM Serving | <a href="https://aclanthology.org/2026.acl-long.1018/"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=acl&logoColor=white" height="18"></a><br>- |
 | 2026-06 | <code>-</code> | Conformal LLM Routing with Distribution-Free Safety Guarantees | <a href="https://aclanthology.org/2026.acl-srw.70/"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=acl&logoColor=white" height="18"></a><br>- |
 | 2026-06 | <code>SCOPE</code> | SCOPE: Cost-Efficient Model Selection for Compound AI Systems under Quality Constraints | <a href="https://arxiv.org/abs/2606.00774"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
@@ -394,6 +395,8 @@ Figure 5:  Summary analysis of the key attributes of ensemble-after-inference me
 
 | Date | Name | Title | Paper/Github |
 |:---:|:---:|---|:---:|
+| 2026-10 | `Jury` | A Jury, Not an Electorate: Label-Free Reliability Estimation for Ensembles of Language Models | <a href="https://arxiv.org/abs/2610.21085"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/distributedcognition/jury?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/distributedcognition/jury) |
+| 2026-09 | `CUSP` | CUSP: Decomposable Collective Uncertainty for Multi-Agent Multimodal Reasoning | <a href="https://arxiv.org/abs/2609.05708"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2026-05 | `MCA` | Mixture of Complementary Agents for Robust LLM Ensemble | <a href="https://arxiv.org/abs/2605.24048"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2026-03 | `SCoOP` | SCoOP: Semantic Consistent Opinion Pooling for Uncertainty Quantification in Multiple Vision-Language Model Systems | <a href="https://arxiv.org/abs/2603.23853"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/chungenyu6/SCoOP?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/chungenyu6/SCoOP) |
 | 2025-12 | `LLM-PeerReview` | Scoring, Reasoning, and Selecting the Best! Ensembling Large Language Models via a Peer-Review Process | <a href="https://arxiv.org/abs/2512.23213"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/zeyuji/LLM-PeerReview?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/zeyuji/LLM-PeerReview) |
@@ -469,6 +472,8 @@ Here we give some examples:
 
 | Date | Name | Title | Paper/Github |
 |:---:|:---:|---|:---:|
+| 2026-10 | `-` | Generating MeSH terms using large language models: From individual models to ensemble strategies | <a href="https://doi.org/10.1177/01655515261490025"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=doi&logoColor=white" height="18"></a><br>- |
+| 2026-09 | `-` | Ensembling LLMs for AI-Augmented Cybersecurity Software Requirements Generation | <a href="https://arxiv.org/abs/2609.10316"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2026-06 | `BEATS` | BEATS: Bootstrapping E-commerce Attribute Taxonomies for Search through Iterative Human-AI Collaboration | <a href="https://arxiv.org/abs/2606.04909"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2026-05 | `-` | Extracting Social Determinants of Health From Electronic Health Records: Development and Comparison of Rule-Based and Large Language Model Methods | <a href="https://medinform.jmir.org/2026/1/e89534"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=doi&logoColor=white" height="18"></a><br>- |
 | 2026 | `-` | Scalable code generation with large language models: an open-source ensemble and reinforcement learning-based selector | <a href="https://scholar.google.com/scholar?q=Scalable+code+generation+with+large+language+models+an+open-source+ensemble+and+reinforcement+learning-based+selector"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=google-scholar&logoColor=white" height="18"></a><br>- |
@@ -499,6 +504,7 @@ Here we give some examples:
 
 | Date | Title | Paper/Github |
 |:---:|---|:---:|
+| 2026-09 | From Parameters to Behaviors: A Survey of Model Fusion for Large Language Models | <a href="https://arxiv.org/abs/2609.19553"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>[![GITHUB Stars](https://img.shields.io/github/stars/Baicaihaochi/Awesome-Model-Fusion-Survey?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/Baicaihaochi/Awesome-Model-Fusion-Survey) |
 | 2026-02 | Dynamic Model Routing and Cascading for Efficient LLM Inference: A Survey | <a href="https://arxiv.org/abs/2603.04445"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2025-07 | Toward Edge General Intelligence with Multiple-Large Language Model (Multi-LLM): Architecture, Trust, and Orchestration | <a href="https://arxiv.org/abs/2507.00672"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
 | 2025-06 | Towards Efficient Multi-LLM Inference: Characterization and Analysis of LLM Routing and Hierarchical Techniques | <a href="https://www.arxiv.org/abs/2506.06579"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a><br>- |
