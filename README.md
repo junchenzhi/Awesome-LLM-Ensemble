@@ -355,38 +355,23 @@ Figure 4:  Summary analysis of the key attributes of ensemble-during-inference m
 
 ### 2.2.2 (b,2) Span-Level Ensemble
 
-<table>
-  <tr>
-    <td>AdaFuse: Adaptive Ensemble Decoding with Test-Time Scaling for LLMs</td>
-    <td nowrap>2026-01 · <code>AdaFuse</code></td>
-    <td nowrap align="left"><a href="https://arxiv.org/abs/2601.06022"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a>&ensp;<a href="https://github.com/CCM0111/AdaFuse"><img src="https://img.shields.io/github/stars/CCM0111/AdaFuse?style=flat-square&logo=github&label=GITHUB&color=black" height="18"></a></td>
-  </tr>
-  <tr>
-    <td>RLAE: Reinforcement Learning-Assisted Ensemble for LLMs</td>
-    <td nowrap>2025-06 · <code>RLAE</code></td>
-    <td nowrap align="left"><a href="https://arxiv.org/abs/2506.00439"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a></td>
-  </tr>
-  <tr>
-    <td>Speculative Ensemble: Fast Large Language Model Ensemble via Speculation</td>
-    <td nowrap>2025-02 · <code>Speculative Ensemble</code></td>
-    <td nowrap align="left"><a href="https://arxiv.org/abs/2502.01662"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a>&ensp;<a href="https://github.com/Kamichanw/Speculative-Ensemble/"><img src="https://img.shields.io/github/stars/Kamichanw/Speculative-Ensemble?style=flat-square&logo=github&label=GITHUB&color=black" height="18"></a></td>
-  </tr>
-  <tr>
-    <td>SpecFuse: Ensembling Large Language Models via Next-Segment Prediction</td>
-    <td nowrap>2024-12 · <code>SpecFuse</code></td>
-    <td nowrap align="left"><a href="https://arxiv.org/abs/2412.07380"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a></td>
-  </tr>
-  <tr>
-    <td>Hit the Sweet Spot! Span-Level Ensemble for Large Language Models</td>
-    <td nowrap>2024-09 · <code>SweetSpan</code></td>
-    <td nowrap align="left"><a href="https://arxiv.org/abs/2409.18583"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a></td>
-  </tr>
-  <tr>
-    <td>Cool-Fusion: Fuse Large Language Models without Training</td>
-    <td nowrap>2024-07 · <code>Cool-Fusion</code></td>
-    <td nowrap align="left"><a href="https://arxiv.org/abs/2407.19807"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a></td>
-  </tr>
-</table>
+- AdaFuse: Adaptive Ensemble Decoding with Test-Time Scaling for LLMs  
+  2026-01 · `AdaFuse` · <a href="https://arxiv.org/abs/2601.06022"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a>&ensp;[![GITHUB Stars](https://img.shields.io/github/stars/CCM0111/AdaFuse?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/CCM0111/AdaFuse)
+
+- RLAE: Reinforcement Learning-Assisted Ensemble for LLMs  
+  2025-06 · `RLAE` · <a href="https://arxiv.org/abs/2506.00439"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a>
+
+- Speculative Ensemble: Fast Large Language Model Ensemble via Speculation  
+  2025-02 · `Speculative Ensemble` · <a href="https://arxiv.org/abs/2502.01662"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a>&ensp;[![GITHUB Stars](https://img.shields.io/github/stars/Kamichanw/Speculative-Ensemble?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/Kamichanw/Speculative-Ensemble/)
+
+- SpecFuse: Ensembling Large Language Models via Next-Segment Prediction  
+  2024-12 · `SpecFuse` · <a href="https://arxiv.org/abs/2412.07380"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a>
+
+- Hit the Sweet Spot! Span-Level Ensemble for Large Language Models  
+  2024-09 · `SweetSpan` · <a href="https://arxiv.org/abs/2409.18583"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a>
+
+- Cool-Fusion: Fuse Large Language Models without Training  
+  2024-07 · `Cool-Fusion` · <a href="https://arxiv.org/abs/2407.19807"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a>
 
 
 
