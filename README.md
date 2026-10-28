@@ -69,7 +69,7 @@
   </a>
   <!-- GS_CITATIONS_BADGE_START -->
 <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3slpkWAAAAAJ&pagesize=100&citation_for_view=3slpkWAAAAAJ:_kc_bZDykSQC">
-  <img src="https://img.shields.io/badge/Google%20Scholar%20Citations-174-brightgreen?labelColor=555555" alt="Google Scholar citations">
+  <img src="https://img.shields.io/badge/Google%20Scholar%20Citations-175-brightgreen?labelColor=555555" alt="Google Scholar citations">
 </a>
 <!-- GS_CITATIONS_BADGE_END -->
 </p>
