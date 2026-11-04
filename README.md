@@ -933,8 +933,6 @@ Methods that perform ensemble-style selection or routing over closed-set choices
 
 ### 4.3.1 Benchmarks / Resources for Long-Horizon Agent Ensemble (or Routing)
 
-Benchmarks and evaluation resources for ensemble-style selection or routing in long-horizon agent workflows (as a counterpart to §4.3 methods), rather than general one-shot LLM-routing suites in §2.4.1.
-
 
 - Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution  
   2026-10 · `EC2-Bench` · <a href="https://arxiv.org/abs/2610.17816"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a>&ensp;[![GITHUB Stars](https://img.shields.io/github/stars/OpenBMB/EC2-Bench?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/OpenBMB/EC2-Bench)
