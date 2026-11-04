@@ -924,6 +924,9 @@ They mainly focus on **LLM Collaboration**.
 Methods that perform ensemble-style selection or routing over closed-set choices during long-horizon agent workflows (e.g., tools, skills, apps, sub-agents, or models at intermediate steps), rather than one-shot query-to-LLM routing before inference.
 
 
+- Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution  
+  2026-10 · `EC2-Bench` · <a href="https://arxiv.org/abs/2610.17816"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a>&ensp;[![GITHUB Stars](https://img.shields.io/github/stars/OpenBMB/EC2-Bench?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/OpenBMB/EC2-Bench)
+
 - TabAgent: Distilling LLM Agent Components into Cheap Classifiers  
   2026-02 · `TabAgent` · <a href="https://arxiv.org/abs/2602.16429"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a>&ensp;[![GITHUB Stars](https://img.shields.io/github/stars/dolev31/TabAgent?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/dolev31/TabAgent)
 
