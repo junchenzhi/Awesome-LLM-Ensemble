@@ -257,6 +257,9 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 
 
 
+- Route Anything: A Study of Model and Policy Routing for General-Purpose AI Systems  
+  2026-11 · `Route Anything` · <a href="https://arxiv.org/abs/2611.05275"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a>&ensp;[![GITHUB Stars](https://img.shields.io/github/stars/InfRec-Cardinal/route-anything?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/InfRec-Cardinal/route-anything)
+
 - MARS: Memory-Aware Routing for Session-Level LLM Assistants  
   2026-10 · `MARS` · <a href="https://arxiv.org/abs/2610.23583"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a>
 
