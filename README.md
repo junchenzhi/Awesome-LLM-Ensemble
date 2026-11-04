@@ -163,6 +163,7 @@ If you find this survey useful, please consider citing our paper:
       - [4.1 Test-Time Scaling](#41-test-time-scaling)
       - [4.2 LLM Collaboration and Others](#42-llm-collaboration-and-others)
       - [4.3 Ensemble (or Routing) Methods for Long-Horizon Agent Tasks](#43-ensemble-or-routing-methods-for-long-horizon-agent-tasks)
+      - [4.3.1 Benchmarks / Resources for Long-Horizon Agent Ensemble (or Routing)](#431-benchmarks--resources-for-long-horizon-agent-ensemble-or-routing)
   - [5 Summarization](#5-summarization)
 
 
@@ -926,6 +927,17 @@ Methods that perform ensemble-style selection or routing over closed-set choices
 
 - TabAgent: Distilling LLM Agent Components into Cheap Classifiers  
   2026-02 · `TabAgent` · <a href="https://arxiv.org/abs/2602.16429"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a>&ensp;[![GITHUB Stars](https://img.shields.io/github/stars/dolev31/TabAgent?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/dolev31/TabAgent)
+
+
+
+
+### 4.3.1 Benchmarks / Resources for Long-Horizon Agent Ensemble (or Routing)
+
+Benchmarks and evaluation resources for ensemble-style selection or routing in long-horizon agent workflows (as a counterpart to §4.3 methods), rather than general one-shot LLM-routing suites in §2.4.1.
+
+
+- Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution  
+  2026-10 · `EC2-Bench` · <a href="https://arxiv.org/abs/2610.17816"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a>&ensp;[![GITHUB Stars](https://img.shields.io/github/stars/OpenBMB/EC2-Bench?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/OpenBMB/EC2-Bench)
 
 
 
