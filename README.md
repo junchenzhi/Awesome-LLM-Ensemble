@@ -431,6 +431,9 @@ Figure 4:  Summary analysis of the key attributes of ensemble-during-inference m
 ### 2.2.1 (b,1) Token-Level Ensemble
 
 
+- TokenRouter: Uncertainty-Guided Token-Level Routing for Efficient LLM Reasoning  
+  2026-10 · `TokenRouter` · <a href="https://aclanthology.org/2026.findings-emnlp.1891/"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=acl&logoColor=white" height="18"></a>&ensp;[![GITHUB Stars](https://img.shields.io/github/stars/sznnzs/TokenRouter?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/sznnzs/TokenRouter)
+
 - DLLG: Dynamic Logit-Level Gating of LLM Experts  
   2026-06 · `DLLG` · <a href="https://arxiv.org/abs/2606.04378"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a>
 
