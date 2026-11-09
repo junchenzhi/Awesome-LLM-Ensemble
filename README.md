@@ -863,6 +863,9 @@ They mainly focus on **LLM Collaboration**.
 - PerspectiveGap: A Benchmark for Multi-Agent Orchestration Prompting  
   2026-06 · `PerspectiveGap` · <a href="https://arxiv.org/abs/2606.08878"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a>&ensp;[![GITHUB Stars](https://img.shields.io/github/stars/WhymustIhaveaname/PerspectiveGap?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/WhymustIhaveaname/PerspectiveGap)
 
+- NeuroMAS: Multi-Agent Systems as Neural Networks with Joint Reinforcement Learning  
+  2026-05 · `NeuroMAS` · <a href="https://arxiv.org/abs/2605.16757"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a>&ensp;[![GITHUB Stars](https://img.shields.io/github/stars/haoranlustat/NeuroMAS?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/haoranlustat/NeuroMAS)
+
 - Tandem: Riding Together with Large and Small Language Models for Efficient Reasoning  
   2026-04 · `Tandem` · <a href="https://arxiv.org/abs/2604.23623"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a>&ensp;[![GITHUB Stars](https://img.shields.io/github/stars/Applied-Machine-Learning-Lab/ACL2026_Tandem?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/Applied-Machine-Learning-Lab/ACL2026_Tandem)
 
