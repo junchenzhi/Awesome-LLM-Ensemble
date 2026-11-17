@@ -345,6 +345,9 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 
 ### 2.1.2 (a,2) Continuous utility methods
 
+- Ensemble Routing for Prompt-Adaptive Cost-Aware LLM Inference  
+  2026-11 · `PISA-E` · <a href="https://arxiv.org/abs/2611.10193"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a>
+
 - Which Model for Which Role? Cost-Efficient Pareto Recommendation for LLM Agentic Workflows  
   2026-10 · `CC-Gittins` · <a href="https://arxiv.org/abs/2610.26676"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a>
 
@@ -353,6 +356,9 @@ Figure 3:  Summary analysis of the key attributes of ensemble-before-inference m
 
 - Which Models Work Well Together? Measuring Heterogeneity for LLM Team Selection  
   2026-09 · `C²-MAS` · <a href="https://arxiv.org/abs/2609.38274"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=arxiv&logoColor=white" height="18"></a>
+
+- Mo' Models, Mo' Problems: How to best select model pools when designing Multi-Agent Systems  
+  2026-09 · <a href="https://aclanthology.org/2026.realm-1.33/"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=acl&logoColor=white" height="18"></a>&ensp;[![GITHUB Stars](https://img.shields.io/github/stars/spaidataiga/mo-models?style=flat-square&logo=github&label=GITHUB&color=black)](https://github.com/spaidataiga/mo-models)
 
 - FLARE: Fine-Grained Length-Aware Routing for Resource-Efficient Heterogeneous LLM Serving  
   2026-06 · `FLARE` · <a href="https://aclanthology.org/2026.acl-long.1018/"><img src="https://img.shields.io/badge/PAPER-A42C25?style=for-the-badge&logo=acl&logoColor=white" height="18"></a>
